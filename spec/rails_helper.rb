@@ -9,8 +9,7 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 require 'rspec/rails'
 require 'faraday'
 require 'json'
-require 'support/factory_bot'
-require 'webmock/rspec'
+# require 'webmock/rspec'
 # Add additional requires below this line. Rails is not loaded until this point!
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
@@ -46,6 +45,8 @@ RSpec.configure do |config|
 
   config.include Capybara::DSL
 
+  config.include FactoryBot::Syntax::Methods
+
   # You can uncomment this line to turn off ActiveRecord support entirely.
   # config.use_active_record = false
 
@@ -76,10 +77,10 @@ Shoulda::Matchers.configure do |config|
     with.library :rails
   end
 end
-VCR.configure do |config|
-  config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
-  config.hook_into :webmock
-  # config.default_cassette_options = { re_record_interval: 2.days }
-  # config.filter_sensitive_data(‘api_key') { ENV['api_key'] }
-  config.configure_rspec_metadata! 
-end
+# VCR.configure do |config|
+#   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+#   config.hook_into :webmock
+#   # config.default_cassette_options = { re_record_interval: 2.days }
+#   # config.filter_sensitive_data(‘api_key') { ENV['api_key'] }
+#   config.configure_rspec_metadata! 
+# end
