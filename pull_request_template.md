@@ -11,8 +11,8 @@ if issues, document what you've tried, what errors you're receiving, what goal i
 any questions you have for the reviewer
 
 ## Overall Checklist:
--[] tests written for all methods added
--[] test coverage above 90%
--[] RSpec running clean
--[] ran rails s -- features working properly!
--[] pulled/merged milestone branch before submitting PR
+- [ ] tests written for all methods added
+- [ ] test coverage above 90%
+- [ ] RSpec running clean
+- [ ] ran rails s -- features working properly!
+- [ ] pulled/merged milestone branch before submitting PR
