@@ -1,0 +1,79 @@
+# Use the latest 2.1 version of CircleCI pipeline process engine.
+# See: https://circleci.com/docs/configuration-reference
+version: 2.1
+
+# Orbs are reusable packages of CircleCI configuration that you may share across projects, enabling you to create encapsulated, parameterized commands, jobs, and executors that can be used across multiple projects.
+# See: https://circleci.com/docs/orb-intro/
+orbs:
+  ruby: circleci/ruby@2.0.1
+  heroku: circleci/heroku@2.0.0
+
+# Define a job to be invoked later in a workflow.
+# See: https://circleci.com/docs/configuration-reference/#jobs
+jobs:
+  build:
+    docker:
+      - image: cimg/ruby:3.2.2
+        environment: # environment variables for primary container
+          BUNDLE_JOBS: 3
+          BUNDLE_RETRY: 3
+          BUNDLE_PATH: vendor/bundle
+          PGHOST: 127.0.0.1
+          PGUSER: postgres
+          RAILS_ENV: test
+      - image: circleci/postgres:11
+        environment: # environment variables for database, it is kind of obvious but it is important that they match with your test config in database.yml
+          POSTGRES_USER: postgres
+          POSTGRES_DB: civic_voice_plus_be_test
+          POSTGRES_PASSWORD: secret
+      # - image: cimg/redis:6.2.6
+    executor: ruby/default
+    steps:
+      - checkout
+      - run:
+          name: Which bundler?
+          command: bundle -v
+      - ruby/install-deps
+      - run:
+          name: Force Bundler Version
+          command: |
+            echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
+            source $BASH_ENV
+            gem install bundler
+      - run:
+          name: Bundle Install
+          command: bundle install
+      - run:
+          name: Wait for DB
+          command: dockerize -wait tcp://localhost:5432 -timeout 1m
+      - run:
+          name: Database setup
+          command: bin/rails db:{create,migrate} --trace
+      - run:
+          name: Run rspec in parallel
+          command: bundle exec rspec
+      - store_test_results: # Upload test results for display in Test Summary: https://circleci.com/docs/2.0/collect-test-data/
+          path: test_results
+      # See https://circleci.com/docs/2.0/deployment-integrations/ for example deploy configs
+  deploy:
+    docker:
+      - image: cimg/ruby:3.2.2
+    steps:
+      - checkout
+      - run:
+          name: push
+          command: git push "https://heroku:${HEROKU_API_KEY}@git.heroku.com/civic-voice-plus.git"
+# Orchestrate jobs using workflows
+# See: https://circleci.com/docs/configuration-reference/#workflows
+workflows:
+  sample: # This is the name of the workflow, feel free to change it to better match your workflow.
+    # Inside the workflow, you define the jobs you want to run.
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - main
