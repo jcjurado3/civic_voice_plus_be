@@ -3,7 +3,7 @@ require "rails_helper"
 describe BillService do
   describe "instance methods" do
     describe "#bills_by_query" do
-      it "returns bills based on query parameters" do
+      it "returns bills based on query parameters", :vcr do
         query_params = {
           op: "getSearch",
           state: "FL",

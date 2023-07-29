@@ -57,6 +57,7 @@ group :test do
   gem 'webmock'
   gem 'factory_bot_rails'
   gem 'faker'
+  gem 'vcr'
 end
 
 gem "figaro"

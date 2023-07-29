@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe ApiBill do
   describe "existance" do
-    it "exists and has attributes" do
+    it "exists and has attributes", :vcr do
       params = {
           op: "getSearch",
           state: "FL",

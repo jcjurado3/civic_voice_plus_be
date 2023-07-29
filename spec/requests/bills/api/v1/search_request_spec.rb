@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe 'Bill Search Endpoints' do
   describe "bill search: bills found in database" do
-    it "returns data about specific bills based on search query params" do
+    it "returns data about specific bills based on search query params", :vcr do
 
       query_params = {
         op: "getSearch",
