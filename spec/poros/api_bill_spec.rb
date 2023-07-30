@@ -25,7 +25,7 @@ RSpec.describe ApiBill do
       expect(bills_data.first.text).to be_a(NilClass)
     end
 
-    it "has more attributes" do
+    it "has more attributes", :vcr do
       params = {
               id: 1722281
               }
@@ -42,7 +42,7 @@ RSpec.describe ApiBill do
       bills_data.text.map do |doc|
         expect(doc[:doc_id]).to be_a(Integer)
       end
-      
+
       bills_data.sponsors.map do |sponsor|
         expect(sponsor[:name]).to be_a(String)
         expect(sponsor[:party_id]).to be_a(String)
