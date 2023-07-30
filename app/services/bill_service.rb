@@ -1,4 +1,4 @@
-class BillService
+ class BillService
   def initialize(params)
     @ops_action = params[:op]
     @state_abbv = params[:state]
