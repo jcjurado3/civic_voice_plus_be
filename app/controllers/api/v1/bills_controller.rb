@@ -8,6 +8,4 @@ class Api::V1::BillsController < ApplicationController
     bill_details = BillSearchFacade.new(params).bill
     render json: ApiBillSerializer.new(bill_details)
   end
-
-
 end
