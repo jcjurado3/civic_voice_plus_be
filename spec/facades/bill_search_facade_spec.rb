@@ -25,7 +25,7 @@ RSpec.describe BillSearchFacade do
     end
     
     describe "#bill" do
-      it "returns a single bill based of bill_id number" do
+      it "returns a single bill based of bill_id number", :vcr do
         params = {
           op: "getBill",
           id: 1722281
