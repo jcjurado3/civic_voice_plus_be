@@ -32,7 +32,6 @@ RSpec.describe BillSearchFacade do
         }
         
         bill = BillSearchFacade.new(params).bill
-        require 'pry'; binding.pry
       end
     end
   end

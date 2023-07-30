@@ -12,5 +12,6 @@ class ApiBillSerializer
               :title,
               :status,
               :description,
-              :sponsors
+              :sponsors,
+              :text
 end
