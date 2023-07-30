@@ -1,5 +1,5 @@
 class Api::V1::BillsController < ApplicationController
-  def search
+  def index
     fetch_bills = BillSearchFacade.new(params).bills
     render json: ApiBillSerializer.new(fetch_bills)
   end
