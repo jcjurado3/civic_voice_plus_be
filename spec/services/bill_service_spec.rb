@@ -33,5 +33,30 @@ describe BillService do
         expect(bills[:searchresult][:"0"][:title]).to be_a(String)
       end
     end
+
+    describe "#bills_by_id" do
+      it "returns bills based on id parameter", :vcr do
+        params = {
+          id: 1722281
+        }
+
+        bill_data = BillService.new(params).bills_by_id
+
+        expect(bill_data[:bill]).to have_key(:state)
+        expect(bill_data[:bill][:state]).to be_a(String)
+        expect(bill_data[:bill]).to have_key(:bill_number)
+        expect(bill_data[:bill][:bill_number]).to be_a(String)
+        expect(bill_data[:bill]).to have_key(:bill_id)
+        expect(bill_data[:bill][:bill_id]).to be_a(Integer)
+        expect(bill_data[:bill]).to have_key(:texts)
+        expect(bill_data[:bill][:texts]).to be_a(Array)
+        expect(bill_data[:bill]).to have_key(:description)
+        expect(bill_data[:bill][:description]).to be_a(String)
+        expect(bill_data[:bill]).to have_key(:sponsors)
+        expect(bill_data[:bill][:sponsors]).to be_a(Array)
+        expect(bill_data[:bill]).to have_key(:status)
+        expect(bill_data[:bill][:status]).to be_a(Integer)
+      end
+    end
   end
 end
