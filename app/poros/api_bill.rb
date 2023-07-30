@@ -6,7 +6,10 @@ class ApiBill
               :text_url,
               :last_action_date,
               :last_action,
-              :title
+              :title,
+              :status,
+              :description,
+              :sponsors
 
   def initialize(data)
     @id = data[:id]
@@ -17,5 +20,8 @@ class ApiBill
     @last_action_date = data[:attributes][:last_action_date]
     @last_action = data[:attributes][:last_action]
     @title = data[:attributes][:title]
+    @status = data[:attributes][:status]
+    @description = data[:attributes][:description]
+    @sponsors = data[:attributes][:sponsors]
   end
 end
