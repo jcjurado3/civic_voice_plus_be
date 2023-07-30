@@ -9,5 +9,8 @@ class ApiBillSerializer
               :text_url,
               :last_action_date,
               :last_action,
-              :title
+              :title,
+              :status,
+              :description,
+              :sponsors
 end
