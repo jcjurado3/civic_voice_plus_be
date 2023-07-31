@@ -17,10 +17,42 @@ class BillSearchFacade
     end
     
     def bill
+      # bill_search = BillService.new(@params).bills_by_id
+      # bill_hash = { id: bill_search[:bill][:bill_id],
+      #   attributes: bill_search[:bill]
+      # }
+      # ApiBill.new(bill_hash)
+    
       bill_search = BillService.new(@params).bills_by_id
-      bill_hash = { id: bill_search[:bill][:bill_id],
-        attributes: bill_search[:bill]
-      }
-      ApiBill.new(bill_hash)
+      
+      state_abbv = bill_search[:bill][:state]
+      full_state = STATE_ABBR_TO_NAME[state_abbv]
+
+
+
+
+        sponsor_array = bill_search[:bill][:sponsors].map do |sponsor|
+          sponsor[:name]
+        end
+
+        rep_search = BillService.new(@params).rep_details(full_state, sponsor_array)
+    end
   end
-end
+
+
+
+
+
+
+    # rep_array = bill_search[:bill][:attributes][:sponsors].map do |reps|
+    #   reps[:name]
+    # end
+
+    # rep_search = BillService.new(@params).rep_details(rep_array)
+      
+    # bill_hash = { id: bill_search[:bill][:bill_id],
+    #   attributes: { bill_search[:bill],
+                  #  representatives: { rep_search[:data] }
+                #  }
+    # }
+#    ApiBill.new(bill_hash)
