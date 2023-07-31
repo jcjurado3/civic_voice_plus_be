@@ -1,0 +1,123 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.legiscan.com/?key=LEGISCAN_KEY&op=getSearch&query=healthcare&state=FL
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 29 Jul 2023 23:46:32 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Authorization:
+      - Token ffb8d1b37d79de2130db144ef5e0f7fee1babd27
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","searchresult":{"summary":{"page":"1 of 2","range":"1
+        - 50","relevancy":"100% - 83%","count":60,"page_current":1,"page_total":2,"query":"(Zhealthcar:(pos=1))"},"0":{"relevance":100,"state":"FL","bill_number":"H1255","bill_id":1722281,"change_hash":"73e878a754d83207af9d1b7253ac953a","url":"https:\/\/legiscan.com\/FL\/bill\/H1255\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1255\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1255\/2023","last_action_date":"2023-07-07","last_action":"Chapter
+        No. 2023-340","title":"West Orange Healthcare District, Orange County"},"1":{"relevance":97,"state":"FL","bill_number":"H1413","bill_id":1726459,"change_hash":"5d228bad53db6bb2e34d4b1c4214b3d4","url":"https:\/\/legiscan.com\/FL\/bill\/H1413\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1413\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1413\/2023","last_action_date":"2023-05-05","last_action":"Died
+        on Second Reading Calendar","title":"Health Care Expenses"},"2":{"relevance":96,"state":"FL","bill_number":"H0899","bill_id":1710836,"change_hash":"30b0c88e01eaeb136eb1ca91543247cc","url":"https:\/\/legiscan.com\/FL\/bill\/H0899\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0899\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0899\/2023","last_action_date":"2023-05-05","last_action":"Died
+        in Rules","title":"Surrendered Newborn Infants"},"3":{"relevance":96,"state":"FL","bill_number":"H0173","bill_id":1651733,"change_hash":"a889d938de62af42e92303ccae25743f","url":"https:\/\/legiscan.com\/FL\/bill\/H0173\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0173\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0173\/2023","last_action_date":"2023-05-05","last_action":"Died
+        in Healthcare Regulation Subcommittee","title":"Medicaid Coverage of Prescribed-food
+        Programs for Disease Treatment and Prevention"},"4":{"relevance":95,"state":"FL","bill_number":"H1219","bill_id":1722564,"change_hash":"8c469b5dfe49e7ce5854f21fd5d57ba8","url":"https:\/\/legiscan.com\/FL\/bill\/H1219\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1219\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1219\/2023","last_action_date":"2023-04-04","last_action":"Laid
+        on Table; companion bill(s) passed, see SB 7018 (Ch. 2023-244), SB 2500 (Ch.
+        2023-239)","title":"State-Operated Institutions Inmate Welfare Trust Fund"},"5":{"relevance":95,"state":"FL","bill_number":"H1533","bill_id":1727862,"change_hash":"de4344dd33742479dc7dd3e12a904c2e","url":"https:\/\/legiscan.com\/FL\/bill\/H1533\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1533\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1533\/2023","last_action_date":"2023-05-05","last_action":"Died
+        in Healthcare Regulation Subcommittee","title":"Prior Authorization for Health
+        Care Services"},"6":{"relevance":93,"state":"FL","bill_number":"H1509","bill_id":1727445,"change_hash":"010d4242900613fd698ce63df3a286d2","url":"https:\/\/legiscan.com\/FL\/bill\/H1509\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1509\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1509\/2023","last_action_date":"2023-05-01","last_action":"Laid
+        on Table; companion bill(s) passed, see CS\/CS\/SB 1550 (Ch. 2023-29), CS\/SB
+        1552 (Ch. 2023-30)","title":"Prescription Drugs"},"7":{"relevance":93,"state":"FL","bill_number":"H1059","bill_id":1718264,"change_hash":"b9a835c91951aa8ebcc738799a706d86","url":"https:\/\/legiscan.com\/FL\/bill\/H1059\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1059\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1059\/2023","last_action_date":"2023-05-01","last_action":"Laid
+        on Table; companion bill(s) passed, see SB 614 (Ch. 2023-45)","title":"Mammography
+        Reports"},"8":{"relevance":93,"state":"FL","bill_number":"H0583","bill_id":1689698,"change_hash":"e1fe9c2901cd3ff6d97a32ea6344ec8d","url":"https:\/\/legiscan.com\/FL\/bill\/H0583\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0583\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0583\/2023","last_action_date":"2023-05-02","last_action":"Laid
+        on Table","title":"Health Care Practitioner Titles and Abbreviations"},"9":{"relevance":93,"state":"FL","bill_number":"H0247","bill_id":1664976,"change_hash":"4a3909165a6c0655f610b706ddb5b269","url":"https:\/\/legiscan.com\/FL\/bill\/H0247\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0247\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0247\/2023","last_action_date":"2023-05-05","last_action":"Died
+        in Health Care Appropriations Subcommittee","title":"Sickle Cell Program"},"10":{"relevance":93,"state":"FL","bill_number":"H0725","bill_id":1703717,"change_hash":"1383650d81dfeabc72cee9a9d96d9c57","url":"https:\/\/legiscan.com\/FL\/bill\/H0725\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0725\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0725\/2023","last_action_date":"2023-05-05","last_action":"Died
+        on Second Reading Calendar","title":"Intravenous Vitamin Treatment"},"11":{"relevance":93,"state":"FL","bill_number":"H1043","bill_id":1718301,"change_hash":"4580d095a95bdfc80a9635d045c1208c","url":"https:\/\/legiscan.com\/FL\/bill\/H1043\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1043\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1043\/2023","last_action_date":"2023-05-05","last_action":"Died
+        in Fiscal Policy","title":"Medicaid Coverage of Rapid Whole Genome Sequencing"},"12":{"relevance":93,"state":"FL","bill_number":"H1177","bill_id":1721088,"change_hash":"9d68e642b7b1bb898131c95e22dfadce","url":"https:\/\/legiscan.com\/FL\/bill\/H1177\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1177\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1177\/2023","last_action_date":"2023-05-05","last_action":"Died
+        on Second Reading Calendar","title":"Dental Care"},"13":{"relevance":93,"state":"FL","bill_number":"H1335","bill_id":1725036,"change_hash":"541f3131a5bf7efc174b4c94f1f0cebd","url":"https:\/\/legiscan.com\/FL\/bill\/H1335\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1335\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1335\/2023","last_action_date":"2023-05-05","last_action":"Died
+        on Second Reading Calendar","title":"Payment of Health Insurance Claims"},"14":{"relevance":93,"state":"FL","bill_number":"H0385","bill_id":1676311,"change_hash":"db839711b8e1ede93b313e832f57a198","url":"https:\/\/legiscan.com\/FL\/bill\/H0385\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0385\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0385\/2023","last_action_date":"2023-06-02","last_action":"Vetoed
+        by Governor","title":"Professional Counselors Licensure Compact"},"15":{"relevance":93,"state":"FL","bill_number":"H0967","bill_id":1716370,"change_hash":"d78b5b7ba3f9bf18ae50bf7b1be37ad4","url":"https:\/\/legiscan.com\/FL\/bill\/H0967\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0967\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0967\/2023","last_action_date":"2023-06-22","last_action":"Chapter
+        No. 2023-283","title":"Medicaid Coverage of Continuous Glucose Monitors"},"16":{"relevance":93,"state":"FL","bill_number":"H1133","bill_id":1720226,"change_hash":"242835811d9a0bc70983a4b62bfd49da","url":"https:\/\/legiscan.com\/FL\/bill\/H1133\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1133\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1133\/2023","last_action_date":"2023-06-22","last_action":"Chapter
+        No. 2023-274","title":"Physician Assistant Licensure"},"17":{"relevance":93,"state":"FL","bill_number":"H0351","bill_id":1675115,"change_hash":"c0fee5579a2619384062677b7ddfe0cb","url":"https:\/\/legiscan.com\/FL\/bill\/H0351\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0351\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0351\/2023","last_action_date":"2023-05-01","last_action":"Laid
+        on Table; companion bill(s) passed, see CS\/SB 558 (Ch. 2023-250)","title":"Certified
+        Nursing Assistants"},"18":{"relevance":93,"state":"FL","bill_number":"H1145","bill_id":1720386,"change_hash":"f7f71028b9427f13f2e8bc512c579d3e","url":"https:\/\/legiscan.com\/FL\/bill\/H1145\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1145\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1145\/2023","last_action_date":"2023-05-05","last_action":"Died
+        on Second Reading Calendar","title":"Foreign-licensed Physicians"},"19":{"relevance":93,"state":"FL","bill_number":"H1487","bill_id":1727328,"change_hash":"c3d63025d57a31ebaeb321070462ddc0","url":"https:\/\/legiscan.com\/FL\/bill\/H1487\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1487\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1487\/2023","last_action_date":"2023-05-05","last_action":"Died
+        in State Affairs Committee","title":"Declarations of a Public Health Emergency"},"20":{"relevance":92,"state":"FL","bill_number":"H0897","bill_id":1710663,"change_hash":"9a2a0ef37a90bb72a56d04bd7f29e336","url":"https:\/\/legiscan.com\/FL\/bill\/H0897\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0897\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0897\/2023","last_action_date":"2023-06-12","last_action":"Chapter
+        No. 2023-212","title":"Group Health Plans"},"21":{"relevance":92,"state":"FL","bill_number":"H1421","bill_id":1726295,"change_hash":"b007e384ae6f2c7779904cfd70a85101","url":"https:\/\/legiscan.com\/FL\/bill\/H1421\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1421\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1421\/2023","last_action_date":"2023-04-18","last_action":"Laid
+        on Table; companion bill(s) passed, see CS\/SB 254 (Ch. 2023-90)","title":"Gender
+        Clinical Interventions"},"22":{"relevance":91,"state":"FL","bill_number":"H1481","bill_id":1727534,"change_hash":"259eff842f813bc85810fccc01d08de4","url":"https:\/\/legiscan.com\/FL\/bill\/H1481\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1481\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1481\/2023","last_action_date":"2023-05-02","last_action":"Laid
+        on Table; companion bill(s) passed, see CS\/CS\/SB 1352 (Ch. 2023-258)","title":"Sickle
+        Cell Disease Medications, Treatment, and Screening"},"23":{"relevance":91,"state":"FL","bill_number":"S0652","bill_id":1701812,"change_hash":"172c5c65b3e9e20f20ffc29ed7542fe8","url":"https:\/\/legiscan.com\/FL\/bill\/S0652\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/S0652\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/S0652\/2023","last_action_date":"2023-05-05","last_action":"Died
+        in Fiscal Policy","title":"Dentistry"},"24":{"relevance":91,"state":"FL","bill_number":"H1403","bill_id":1726505,"change_hash":"3d178935738a7ea4d8e09e6880ef25bb","url":"https:\/\/legiscan.com\/FL\/bill\/H1403\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1403\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1403\/2023","last_action_date":"2023-05-01","last_action":"Laid
+        on Table; companion bill(s) passed, see CS\/SB 1580 (Ch. 2023-57)","title":"Protections
+        of Medical Conscience"},"25":{"relevance":91,"state":"FL","bill_number":"S2500","bill_id":1746175,"change_hash":"f1e83bf8e17c7546e09437665fb20b3b","url":"https:\/\/legiscan.com\/FL\/bill\/S2500\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/S2500\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/S2500\/2023","last_action_date":"2023-06-16","last_action":"Chapter
+        No. 2023-239, companion bill(s) passed, see CS\/CS\/HB 1285 (Ch. 2023-167),
+        HB 5101 (Ch. 2023-245), HB 5303 (Ch. 2023-246), SB 2502 (Ch. 2023-240), SB
+        2504 (Ch. 2023-241), SB 2506 (Ch. 2023-242), SB 2510 (Ch. 2023-243), SB 7018
+        (Ch. 2023-244), CS\/SB 7024 (Ch. 2023-193), SB 7030 (Ch. 2023-265)","title":"Appropriations"},"26":{"relevance":90,"state":"FL","bill_number":"H0035","bill_id":1637060,"change_hash":"5ab679631cba89b51bd19b9f348fce1c","url":"https:\/\/legiscan.com\/FL\/bill\/H0035\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0035\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0035\/2023","last_action_date":"2023-05-26","last_action":"Chapter
+        No. 2023-141; companion bill(s) passed, see CS\/HB 33 (Ch. 2023-140)","title":"Pub.
+        Rec. and Meetings\/Psychology Interjurisdictional Compact"},"27":{"relevance":90,"state":"FL","bill_number":"H0387","bill_id":1676371,"change_hash":"a79ab46e1edee7e77ea617fdc3a23eaa","url":"https:\/\/legiscan.com\/FL\/bill\/H0387\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0387\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0387\/2023","last_action_date":"2023-06-27","last_action":"Chapter
+        No. 2023-292","title":"Medical Use of Marijuana"},"28":{"relevance":90,"state":"FL","bill_number":"S1550","bill_id":1726221,"change_hash":"f2b84fa59a380f9c223eab06b6b53bcf","url":"https:\/\/legiscan.com\/FL\/bill\/S1550\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/S1550\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/S1550\/2023","last_action_date":"2023-05-04","last_action":"Chapter
+        No. 2023-29, companion bill(s) passed, see CS\/SB 1552 (Ch. 2023-30)","title":"Prescription
+        Drugs"},"29":{"relevance":90,"state":"FL","bill_number":"H0183","bill_id":1655002,"change_hash":"735ca0c71025eee955723745c5ac39fe","url":"https:\/\/legiscan.com\/FL\/bill\/H0183\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0183\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0183\/2023","last_action_date":"2023-05-05","last_action":"Died
+        in Health & Human Services Committee","title":"Medicaid Step-therapy Protocols
+        for Drugs for Serious Mental Illness Treatments"},"30":{"relevance":89,"state":"FL","bill_number":"H0837","bill_id":1707984,"change_hash":"d4c6aad4c728991ab3570d60bde6739e","url":"https:\/\/legiscan.com\/FL\/bill\/H0837\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0837\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0837\/2023","last_action_date":"2023-03-27","last_action":"Chapter
+        No. 2023-15","title":"Civil Remedies"},"31":{"relevance":88,"state":"FL","bill_number":"H8079","bill_id":1757830,"change_hash":"739ac530deaa6702a2254493a2648f63","url":"https:\/\/legiscan.com\/FL\/bill\/H8079\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H8079\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H8079\/2023","last_action_date":"2023-04-27","last_action":"Adopted
+        by Publication","title":"Minority Health Month"},"32":{"relevance":88,"state":"FL","bill_number":"H0483","bill_id":1677438,"change_hash":"8f364d1175ac24034404c27fc4a9c7ed","url":"https:\/\/legiscan.com\/FL\/bill\/H0483\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0483\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0483\/2023","last_action_date":"2023-05-02","last_action":"Laid
+        on Table; companion bill(s) passed, see CS\/SB 612 (Ch. 2023-192)","title":"Blood
+        Clot and Pulmonary Embolism Policy Workgroup"},"33":{"relevance":88,"state":"FL","bill_number":"H0215","bill_id":1662381,"change_hash":"f87df336fcc263ee7c7f01e5ffaa9a3e","url":"https:\/\/legiscan.com\/FL\/bill\/H0215\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0215\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0215\/2023","last_action_date":"2023-05-05","last_action":"Died
+        in Criminal Justice Subcommittee","title":"Possession or Use of a Firearm
+        in a Sensitive Location"},"34":{"relevance":88,"state":"FL","bill_number":"H0831","bill_id":1707953,"change_hash":"b67c84d16eca2bfe82d0e443ee0b6bde","url":"https:\/\/legiscan.com\/FL\/bill\/H0831\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0831\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0831\/2023","last_action_date":"2023-05-05","last_action":"Died
+        in Fiscal Policy, companion bill(s) passed, see SB 2510 (Ch. 2023-243)","title":"Pilot
+        Program for Individuals with Developmental Disabilities"},"35":{"relevance":88,"state":"FL","bill_number":"H1457","bill_id":1726788,"change_hash":"f2d6edac253b70db4c04949f6cd91416","url":"https:\/\/legiscan.com\/FL\/bill\/H1457\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1457\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1457\/2023","last_action_date":"2023-05-05","last_action":"Died
+        in Health Care Appropriations Subcommittee","title":"Medicaid Behavioral Health
+        Provider Performance"},"36":{"relevance":88,"state":"FL","bill_number":"S1652","bill_id":1726833,"change_hash":"b8fd21bf21dd72c565b92bdd2ba5383f","url":"https:\/\/legiscan.com\/FL\/bill\/S1652\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/S1652\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/S1652\/2023","last_action_date":"2023-05-05","last_action":"Died
+        in Health Policy","title":"Medicaid Behavioral Health Provider Performance"},"37":{"relevance":88,"state":"FL","bill_number":"H0267","bill_id":1666696,"change_hash":"e531dd9aa9c28b56e559cb60f3e3fbf1","url":"https:\/\/legiscan.com\/FL\/bill\/H0267\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0267\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0267\/2023","last_action_date":"2023-05-12","last_action":"Chapter
+        No. 2023-63","title":"Telehealth Practice Standards"},"38":{"relevance":88,"state":"FL","bill_number":"H0341","bill_id":1675071,"change_hash":"bd33ca068e0873afe9a35a285384e0ec","url":"https:\/\/legiscan.com\/FL\/bill\/H0341\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0341\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0341\/2023","last_action_date":"2023-05-25","last_action":"Chapter
+        No. 2023-122","title":"911 Public Safety Telecommunicator Certifications"},"39":{"relevance":88,"state":"FL","bill_number":"H1163","bill_id":1721005,"change_hash":"5125aac09e072b7ce1824511e73e15e8","url":"https:\/\/legiscan.com\/FL\/bill\/H1163\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1163\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1163\/2023","last_action_date":"2023-05-05","last_action":"Died
+        in Healthcare Regulation Subcommittee","title":"Dental Licensure Examinations
+        and Regulations"},"40":{"relevance":87,"state":"FL","bill_number":"H0503","bill_id":1677898,"change_hash":"e88fe65b6d8e49c9d621163ad64c4d17","url":"https:\/\/legiscan.com\/FL\/bill\/H0503\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0503\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0503\/2023","last_action_date":"2023-05-05","last_action":"Died
+        in Health & Human Services Committee","title":"Practice of Dentistry"},"41":{"relevance":87,"state":"FL","bill_number":"S0236","bill_id":1725250,"change_hash":"2b7807e289c8925b640b62f3e903ddb7","url":"https:\/\/legiscan.com\/FL\/bill\/S0236\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/S0236\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/S0236\/2023","last_action_date":"2023-03-22","last_action":"Laid
+        on Table, companion bill(s) passed, see CS\/CS\/HB 837 (Ch. 2023-15)","title":"Civil
+        Remedies"},"42":{"relevance":87,"state":"FL","bill_number":"H0007","bill_id":1728773,"change_hash":"e8c1d781ae35bf17e5ddaa901805a60a","url":"https:\/\/legiscan.com\/FL\/bill\/H0007\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0007\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0007\/2023","last_action_date":"2023-04-13","last_action":"Laid
+        on Table; companion bill(s) passed, see SB 300 (Ch. 2023-21)","title":"Pregnancy
+        and Parenting Support"},"43":{"relevance":87,"state":"FL","bill_number":"H0783","bill_id":1705627,"change_hash":"e4deb599500b02677834806f4503364d","url":"https:\/\/legiscan.com\/FL\/bill\/H0783\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0783\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0783\/2023","last_action_date":"2023-06-02","last_action":"Chapter
+        No. 2023-184","title":"Opioid Abatement"},"44":{"relevance":87,"state":"FL","bill_number":"H0615","bill_id":1696356,"change_hash":"d418f4ec70dce512340777d37a76eb2c","url":"https:\/\/legiscan.com\/FL\/bill\/H0615\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0615\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0615\/2023","last_action_date":"2023-05-05","last_action":"Died
+        on Second Reading Calendar","title":"Massage Establishments"},"45":{"relevance":86,"state":"FL","bill_number":"H1351","bill_id":1725517,"change_hash":"75a5647886fb87e35f7b449590c0d418","url":"https:\/\/legiscan.com\/FL\/bill\/H1351\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1351\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1351\/2023","last_action_date":"2023-05-05","last_action":"Died
+        on Second Reading Calendar","title":"Savings and Out-of-pocket Expenses in
+        Health Insurance"},"46":{"relevance":85,"state":"FL","bill_number":"H0121","bill_id":1643977,"change_hash":"3f470639a574c1087420b84300293327","url":"https:\/\/legiscan.com\/FL\/bill\/H0121\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0121\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0121\/2023","last_action_date":"2023-06-22","last_action":"Chapter
+        No. 2023-277","title":"Florida Kidcare Program Eligibility"},"47":{"relevance":85,"state":"FL","bill_number":"H5003","bill_id":1749136,"change_hash":"78d71e72b60f2dc32943e42becedf571","url":"https:\/\/legiscan.com\/FL\/bill\/H5003\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H5003\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H5003\/2023","last_action_date":"2023-04-04","last_action":"Laid
+        on Table; companion bill(s) passed, see SB 2500 (Ch. 2023-239), SB 2502 (Ch.
+        2023-240), SB 2510 (Ch. 2023-243)","title":"Implementing the 2023-2024 General
+        Appropriations Act"},"48":{"relevance":83,"state":"FL","bill_number":"H5001","bill_id":1749049,"change_hash":"c8cb24eaf0ceabb3ca080395dbfc4a48","url":"https:\/\/legiscan.com\/FL\/bill\/H5001\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H5001\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H5001\/2023","last_action_date":"2023-04-04","last_action":"Laid
+        on Table; companion bill(s) passed, see SB 2500 (Ch. 2023-239), CS\/CS\/HB
+        1285 (Ch. 2023-167), HB 5101 (Ch. 2023-245), HB 5303 (Ch. 2023-246), SB 2502
+        (Ch. 2023-240), SB 2504 (Ch. 2023-241), SB 2506 (Ch. 2023-242), SB 2510 (Ch.
+        2023-243), SB 7018 (Ch. 2023-244), SB 7024 (Ch. 2023-193), SB 7030 (Ch. 2023-265)","title":"General
+        Appropriations Act"},"49":{"relevance":83,"state":"FL","bill_number":"H0391","bill_id":1676188,"change_hash":"e29e8a3f8bce7f278b904e2489407238","url":"https:\/\/legiscan.com\/FL\/bill\/H0391\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0391\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0391\/2023","last_action_date":"2023-06-02","last_action":"Chapter
+        No. 2023-183","title":"Home Health Aides for Medically Fragile Children"}}}'
+  recorded_at: Sat, 29 Jul 2023 23:46:32 GMT
+recorded_with: VCR 6.2.0
