@@ -46,28 +46,29 @@
       response = os_conn.get("?") do |request|
         request.params['name'] = rep
         request.params['include'] = "other_names"
-        request.params['jurisdiction'] = full_state 
+        request.params['jurisdiction'] = full_state
       end
+      json = JSON.parse(response.body, symbolize_names: true)
 
-    
-      if response.body[:results].empty? && rep.include?('committee')
-        json = {\"results\":[{id: 0, name: #{rep}}],\"pagination\":{\"per_page\":10,\"page\":1,\"max_page\":1,\"total_items\":0}}
-      else
+      if json[:results].empty? && rep.downcase.include?('committee')
+        json = {results: [{id: 0, name: "#{rep}}"}], pagination: {per_page:10, page: 1, max_page: 1, total_items: 0}}
+        representatives[:sponsor_details] = json
+      elsif json[:results].empty?
+        sleep(1.minute)
         response = os_conn.get("?") do |request|
-          request.params['name'] = rep.split('').last
+          request.params['name'] = rep.split.last
           request.params['include'] = "other_names"
-          request.params['jurisdiction'] = full_state 
+          request.params['jurisdiction'] = full_state
         end
         json = JSON.parse(response.body, symbolize_names: true)
         representatives[:sponsor_details] = json
+        binding.pry
       end
 
-      json = JSON.parse(response.body, symbolize_names: true)
       representatives[:sponsor_details] = json
     end
-    require 'pry'; binding.pry
   end
-    
+
   def os_conn
     Faraday.new("https://v3.openstates.org/people") do |faraday|
       faraday.headers["X-API-KEY"] = ENV["STATES_KEY"]
