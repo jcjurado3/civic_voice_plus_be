@@ -17,7 +17,7 @@ RSpec.describe "UserCategories" do
       expect(created_user_category).to be_a(Hash)
       expect(created_user_category).to have_key(:data)
       expect(created_user_category[:data]).to have_key(:id)
-      # expect(created_user_category[:data][:id]).to be_an(Integer)
+      expect(created_user_category[:data][:id]).to be_a(String)
 
       expect(created_user_category[:data]).to have_key(:type)
       expect(created_user_category[:data][:type]).to be_a(String)

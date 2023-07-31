@@ -6,7 +6,6 @@ class Api::V1::UserCategoriesController < ApplicationController
       new_user_category = UserCategory.create(user_id: params[:user_id], category_id: params[:category_id])
       render json: UserCategorySerializer.new(new_user_category), status: 201
     end
-
   end
 
   def destroy
