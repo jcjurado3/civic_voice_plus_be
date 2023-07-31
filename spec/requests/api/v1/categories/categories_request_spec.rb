@@ -76,8 +76,29 @@ RSpec.describe "Category Endpoints" do
 
       expect(response).to be_successful
       expect(response.status).to eq(201)
-    
+
       expect(created_category.name).to eq(category_params[:name])
+    end
+  end
+
+  describe "update an existing category" do
+    it "updates a category" do
+      category_1 = Category.create!(name: "heathcare")
+
+      edit_category_params = {
+        name: "healthcare"
+      }
+
+      headers = { "CONTENT_TYPE" => "application/json "}
+      patch "/api/v1/categories/#{category_1.id}", headers: headers, params: JSON.generate(category: edit_category_params)
+
+      updated_category = Category.find_by(id: category_1.id)
+
+      expect(response).to be_successful
+      expect(response.status).to eq(200)
+
+      expect(updated_category.name).to eq("healthcare")
+      expect(updated_category.name).to_not eq(category_1.name)
     end
   end
 end
