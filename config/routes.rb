@@ -9,7 +9,7 @@ Rails.application.routes.draw do
       get "/bills", to: "bills#index"
       get "/bills/:id", to: "bills#show"
 
-      resources :categories, only: [:index]
+      resources :categories, only: [:index, :show]
     end
   end
 end
