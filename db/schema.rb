@@ -36,6 +36,18 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_01_202134) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "members", force: :cascade do |t|
+    t.string "first_name"
+    t.string "last_name"
+    t.string "state"
+    t.string "district"
+    t.string "party"
+    t.string "address"
+    t.string "contact_form"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "states", force: :cascade do |t|
     t.string "abbv_name"
     t.datetime "created_at", null: false
