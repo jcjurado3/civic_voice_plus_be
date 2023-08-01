@@ -37,7 +37,7 @@ describe BillService do
     describe "#bills_by_id" do
       it "returns bills based on id parameter", :vcr do
         params = {
-          id: 1722281
+          id: 1722280
         }
 
         bill_data = BillService.new(params).bills_by_id
@@ -58,5 +58,32 @@ describe BillService do
         expect(bill_data[:bill][:status]).to be_a(Integer)
       end
     end
+    
+    describe "#rep_details" do
+      xit "returns representative details based on state and sponsors", :vcr do
+        full_state = "Florida"
+        sponsors = ["Sponsor1", "Sponsor2"]
+        
+        representatives = BillService.new({}).rep_details(full_state, sponsors)
+        
+      end
+    end
   end
 end
+
+#   describe "cache connection" do
+#     let(:params) { { state: 'FL', query: 'healthcare' } }
+#     let(:service) { described_class.new(params) }
+#     context 'when caching is working' do
+#       it 'caches the API response' do
+      
+#       expect(service.bills_by_query).to_not be_empty
+
+#       require 'pry'; binding.pry
+#       Rails.cache.clear
+
+      
+#       expect(service.bills_by_query).to_not be_empty
+#     end
+#   end
+# end

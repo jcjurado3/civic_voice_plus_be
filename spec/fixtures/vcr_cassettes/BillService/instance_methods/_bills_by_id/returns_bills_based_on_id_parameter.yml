@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 30 Jul 2023 16:23:14 GMT
+      - Mon, 31 Jul 2023 21:20:17 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -109,5 +109,5 @@ http_interactions:
         Local Administration, Federal Affairs & Special Districts Subcommittee Hearing"},{"type_id":1,"event_hash":"07cb0b89","type":"Hearing","date":"2023-03-24","time":"09:00","location":"","description":"House
         Health & Human Services Committee Hearing"},{"type_id":1,"event_hash":"b88de549","type":"Hearing","date":"2023-04-11","time":"14:00","location":"","description":"House
         State Affairs Committee Hearing"}]}}'
-  recorded_at: Sun, 30 Jul 2023 16:23:14 GMT
+  recorded_at: Mon, 31 Jul 2023 21:20:18 GMT
 recorded_with: VCR 6.2.0

@@ -22,7 +22,7 @@ RSpec.describe ApiBill do
       expect(bills_data.first.status).to be_a(NilClass)
       expect(bills_data.first.description).to be_a(NilClass)
       expect(bills_data.first.sponsors).to be_a(NilClass)
-      expect(bills_data.first.text).to be_a(NilClass)
+      expect(bills_data.first.texts).to be_a(NilClass)
     end
 
     it "has more attributes", :vcr do
@@ -37,9 +37,9 @@ RSpec.describe ApiBill do
         expect(bills_data.text_url).to be_a(NilClass)
         expect(bills_data.last_action).to be_a(NilClass)
         expect(bills_data.last_action_date).to be_a(NilClass)
-        expect(bills_data.text).to be_an(Array)
+        expect(bills_data.texts).to be_an(Array)
         
-      bills_data.text.map do |doc|
+      bills_data.texts.map do |doc|
         expect(doc[:doc_id]).to be_a(Integer)
       end
 
