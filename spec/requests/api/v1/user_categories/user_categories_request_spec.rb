@@ -15,8 +15,22 @@ RSpec.describe "UserCategories" do
       expect(response.status).to eq(200)
 
       data = JSON.parse(response.body, symbolize_names: true)
-      binding.pry
+
       expect(data).to have_key(:data)
+      expect(data[:data].count).to eq(2)
+
+      data[:data].map do |category|
+        expect(category).to have_key(:id)
+        expect(category[:id]).to be_a(String)
+
+        expect(category).to have_key(:type)
+        expect(category[:type]).to be_a(String)
+        expect(category[:type]).to eq("category")
+
+        expect(category).to have_key(:attributes)
+        expect(category[:attributes]).to have_key(:name)
+        expect(category[:attributes][:name]).to be_a(String)
+      end
     end
   end
 
