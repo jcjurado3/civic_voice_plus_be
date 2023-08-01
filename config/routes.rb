@@ -14,6 +14,7 @@ Rails.application.routes.draw do
       post '/user_categories', to: 'user_categories#create'
       delete '/user_categories', to: 'user_categories#destroy'
 
+      get '/user_bills', to: 'user_bills#index'
       post '/user_bills', to: 'user_bills#create'
       delete '/user_bills', to: 'user_bills#destroy'
     end
