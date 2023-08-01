@@ -24,15 +24,60 @@ FactoryBot.define do
       }
     ] }
     sponsors { [
-      {
-        "name": "Chase Tramont",
-        "ballotpedia": "Chase_Tramont"
+        {
+          "people_id": 23332,
+          "person_hash": "j9zna7tb",
+          "party_id": "2",
+          "state_id": 9,
+          "party": "R",
+          "role_id": 1,
+          "role": "Rep",
+          "name": "Chase Tramont",
+          "first_name": "Chase",
+          "middle_name": "",
+          "last_name": "Tramont",
+          "suffix": "",
+          "nickname": "",
+          "district": "HD-030",
+          "ftm_eid": 55866659,
+          "votesmart_id": 209394,
+          "opensecrets_id": "",
+          "knowwho_pid": 0,
+          "ballotpedia": "Chase_Tramont",
+          "bioguide_id": "",
+          "sponsor_type_id": 1,
+          "sponsor_order": 2,
+          "committee_sponsor": 0,
+          "committee_id": 0,
+          "state_federal": 0
       },
       {
+        "people_id": 22528,
+        "person_hash": "1y03g0zp",
+        "party_id": "1",
+        "state_id": 9,
+        "party": "D",
+        "role_id": 1,
+        "role": "Rep",
         "name": "Christopher Benjamin",
+        "first_name": "Christopher",
+        "middle_name": "",
+        "last_name": "Benjamin",
+        "suffix": "",
+        "nickname": "",
+        "district": "HD-107",
+        "ftm_eid": 49845730,
+        "votesmart_id": 194464,
+        "opensecrets_id": "",
         "knowwho_pid": 740304,
-        "ballotpedia": "Christopher_Benjamin"
-      }
+        "ballotpedia": "Christopher_Benjamin",
+        "bioguide_id": "",
+        "sponsor_type_id": 2,
+        "sponsor_order": 3,
+        "committee_sponsor": 0,
+        "committee_id": 0,
+        "state_federal": 0
+    }
     ]}
   end
 end
