@@ -13,6 +13,8 @@ Rails.application.routes.draw do
 
       post '/user_categories', to: 'user_categories#create'
       delete '/user_categories', to: 'user_categories#destroy'
+
+      resources :user_bills, only: [:create, :destroy]
     end
   end
 end
