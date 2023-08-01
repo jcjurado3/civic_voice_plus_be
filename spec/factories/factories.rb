@@ -14,14 +14,42 @@ FactoryBot.define do
     description { Faker::Hipster.sentence }
     state { Faker::Address.state_abbr }
     texts { [
-      {
+        {
           "doc_id": 2726395,
-          "url": "https://legiscan.com/FL/text/#{bill_number}/id/2726395"
-      },
-      {
+          "date": "2023-03-03",
+          "type": "Introduced",
+          "type_id": 1,
+          "mime": "application/pdf",
+          "mime_id": 2,
+          "url": "https://legiscan.com/FL/text/H1413/id/2726395",
+          "state_link": "https://www.flsenate.gov/Session/Bill/2023/1413/BillText/Filed/PDF",
+          "text_size": 145856,
+          "text_hash": "03d804f3d96a1dd35c713c5ddf6e57e8",
+          "alt_bill_text": 0,
+          "alt_mime": "",
+          "alt_mime_id": 0,
+          "alt_state_link": "",
+          "alt_text_size": 0,
+          "alt_text_hash": ""
+        },
+        {
           "doc_id": 2763446,
-          "url": "https://legiscan.com/FL/text/#{bill_number}/id/2763446"
-      }
+          "date": "2023-03-29",
+          "type": "Comm Sub",
+          "type_id": 2,
+          "mime": "application/pdf",
+          "mime_id": 2,
+          "url": "https://legiscan.com/FL/text/H1413/id/2763446",
+          "state_link": "https://www.flsenate.gov/Session/Bill/2023/1413/BillText/c1/PDF",
+          "text_size": 146773,
+          "text_hash": "c463e192fb0218abbb63cde9f410cf7a",
+          "alt_bill_text": 0,
+          "alt_mime": "",
+          "alt_mime_id": 0,
+          "alt_state_link": "",
+          "alt_text_size": 0,
+          "alt_text_hash": ""
+        }
     ] }
     sponsors { [
         {
