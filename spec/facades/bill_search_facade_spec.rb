@@ -31,7 +31,7 @@ RSpec.describe BillSearchFacade do
         }
         
         bill = BillSearchFacade.new(params).bill
-        
+      
         expect(bill).to be_a(ApiBill)
         expect(bill.bill_id).to be_an(Integer)
         expect(bill.bill_id).to eq(1722281)
