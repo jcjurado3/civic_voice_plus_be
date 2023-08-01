@@ -1,6 +1,25 @@
 require "rails_helper"
 
 RSpec.describe "UserCategories" do
+  describe "get all UserCategories for a user" do
+    it "returns all UserCategories for a user" do
+      user1_id = "1"
+      category1 = Category.create!(name: "artificial intelligence")
+      category2 = Category.create!(name: "climate")
+      user_category_1 = UserCategory.create!(user_id: user1_id, category_id: category1.id)
+      user_category_2 = UserCategory.create!(user_id: user1_id, category_id: category2.id)
+
+      get "/api/v1/user_categories?user_id=#{user1_id}"
+
+      expect(response).to be_successful
+      expect(response.status).to eq(200)
+
+      data = JSON.parse(response.body, symbolize_names: true)
+      binding.pry
+      expect(data).to have_key(:data)
+    end
+  end
+
   describe "create a user_category" do
     it "creates and saves a category to a user" do
       user1_id = "1"
