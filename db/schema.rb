@@ -17,6 +17,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_01_020022) do
   create_table "bills", force: :cascade do |t|
     t.integer "bill_id"
     t.string "bill_number"
+    t.string "text_url"
+    t.string "last_action_date"
+    t.string "last_action"
+    t.string "title"
     t.string "state"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
