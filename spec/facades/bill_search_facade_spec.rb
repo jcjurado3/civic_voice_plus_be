@@ -10,7 +10,7 @@ RSpec.describe BillSearchFacade do
           query: "healthcare" }
 
         bills = BillSearchFacade.new(params).bills
-        
+
         expect(bills).to be_an(Array)
         expect(bills.first).to be_a(ApiBill)
         expect(bills.first.bill_id).to be_an(Integer)
@@ -23,15 +23,15 @@ RSpec.describe BillSearchFacade do
         expect(bills.first.title).to be_a(String)
       end
     end
-    
+
     describe "#bill" do
       it "returns a single bill based of bill_id number", :vcr do
         params = {
           id: 1722281
         }
-        
+
         bill = BillSearchFacade.new(params).bill
-      
+
         expect(bill).to be_a(ApiBill)
         expect(bill.bill_id).to be_an(Integer)
         expect(bill.bill_id).to eq(1722281)
@@ -46,7 +46,7 @@ RSpec.describe BillSearchFacade do
         expect(bill.status).to be_a(Integer)
         expect(bill.sponsors).to be_a(Array)
         expect(bill.sponsors.first[:name]).to eq("Doug Bankson")
-        expect(bill.text).to be_a(Array)
+        expect(bill.texts).to be_a(Array)
         expect(bill.text_url).to be_a(NilClass)
         expect(bill.last_action).to be_a(NilClass)
         expect(bill.last_action_date).to be_a(NilClass)

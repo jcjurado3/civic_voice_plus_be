@@ -16,27 +16,27 @@ RSpec.describe 'Get bill Endpoints' do
 
       expect(bill_data[:data][:attributes]).to have_key(:status)
       expect(bill_data[:data][:attributes][:status]).to be_a(Integer)
-      
+
       expect(bill_data[:data][:attributes]).to have_key(:description)
       expect(bill_data[:data][:attributes][:description]).to be_a(String)
-      
+
       expect(bill_data[:data][:attributes]).to have_key(:sponsors)
       expect(bill_data[:data][:attributes][:sponsors]).to be_a(Array)
 
       sponsors = bill_data[:data][:attributes][:sponsors]
 
-      sponsors.map do |sponsor| 
+      sponsors.map do |sponsor|
         expect(sponsor).to be_a(Hash)
-        
+
         expect(sponsor).to have_key(:party_id)
         expect(sponsor[:party_id]).to be_a(String)
-        
+
         expect(sponsor).to have_key(:name)
         expect(sponsor[:name]).to be_a(String)
       end
 
-      expect(bill_data[:data][:attributes]).to have_key(:text)
-      expect(bill_data[:data][:attributes][:text]).to be_a(Array)
+      expect(bill_data[:data][:attributes]).to have_key(:texts)
+      expect(bill_data[:data][:attributes][:texts]).to be_an(Array)
     end
   end
 end

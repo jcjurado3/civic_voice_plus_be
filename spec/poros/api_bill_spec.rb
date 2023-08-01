@@ -30,7 +30,7 @@ RSpec.describe ApiBill do
       params = {
               id: 1722281
               }
-      
+
       bills_data = BillSearchFacade.new(params).bill
         expect(bills_data.status).to be_a(Integer)
         expect(bills_data.description).to be_a(String)
@@ -38,9 +38,9 @@ RSpec.describe ApiBill do
         expect(bills_data.text_url).to be_a(NilClass)
         expect(bills_data.last_action).to be_a(NilClass)
         expect(bills_data.last_action_date).to be_a(NilClass)
-        expect(bills_data.text).to be_an(Array)
-        
-      bills_data.text.map do |doc|
+        expect(bills_data.texts).to be_an(Array)
+
+      bills_data.texts.map do |doc|
         expect(doc[:doc_id]).to be_a(Integer)
       end
 
