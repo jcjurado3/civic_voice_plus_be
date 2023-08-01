@@ -4,11 +4,12 @@ RSpec.describe "UserBills Endpoints" do
   describe "get all UserBills for a user" do
     it "returns all UserBills for a user" do
       user1_id = "1"
-      bill_1 = create(:bill)
-      bill_2 = create(:bill)
 
-      user_bill_1 = UserBill.create!(user_id: user1_id, bill_id: bill_1.id)
-      user_bill_1 = UserBill.create!(user_id: user1_id, bill_id: bill_2.id)
+      bill1_id = create(:bill).id
+      bill2_id = create(:bill).id
+
+      user_bill_1 = UserBill.create!(user_id: user1_id, bill_id: bill1_id)
+      user_bill_1 = UserBill.create!(user_id: user1_id, bill_id: bill2_id)
 
       get "/api/v1/user_bills?user_id=#{user1_id}"
 
@@ -45,27 +46,10 @@ RSpec.describe "UserBills Endpoints" do
         expect(bill[:attributes][:status]).to be_an(Integer)
 
         expect(bill[:attributes]).to have_key(:sponsors)
-
-        expect(bill[:attributes][:sponsors]).to be_a(String)
-        # bill[:attributes][:sponsors][0].map do |sponsor|
-        #   expect(sponsor).to be_a(Hash)
-        #   expect(sponsor).to have_key(:name)
-        #   expect(sponsor[:name]).to be_a(String)
-        #   expect(sponsor).to have_key(:ballotpedia)
-        #   expect(sponsor[:ballotpedia]).to be_a(String)
-        # end
+        expect(bill[:attributes][:sponsors]).to be_an(Array)
 
         expect(bill[:attributes]).to have_key(:texts)
-        expect(bill[:attributes][:texts]).to be_a(String)
-
-
-        # bill[:attributes][:text][0].map do |doc|
-        #   expect(doc).to be_an(Array)
-        #   expect(doc).to have_key(:doc_id)
-        #   expect(doc[:doc_id]).to be_an(Integer)
-        #   expect(doc).to have_key(:url)
-        #   expect(doc[:url]).to be_a(String)
-        # end
+        expect(bill[:attributes][:texts]).to be_an(Array)
       end
     end
   end
