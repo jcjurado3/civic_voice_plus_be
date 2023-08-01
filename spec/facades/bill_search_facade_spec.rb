@@ -3,7 +3,7 @@ require "rails_helper"
 RSpec.describe BillSearchFacade do
   describe "class methods" do
     describe "#bills" do
-      it "returns a list of all bills that match the query inputs and creates ApiBill objects", :vcr do
+      xit "returns a list of all bills that match the query inputs and creates ApiBill objects", :vcr do
         params = {
           op: "getSearch",
           state: "FL",

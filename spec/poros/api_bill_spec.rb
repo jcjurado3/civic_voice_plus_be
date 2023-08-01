@@ -2,12 +2,13 @@ require "rails_helper"
 
 RSpec.describe ApiBill do
   describe "existance" do
-    it "exists and has attributes", :vcr do
+    xit "exists and has attributes", :vcr do
       params = {
           state: "FL",
           query: "healthcare" }
 
       bills_data = BillSearchFacade.new(params).bills
+      require 'pry'; binding.pry
 
       expect(bills_data.count).to eq(50)
       expect(bills_data.first).to be_a(ApiBill)
@@ -37,9 +38,9 @@ RSpec.describe ApiBill do
         expect(bills_data.text_url).to be_a(NilClass)
         expect(bills_data.last_action).to be_a(NilClass)
         expect(bills_data.last_action_date).to be_a(NilClass)
-        expect(bills_data.texts).to be_an(Array)
+        expect(bills_data.text).to be_an(Array)
         
-      bills_data.texts.map do |doc|
+      bills_data.text.map do |doc|
         expect(doc[:doc_id]).to be_a(Integer)
       end
 

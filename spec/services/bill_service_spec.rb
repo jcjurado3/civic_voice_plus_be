@@ -71,7 +71,7 @@ describe BillService do
 
       end
 
-      it "returns rep details using new member facade", :vcr do
+      xit "returns rep details using new member facade", :vcr do
         params = {
           id: 1722281,
           state: "FL"

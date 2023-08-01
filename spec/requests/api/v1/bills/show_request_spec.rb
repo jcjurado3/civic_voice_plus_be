@@ -35,8 +35,8 @@ RSpec.describe 'Get bill Endpoints' do
         expect(sponsor[:name]).to be_a(String)
       end
 
-      expect(bill_data[:data][:attributes]).to have_key(:texts)
-      expect(bill_data[:data][:attributes][:texts]).to be_a(Array)
+      expect(bill_data[:data][:attributes]).to have_key(:text)
+      expect(bill_data[:data][:attributes][:text]).to be_a(Array)
     end
   end
 end
