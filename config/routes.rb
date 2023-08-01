@@ -11,6 +11,7 @@ Rails.application.routes.draw do
 
       resources :categories, only: [:index, :show, :new, :create, :update]
 
+      get '/user_categories', to: 'user_categories#index'
       post '/user_categories', to: 'user_categories#create'
       delete '/user_categories', to: 'user_categories#destroy'
 
