@@ -7,6 +7,8 @@ RSpec.describe "UserCategories" do
 
       category1 = Category.create!(name: "artificial intelligence")
 
+      headers = { 'CONTENT_TYPE' => 'application/json' }
+
       post "/api/v1/user_categories?user_id=#{user1_id}&category_id=#{category1.id}"
 
       expect(response).to be_successful
