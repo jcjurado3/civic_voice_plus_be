@@ -1,7 +1,7 @@
 class Api::V1::UserBillsController < ApplicationController
   def index
     user_bills = UserBillFacade.new.get_bills(params[:user_id])
-    render json: BaseBillSerializer.new(user_bills)
+    render json: ApiBillSerializer.new(user_bills)
   end
 
   def create
