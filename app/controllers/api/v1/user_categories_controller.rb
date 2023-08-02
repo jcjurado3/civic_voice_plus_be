@@ -1,4 +1,9 @@
 class Api::V1::UserCategoriesController < ApplicationController
+  def index
+    user_categories = UserCategoryFacade.new.get_categories(params[:user_id])
+    render json: CategorySerializer.new(user_categories)
+  end
+
   def create
     u_category = UserCategory.find_by(user_id: params[:user_id], category_id: params[:category_id] )
 
