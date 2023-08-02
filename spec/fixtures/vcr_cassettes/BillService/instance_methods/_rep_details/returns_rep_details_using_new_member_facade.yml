@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 01 Aug 2023 15:54:53 GMT
+      - Wed, 02 Aug 2023 17:15:38 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -109,7 +109,7 @@ http_interactions:
         Local Administration, Federal Affairs & Special Districts Subcommittee Hearing"},{"type_id":1,"event_hash":"07cb0b89","type":"Hearing","date":"2023-03-24","time":"09:00","location":"","description":"House
         Health & Human Services Committee Hearing"},{"type_id":1,"event_hash":"b88de549","type":"Hearing","date":"2023-04-11","time":"14:00","location":"","description":"House
         State Affairs Committee Hearing"}]}}'
-  recorded_at: Tue, 01 Aug 2023 15:54:53 GMT
+  recorded_at: Wed, 02 Aug 2023 17:15:38 GMT
 - request:
     method: get
     uri: https://v3.openstates.org/people?include=other_names&jurisdiction=FL&name=Bankson
@@ -131,7 +131,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Aug 2023 15:54:54 GMT
+      - Wed, 02 Aug 2023 17:15:39 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -144,7 +144,7 @@ http_interactions:
       encoding: UTF-8
       string: '{"results":[{"id":"ocd-person/c585b9bb-83d4-4d01-8a02-778578cfe2d6","name":"Douglas
         Michael \"Doug\" Bankson","party":"Republican","current_role":{"title":"Representative","org_classification":"lower","district":"39","division_id":"ocd-division/country:us/state:fl/sldl:39"},"jurisdiction":{"id":"ocd-jurisdiction/country:us/state:fl/government","name":"Florida","classification":"state"},"given_name":"","family_name":"","image":"https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4873.jpg","email":"","gender":"","birth_date":"","death_date":"","extras":{},"created_at":"2023-02-14T01:15:30.199792+00:00","updated_at":"2023-05-01T19:54:51.371419+00:00","openstates_url":"https://openstates.org/person/douglas-michael-doug-bankson-60ibGoYrMVmHHOiaNVT42Y/","other_names":[]}],"pagination":{"per_page":10,"page":1,"max_page":1,"total_items":1}}'
-  recorded_at: Tue, 01 Aug 2023 15:54:54 GMT
+  recorded_at: Wed, 02 Aug 2023 17:15:39 GMT
 - request:
     method: get
     uri: https://v3.openstates.org/people?include=other_names&jurisdiction=FL&name=Lopez
@@ -166,7 +166,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Aug 2023 15:54:54 GMT
+      - Wed, 02 Aug 2023 17:15:39 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -179,5 +179,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"results":[{"id":"ocd-person/9c3fa1ee-5d40-450b-85b8-e571e0796e26","name":"Vicki
         L. Lopez","party":"Republican","current_role":{"title":"Representative","org_classification":"lower","district":"113","division_id":"ocd-division/country:us/state:fl/sldl:113"},"jurisdiction":{"id":"ocd-jurisdiction/country:us/state:fl/government","name":"Florida","classification":"state"},"given_name":"","family_name":"","image":"https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4896.jpg","email":"","gender":"","birth_date":"","death_date":"","extras":{},"created_at":"2023-02-14T01:14:08.037091+00:00","updated_at":"2023-05-01T19:54:49.878851+00:00","openstates_url":"https://openstates.org/person/vicki-l-lopez-4kpsksb5ObWNxy1BcWWlGA/","other_names":[]}],"pagination":{"per_page":10,"page":1,"max_page":1,"total_items":1}}'
-  recorded_at: Tue, 01 Aug 2023 15:54:54 GMT
+  recorded_at: Wed, 02 Aug 2023 17:15:39 GMT
 recorded_with: VCR 6.2.0

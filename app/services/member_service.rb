@@ -7,14 +7,15 @@ class MemberService
 
   def rep_details(full_state, sponsors)
 
-    representatives = {}
+    representatives = []
     sponsors.each do |rep|
-  
-      representative = Member.find_by(first_name: rep.first_name, last_name: rep.last_name)
+
+      representative = Member.where("full_name ILIKE ?", "%#{rep.full_name}%").first
 
       if representative
 
-        representatives[:sponsor_details] = {first_name: representative.first_name, last_name: representative.last_name, id: representative.id} 
+        representatives << {full_name: representative.full_name, image_url: representative.image_url} 
+        require 'pry'; binding.pry
       else
         
         response = os_conn.get("?") do |request|
@@ -35,7 +36,7 @@ class MemberService
           json = JSON.parse(response.body, symbolize_names: true)
         end
   
-        representatives[:sponsor_details] = json
+        representatives << {sponsor_details: json}
       end
     end
     representatives

@@ -1,4 +1,4 @@
-class Api::V1::BillsController < ApplicationController
+class Api::V1::MembersController < ApplicationController
   def index
     bill_sponsors = BillSearchFacade.new(params).bill_sponsors
     
@@ -7,5 +7,6 @@ class Api::V1::BillsController < ApplicationController
 
   def show
     member_details = MemberSearchFacade.new(params).get_member_details
+    render json: ApiMemberSerializer.new(member_details)
   end
 end

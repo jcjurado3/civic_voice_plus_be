@@ -6,7 +6,9 @@ class MemberSearchFacade
 
   def get_member_details
     bill_sponsors = BillSearchFacade.new(@params).bill_sponsors
+
     sponsor_details = MemberService.new(@params).rep_details(@state, bill_sponsors)
+    
     sponsor_response = sponsor_details[:sponsor_details][:results]
     sponsor_response.map do |sponsor|
       sponsor_hash = {
