@@ -14,7 +14,7 @@ class MemberService
 
       if representative
 
-        representatives[:sponsor_details] = {first_name: representative.first_name, last_name: representative.last_name, id: representative.id} # example
+        representatives[:sponsor_details] = {first_name: representative.first_name, last_name: representative.last_name, id: representative.id} 
       else
         
         response = os_conn.get("?") do |request|

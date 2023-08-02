@@ -10,10 +10,12 @@ class MemberSearchFacade
     sponsor_response = sponsor_details[:sponsor_details][:results]
     sponsor_response.map do |sponsor|
       sponsor_hash = {
-        
+      full_name: sponsor[:name],
+      image_url: sponsor[:image],
+      party: sponsor[:party]
       }
-    end
     member = Member.new(sponsor_hash)
-    require 'pry'; binding.pry
+    end
+
   end
 end

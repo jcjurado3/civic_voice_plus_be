@@ -78,6 +78,7 @@ describe BillService do
         }
 
         member_details = MemberSearchFacade.new(params).get_member_details
+        require 'pry'; binding.pry
       end
     end
   end
