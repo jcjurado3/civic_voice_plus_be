@@ -19,6 +19,9 @@ Rails.application.routes.draw do
       get '/user_bills', to: 'user_bills#index'
       post '/user_bills', to: 'user_bills#create'
       delete '/user_bills', to: 'user_bills#destroy'
+
+      get '/user_states', to: 'user_states#index'
+      post '/user_states', to: 'user_states#create'
     end
   end
 end
