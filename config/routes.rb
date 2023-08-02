@@ -10,6 +10,7 @@ Rails.application.routes.draw do
       get "/bills/:id", to: "bills#show"
 
       resources :categories, only: [:index, :show, :new, :create, :update]
+      resources :states, only: [:index]
 
       get '/user_categories', to: 'user_categories#index'
       post '/user_categories', to: 'user_categories#create'
