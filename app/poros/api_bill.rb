@@ -10,7 +10,7 @@ class ApiBill
               :status,
               :description,
               :sponsors,
-              :text
+              :texts
 
   def initialize(data)
     @id = data[:id]
@@ -24,6 +24,6 @@ class ApiBill
     @status = data[:attributes][:status]
     @description = data[:attributes][:description]
     @sponsors = data[:attributes][:sponsors]
-    @text = data[:attributes][:texts]
+    @texts = data[:attributes][:texts]
   end
 end

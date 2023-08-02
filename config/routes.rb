@@ -8,6 +8,16 @@ Rails.application.routes.draw do
     namespace :v1 do
       get "/bills", to: "bills#index"
       get "/bills/:id", to: "bills#show"
+
+      resources :categories, only: [:index, :show, :new, :create, :update]
+
+      get '/user_categories', to: 'user_categories#index'
+      post '/user_categories', to: 'user_categories#create'
+      delete '/user_categories', to: 'user_categories#destroy'
+
+      get '/user_bills', to: 'user_bills#index'
+      post '/user_bills', to: 'user_bills#create'
+      delete '/user_bills', to: 'user_bills#destroy'
     end
   end
 end
