@@ -136,137 +136,132 @@ To demo CivicVoicePlus on your local machine, follow these steps:
 <!-- Endpoints -->
 ## Endpoints
 <details>
-<summary>GET <code>/api/v1/bills?state="&query="</code></summary>
+<summary>GET <code>/api/v1/bills?state=''&query=''</code></summary>
 <br>
-  <code>{
-    "data": [
-      {
-      "id": "0",
-      "type": "bill",
-      "attributes": {
-          "state": "FL",
-          "bill_number": "H1234",
-          "bill_id": 1234567,
-          "text_url": "https://legiscan.com/FL/text/H1234/2023",
-          "last_action_date": "2023-07-07",
-          "last_action": "Chapter No. 2023-123",
-          "title": "HealthCare District Chapter, Healthcare",
-          "status": null,
-          "description": null,
-          "sponsors": null,
-          "texts": null
-          }
-      }, ...
-   ]}</code>
+
+    {
+      "data": [
+        {
+        "id": "0",
+        "type": "bill",
+        "attributes": {
+            "state": "FL",
+            "bill_number": "H1234",
+            "bill_id": 1234567,
+            "text_url": "https://legiscan.com/FL/text/H1234/2023",
+            "last_action_date": "2023-07-07",
+            "last_action": "Chapter No. 2023-123",
+            "title": "HealthCare District Chapter, Healthcare",
+            "status": null,
+            "description": null,
+            "sponsors": null,
+            "texts": null
+            }
+        }, ...]}
+
+
 </details>
 <br>
 <details>
 <summary>GET <code>/api/v1/bills/id</code></summary>
 <br>
-  <code>{
-    "data": {
-      "id": "1722281",
-      "type": "bill",
-      "attributes": {
-          "state": "FL",
-          "bill_number": "H1234",
-          "bill_id": 1234567,
-          "text_url": null,
-          "last_action_date": null,
-          "last_action": null,
-          "title": "HealthCare District Chapter, Healthcare",
-          "status": 4,
-          "description": "simple description of bill.",
-          "sponsors": [
-              {
-              "people_id": 2345,
-              "name": "Taylor Doe",
-              "first_name": "Taylor",
-              "last_name": "Doe",
-              "ballotpedia": "Taylor_Doe"
-              }, ...],
-          "texts": [
-              {
-              "doc_id": 3456789,
-              "url": "https://legiscan.com/FL/text/H1234/id/3456789"
-              }, ...]
+
+    {
+      "data": {
+        "id": "1722281",
+        "type": "bill",
+        "attributes": {
+            "state": "FL",
+            "bill_number": "H1234",
+            "bill_id": 1234567,
+            "text_url": null,
+            "last_action_date": null,
+            "last_action": null,
+            "title": "HealthCare District Chapter, Healthcare",
+            "status": 4,
+            "description": "simple description of bill.",
+            "sponsors": [
+                {
+                "people_id": 2345,
+                "name": "Taylor Doe",
+                "first_name": "Taylor",
+                "last_name": "Doe",
+                "ballotpedia": "Taylor_Doe"
+                }, ...],
+            "texts": [
+                {
+                "doc_id": 3456789,
+                "url": "https://legiscan.com/FL/text/H1234/id/3456789"
+                }, ...]
+        }
       }
     }
-  }
-  </code>
+
 </details>
 <br>
 <details>
-<summary>GET <code>/api/v1/user_bills?user_id="</code></summary>
+<summary>GET <code>/api/v1/user_bills?user_id=''</code></summary>
 <br>
-  <code>{
-    "data": [{
-      "id": "1722281",
-      "type": "bill",
-      "attributes": {
-          "state": "FL",
-          "bill_number": "H1234",
-          "bill_id": 1234567,
-          "text_url": null,
-          "last_action_date": null,
-          "last_action": null,
-          "title": "HealthCare District Chapter, Healthcare",
-          "status": 4,
-          "description": "simple description of bill.",
-          "sponsors": [
-              {
-              "people_id": 2345,
-              "name": "Taylor Doe",
-              "first_name": "Taylor",
-              "last_name": "Doe",
-              "ballotpedia": "Taylor_Doe"
-              }, ...],
-          "texts": [
-              {
-              "doc_id": 3456789,
-              "url": "https://legiscan.com/FL/text/H1234/id/3456789"
-              }, ...]
-      }
-    }]
-  }
-  </code>
+
+    {
+      "data": [{
+        "id": "1722281",
+        "type": "bill",
+        "attributes": {
+            "state": "FL",
+            "bill_number": "H1234",
+            "bill_id": 1234567,
+            "text_url": null,
+            "last_action_date": null,
+            "last_action": null,
+            "title": "HealthCare District Chapter, Healthcare",
+            "status": 4,
+            "description": "simple description of bill.",
+            "sponsors": [
+                {
+                "people_id": 2345,
+                "name": "Taylor Doe",
+                "first_name": "Taylor",
+                "last_name": "Doe",
+                "ballotpedia": "Taylor_Doe"
+                }, ...],
+            "texts": [
+                {
+                "doc_id": 3456789,
+                "url": "https://legiscan.com/FL/text/H1234/id/3456789"
+                }, ...]
+        }
+      }]
+    }
+
+
 </details>
 <br>
-<br>
+
 <details>
-<summary>GET <code>/api/v1/user_categories?user_id="</code></summary>
+<summary>GET <code>/api/v1/user_categories?user_id=''</code></summary>
 <br>
-  <code>{
-    "data": [{
-      "id": "1722281",
-      "type": "bill",
-      "attributes": {
-          "state": "FL",
-          "bill_number": "H1234",
-          "bill_id": 1234567,
-          "text_url": null,
-          "last_action_date": null,
-          "last_action": null,
-          "title": "HealthCare District Chapter, Healthcare",
-          "status": 4,
-          "description": "simple description of bill.",
-          "sponsors": [
-              {
-              "people_id": 2345,
-              "name": "Taylor Doe",
-              "first_name": "Taylor",
-              "last_name": "Doe",
-              "ballotpedia": "Taylor_Doe"
-              }, ...],
-          "texts": [
-              {
-              "doc_id": 3456789,
-              "url": "https://legiscan.com/FL/text/H1234/id/3456789"
-              }, ...]
-      }
-    }]
-  }
-  </code>
+
+    {
+      data: [
+        {
+          id: "1",
+          type: "category",
+          attributes: {
+            :name=>"artificial intelligence"
+            }
+        },
+        {
+          id: "2",
+          type: "category",
+          attributes: {
+            :name=>"climate"
+            }
+        }
+      ]
+    }
+
+
 </details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
