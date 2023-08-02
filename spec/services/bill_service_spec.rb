@@ -60,6 +60,17 @@ describe BillService do
     end
 
     describe "#rep_details" do
+      xit "returns rep details based on bill sponsors", :vcr do
+        sponsors = [{ name: "Abel Herrero"}]
+        full_state = "Texas"
+
+        rep_data = BillService.new({}).rep_details(full_state, sponsors)
+
+        
+        expect(rep_data[0][:first_name]).to eq("Doug")
+        expect(rep_data[0][:last_name]).to eq("Bankson")
+      end
+
       it "returns rep details based on bill sponsors", :vcr do
         params = {
           id: 1722281
