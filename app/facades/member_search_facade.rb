@@ -12,7 +12,8 @@ class MemberSearchFacade
       sponsor_hash = {
       full_name: sponsor[:name],
       image_url: sponsor[:image],
-      party: sponsor[:party]
+      party: sponsor[:party],
+      email: sponsor[:email]
       }
     member = Member.new(sponsor_hash)
     end
