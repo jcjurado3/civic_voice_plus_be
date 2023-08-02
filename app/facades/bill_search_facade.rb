@@ -5,7 +5,6 @@ class BillSearchFacade
 
   def bills
     bill_search = BillService.new(@params).bills_by_query
-    bill_objects = []
     bill_search[:searchresult].drop(1).each do |bill_data|
       bill_hash = {id: bill_data.first.to_s.to_i,
         attributes: bill_data.last }
