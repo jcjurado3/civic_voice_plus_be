@@ -9,6 +9,9 @@ Rails.application.routes.draw do
       get "/bills", to: "bills#index"
       get "/bills/:id", to: "bills#show"
 
+      get "/members", to: "members#index"
+      get "/members/:id", to: "members#show"
+
       resources :categories, only: [:index, :show, :new, :create, :update]
       resources :states, only: [:index]
 
@@ -22,8 +25,6 @@ Rails.application.routes.draw do
 
       get '/user_states', to: 'user_states#index'
       post '/user_states', to: 'user_states#create'
-      get "/members", to: "members#index"
-      get "/members/:id", to: "members#show"
     end
   end
 end

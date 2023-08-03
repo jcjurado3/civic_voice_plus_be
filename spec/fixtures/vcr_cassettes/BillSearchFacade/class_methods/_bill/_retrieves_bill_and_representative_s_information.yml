@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 03 Aug 2023 15:35:32 GMT
+      - Thu, 03 Aug 2023 22:30:04 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -104,5 +104,5 @@ http_interactions:
         Committee (Post-Meeting)","mime":"application\/pdf","mime_id":2,"url":"https:\/\/legiscan.com\/FL\/supplement\/H0899\/id\/323490","state_link":"https:\/\/www.flsenate.gov\/Session\/Bill\/2023\/899\/Analyses\/h0899c.HHS.PDF","supplement_size":275340,"supplement_hash":"57d7ffe5f24b8a69750f4a6251e445cd","alt_supplement":0,"alt_mime":"","alt_mime_id":0,"alt_state_link":"","alt_supplement_size":0,"alt_supplement_hash":""}],"calendar":[{"type_id":1,"event_hash":"6e094c21","type":"Hearing","date":"2023-03-09","time":"14:00","location":"","description":"House
         Healthcare Regulation Subcommittee Hearing"},{"type_id":1,"event_hash":"7aa43a7a","type":"Hearing","date":"2023-03-17","time":"08:00","location":"","description":"House
         Health & Human Services Committee Hearing"}]}}'
-  recorded_at: Thu, 03 Aug 2023 15:35:31 GMT
+  recorded_at: Thu, 03 Aug 2023 22:30:04 GMT
 recorded_with: VCR 6.2.0
