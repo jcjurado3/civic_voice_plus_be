@@ -2,6 +2,84 @@
 http_interactions:
 - request:
     method: get
+    uri: https://v3.openstates.org/people?include=other_names&jurisdiction=Florida&name=Doug%20Bankson
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - STATES_KEY
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 31 Jul 2023 01:29:28 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '81'
+      Connection:
+      - keep-alive
+      Server:
+      - uvicorn
+    body:
+      encoding: UTF-8
+      string: '{"results":[],"pagination":{"per_page":10,"page":1,"max_page":1,"total_items":0}}'
+  recorded_at: Mon, 31 Jul 2023 01:29:28 GMT
+- request:
+    method: get
+    uri: https://v3.openstates.org/people?include=other_names&jurisdiction=Florida&name=n
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - STATES_KEY
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 31 Jul 2023 01:29:28 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '7019'
+      Connection:
+      - keep-alive
+      Server:
+      - uvicorn
+    body:
+      encoding: UTF-8
+      string: '{"results":[{"id":"ocd-person/6a3fae94-a613-49f5-acec-355e4a2722d8","name":"Adam
+        Anderson","party":"Republican","current_role":{"title":"Representative","org_classification":"lower","district":"57","division_id":"ocd-division/country:us/state:fl/sldl:57"},"jurisdiction":{"id":"ocd-jurisdiction/country:us/state:fl/government","name":"Florida","classification":"state"},"given_name":"Adam","family_name":"Anderson","image":"https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4885.jpg","email":"","gender":"","birth_date":"","death_date":"","extras":{},"created_at":"2023-02-14T01:12:29.680831+00:00","updated_at":"2023-05-01T19:54:50.355424+00:00","openstates_url":"https://openstates.org/person/adam-anderson-3EUHwR5pv456z8MMnIz7sG/","other_names":[]},{"id":"ocd-person/c94b1151-5034-482b-8d7b-f91f9bb5f951","name":"Adam
+        Botana","party":"Republican","current_role":{"title":"Representative","org_classification":"lower","district":"80","division_id":"ocd-division/country:us/state:fl/sldl:80"},"jurisdiction":{"id":"ocd-jurisdiction/country:us/state:fl/government","name":"Florida","classification":"state"},"given_name":"Adam","family_name":"Botana","image":"https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4782.jpg","email":"","gender":"Male","birth_date":"","death_date":"","extras":{},"created_at":"2021-01-13T00:05:04.574250+00:00","updated_at":"2023-05-22T23:29:17.566332+00:00","openstates_url":"https://openstates.org/person/adam-botana-67plLnPC6qQqKUD4ehxLZh/","other_names":[]},{"id":"ocd-person/f0ceb5da-8efe-423d-ad13-f53290802d1b","name":"Alina
+        Garcia","party":"Republican","current_role":{"title":"Representative","org_classification":"lower","district":"115","division_id":"ocd-division/country:us/state:fl/sldl:115"},"jurisdiction":{"id":"ocd-jurisdiction/country:us/state:fl/government","name":"Florida","classification":"state"},"given_name":"Alina","family_name":"Garcia","image":"https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4899.jpg","email":"","gender":"","birth_date":"","death_date":"","extras":{},"created_at":"2023-02-14T01:15:04.864049+00:00","updated_at":"2023-05-01T19:54:53.830657+00:00","openstates_url":"https://openstates.org/person/alina-garcia-7KOclx85vdk7ddqTrioh2Z/","other_names":[]},{"id":"ocd-person/c26599eb-5ef8-44c3-93a6-77cf23a9567e","name":"Allison
+        Tant","party":"Democratic","current_role":{"title":"Representative","org_classification":"lower","district":"9","division_id":"ocd-division/country:us/state:fl/sldl:9"},"jurisdiction":{"id":"ocd-jurisdiction/country:us/state:fl/government","name":"Florida","classification":"state"},"given_name":"Allison","family_name":"Tant","image":"https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4765.jpg","email":"","gender":"Female","birth_date":"","death_date":"","extras":{},"created_at":"2021-01-13T00:05:12.912686+00:00","updated_at":"2023-05-01T19:54:54.596848+00:00","openstates_url":"https://openstates.org/person/allison-tant-5uowUBEorjyn4gtgCiQvk6/","other_names":[]},{"id":"ocd-person/afd55a58-b8f6-4dd7-9d93-a2207b65e425","name":"Ana
+        Maria Rodriguez","party":"Republican","current_role":{"title":"Senator","org_classification":"upper","district":"40","division_id":"ocd-division/country:us/state:fl/sldu:40"},"jurisdiction":{"id":"ocd-jurisdiction/country:us/state:fl/government","name":"Florida","classification":"state"},"given_name":"","family_name":"","image":"https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s40_5379.jpg","email":"rodriguez.anamaria.web@flsenate.gov","gender":"","birth_date":"","death_date":"","extras":{},"created_at":"2023-04-25T22:28:31.194742+00:00","updated_at":"2023-05-22T23:28:18.461062+00:00","openstates_url":"https://openstates.org/person/ana-maria-rodriguez-5Ln9uBYMxYvKnM41eVuMI1/","other_names":[]},{"id":"ocd-person/66c3a112-3008-4332-a6b0-8990a7d992d5","name":"Angela
+        \"Angie\" Nixon","party":"Democratic","current_role":{"title":"Representative","org_classification":"lower","district":"13","division_id":"ocd-division/country:us/state:fl/sldl:13"},"jurisdiction":{"id":"ocd-jurisdiction/country:us/state:fl/government","name":"Florida","classification":"state"},"given_name":"","family_name":"","image":"https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4766.jpg","email":"","gender":"Female","birth_date":"","death_date":"","extras":{},"created_at":"2021-01-13T00:05:02.588470+00:00","updated_at":"2023-05-01T19:54:46.543930+00:00","openstates_url":"https://openstates.org/person/angela-angie-nixon-37ucRobbjxT3HSd7yyFNIL/","other_names":[{"name":"Nixon","note":""}]},{"id":"ocd-person/1f8e10ad-0047-4854-b696-38e15fda7afa","name":"Anna
+        V. Eskamani","party":"Democratic","current_role":{"title":"Representative","org_classification":"lower","district":"42","division_id":"ocd-division/country:us/state:fl/sldl:42"},"jurisdiction":{"id":"ocd-jurisdiction/country:us/state:fl/government","name":"Florida","classification":"state"},"given_name":"","family_name":"","image":"https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4746.jpg","email":"anna.eskamani@myfloridahouse.gov","gender":"Female","birth_date":"","death_date":"","extras":{},"created_at":"2019-01-24T06:05:18.650753+00:00","updated_at":"2023-05-01T19:54:51.105735+00:00","openstates_url":"https://openstates.org/person/anna-v-eskamani-xXgXJiyRZTNpr1YG9X1Yo/","other_names":[{"name":"Anna
+        V. Eskamani","note":""},{"name":"Eskamani","note":""}]},{"id":"ocd-person/2c62c9ae-8d1d-4dc3-a86a-fcc5dd7ba286","name":"Ashley
+        Viola Gantt","party":"Democratic","current_role":{"title":"Representative","org_classification":"lower","district":"109","division_id":"ocd-division/country:us/state:fl/sldl:109"},"jurisdiction":{"id":"ocd-jurisdiction/country:us/state:fl/government","name":"Florida","classification":"state"},"given_name":"","family_name":"","image":"https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4897.jpg","email":"","gender":"","birth_date":"","death_date":"","extras":{},"created_at":"2023-02-14T01:13:25.725360+00:00","updated_at":"2023-05-01T19:54:52.249859+00:00","openstates_url":"https://openstates.org/person/ashley-viola-gantt-1Lko83QzatJb19tT1lwzJu/","other_names":[]},{"id":"ocd-person/5c81dfe7-1cec-45e8-8044-6d9cd324f2e8","name":"Ben
+        Albritton","party":"Republican","current_role":{"title":"Senator","org_classification":"upper","district":"27","division_id":"ocd-division/country:us/state:fl/sldu:27"},"jurisdiction":{"id":"ocd-jurisdiction/country:us/state:fl/government","name":"Florida","classification":"state"},"given_name":"Ben","family_name":"Albritton","image":"https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s27_5342.jpg","email":"albritton.ben.web@flsenate.gov","gender":"Male","birth_date":"","death_date":"","extras":{},"created_at":"2018-10-18T14:39:06.954565+00:00","updated_at":"2023-05-01T19:54:46.003948+00:00","openstates_url":"https://openstates.org/person/ben-albritton-2oYe6sKJPblPg3Sf9T4gpM/","other_names":[]}],"pagination":{"per_page":10,"page":1,"max_page":12,"total_items":120}}'
+  recorded_at: Mon, 31 Jul 2023 01:29:28 GMT
+- request:
+    method: get
     uri: https://api.legiscan.com/?id=1722281&key=LEGISCAN_KEY&op=getBill
     body:
       encoding: US-ASCII
@@ -21,7 +99,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 30 Jul 2023 00:57:29 GMT
+      - Thu, 03 Aug 2023 15:35:34 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -109,5 +187,5 @@ http_interactions:
         Local Administration, Federal Affairs & Special Districts Subcommittee Hearing"},{"type_id":1,"event_hash":"07cb0b89","type":"Hearing","date":"2023-03-24","time":"09:00","location":"","description":"House
         Health & Human Services Committee Hearing"},{"type_id":1,"event_hash":"b88de549","type":"Hearing","date":"2023-04-11","time":"14:00","location":"","description":"House
         State Affairs Committee Hearing"}]}}'
-  recorded_at: Sun, 30 Jul 2023 00:57:29 GMT
+  recorded_at: Thu, 03 Aug 2023 15:35:34 GMT
 recorded_with: VCR 6.2.0

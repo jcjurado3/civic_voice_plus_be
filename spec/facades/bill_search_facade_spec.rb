@@ -31,7 +31,7 @@ RSpec.describe BillSearchFacade do
         }
 
         bill = BillSearchFacade.new(params).bill
-
+      
         expect(bill).to be_a(ApiBill)
         expect(bill.bill_id).to be_an(Integer)
         expect(bill.bill_id).to eq(1722281)
@@ -50,6 +50,14 @@ RSpec.describe BillSearchFacade do
         expect(bill.text_url).to be_a(NilClass)
         expect(bill.last_action).to be_a(NilClass)
         expect(bill.last_action_date).to be_a(NilClass)
+      end
+
+      it " retrieves bill and representative(s) information", :vcr do
+        params = {
+          id: 1710836
+        }
+
+        bill = BillSearchFacade.new(params).bill
       end
     end
   end

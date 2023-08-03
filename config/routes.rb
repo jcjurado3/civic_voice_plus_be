@@ -22,6 +22,8 @@ Rails.application.routes.draw do
 
       get '/user_states', to: 'user_states#index'
       post '/user_states', to: 'user_states#create'
+      get "/members", to: "members#index"
+      get "/members/:id", to: "members#show"
     end
   end
 end

@@ -1,0 +1,183 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://v3.openstates.org/people?include=other_names&jurisdiction=FL&name=Bankson
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - STATES_KEY
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 01 Aug 2023 15:54:54 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '850'
+      Connection:
+      - keep-alive
+      Server:
+      - uvicorn
+    body:
+      encoding: UTF-8
+      string: '{"results":[{"id":"ocd-person/c585b9bb-83d4-4d01-8a02-778578cfe2d6","name":"Douglas
+        Michael \"Doug\" Bankson","party":"Republican","current_role":{"title":"Representative","org_classification":"lower","district":"39","division_id":"ocd-division/country:us/state:fl/sldl:39"},"jurisdiction":{"id":"ocd-jurisdiction/country:us/state:fl/government","name":"Florida","classification":"state"},"given_name":"","family_name":"","image":"https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4873.jpg","email":"","gender":"","birth_date":"","death_date":"","extras":{},"created_at":"2023-02-14T01:15:30.199792+00:00","updated_at":"2023-05-01T19:54:51.371419+00:00","openstates_url":"https://openstates.org/person/douglas-michael-doug-bankson-60ibGoYrMVmHHOiaNVT42Y/","other_names":[]}],"pagination":{"per_page":10,"page":1,"max_page":1,"total_items":1}}'
+  recorded_at: Tue, 01 Aug 2023 15:54:54 GMT
+- request:
+    method: get
+    uri: https://v3.openstates.org/people?include=other_names&jurisdiction=FL&name=Lopez
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - STATES_KEY
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 01 Aug 2023 15:54:54 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '819'
+      Connection:
+      - keep-alive
+      Server:
+      - uvicorn
+    body:
+      encoding: UTF-8
+      string: '{"results":[{"id":"ocd-person/9c3fa1ee-5d40-450b-85b8-e571e0796e26","name":"Vicki
+        L. Lopez","party":"Republican","current_role":{"title":"Representative","org_classification":"lower","district":"113","division_id":"ocd-division/country:us/state:fl/sldl:113"},"jurisdiction":{"id":"ocd-jurisdiction/country:us/state:fl/government","name":"Florida","classification":"state"},"given_name":"","family_name":"","image":"https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4896.jpg","email":"","gender":"","birth_date":"","death_date":"","extras":{},"created_at":"2023-02-14T01:14:08.037091+00:00","updated_at":"2023-05-01T19:54:49.878851+00:00","openstates_url":"https://openstates.org/person/vicki-l-lopez-4kpsksb5ObWNxy1BcWWlGA/","other_names":[]}],"pagination":{"per_page":10,"page":1,"max_page":1,"total_items":1}}'
+  recorded_at: Tue, 01 Aug 2023 15:54:54 GMT
+- request:
+    method: get
+    uri: https://api.legiscan.com/?id=1722281&key=LEGISCAN_KEY&op=getBill
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 03 Aug 2023 15:35:35 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Authorization:
+      - Token ffb8d1b37d79de2130db144ef5e0f7fee1babd27
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","bill":{"bill_id":1722281,"change_hash":"73e878a754d83207af9d1b7253ac953a","session_id":1987,"session":{"session_id":1987,"state_id":9,"year_start":2023,"year_end":2023,"prefile":0,"sine_die":0,"prior":0,"special":0,"session_tag":"Regular
+        Session","session_title":"2023 Regular Session","session_name":"2023 Regular
+        Session"},"url":"https:\/\/legiscan.com\/FL\/bill\/H1255\/2023","state_link":"https:\/\/www.flsenate.gov\/Session\/Bill\/2023\/1255","completed":1,"status":4,"status_date":"2023-07-07","progress":[{"date":"2023-02-28","event":1},{"date":"2023-03-06","event":9},{"date":"2023-03-06","event":9},{"date":"2023-03-06","event":9},{"date":"2023-04-27","event":2},{"date":"2023-04-27","event":9},{"date":"2023-05-04","event":2},{"date":"2023-05-04","event":3},{"date":"2023-06-21","event":4},{"date":"2023-07-07","event":8}],"state":"FL","state_id":9,"bill_number":"H1255","bill_type":"B","bill_type_id":"1","body":"H","body_id":27,"current_body":"H","current_body_id":27,"title":"West
+        Orange Healthcare District, Orange County","description":"Abolishes district,
+        transfers assets & liabilities of district; requires certain books to be deposited
+        into Winter Garden Heritage Museum; provides effective date.","pending_committee_id":0,"committee":[],"referrals":[{"date":"2023-03-06","committee_id":4615,"chamber":"H","chamber_id":27,"name":"Local
+        Administration, Federal Affairs & Special Districts Subcommittee"},{"date":"2023-03-15","committee_id":2415,"chamber":"H","chamber_id":27,"name":"Health
+        And Human Services"},{"date":"2023-03-24","committee_id":2427,"chamber":"H","chamber_id":27,"name":"State
+        Affairs"}],"history":[{"date":"2023-02-28","action":"Filed","chamber":"H","chamber_id":27,"importance":1},{"date":"2023-03-06","action":"Referred
+        to Local Administration, Federal Affairs & Special Districts Subcommittee","chamber":"H","chamber_id":27,"importance":1},{"date":"2023-03-06","action":"Referred
+        to Health & Human Services Committee","chamber":"H","chamber_id":27,"importance":1},{"date":"2023-03-06","action":"Referred
+        to State Affairs Committee","chamber":"H","chamber_id":27,"importance":1},{"date":"2023-03-06","action":"Now
+        in Local Administration, Federal Affairs & Special Districts Subcommittee","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-03-07","action":"1st
+        Reading (Original Filed Version)","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-03-13","action":"Added
+        to Local Administration, Federal Affairs & Special Districts Subcommittee
+        agenda","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-03-15","action":"Favorable
+        by Local Administration, Federal Affairs & Special Districts Subcommittee","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-03-15","action":"Reported
+        out of Local Administration, Federal Affairs & Special Districts Subcommittee","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-03-15","action":"Now
+        in Health & Human Services Committee","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-03-22","action":"Added
+        to Health & Human Services Committee agenda","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-03-24","action":"Favorable
+        by Health & Human Services Committee","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-03-24","action":"Reported
+        out of Health & Human Services Committee","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-03-24","action":"Now
+        in State Affairs Committee","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-04-07","action":"Added
+        to State Affairs Committee agenda","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-04-11","action":"Favorable
+        by State Affairs Committee","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-04-11","action":"Reported
+        out of State Affairs Committee","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-04-11","action":"Bill
+        released to House Calendar","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-04-11","action":"Added
+        to Second Reading Calendar","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-04-24","action":"Bill
+        added to Special Order Calendar (4\/27\/2023)","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-04-27","action":"Read
+        2nd time","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-04-27","action":"Added
+        to Third Reading Calendar","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-04-27","action":"Read
+        3rd time","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-04-27","action":"Passed;
+        YEAS 115, NAYS 0","chamber":"H","chamber_id":27,"importance":0},{"date":"2023-04-27","action":"In
+        Messages","chamber":"S","chamber_id":28,"importance":1},{"date":"2023-04-27","action":"Referred
+        to Rules","chamber":"S","chamber_id":28,"importance":1},{"date":"2023-04-27","action":"Received","chamber":"S","chamber_id":28,"importance":0},{"date":"2023-05-04","action":"Withdrawn
+        from Rules","chamber":"S","chamber_id":28,"importance":0},{"date":"2023-05-04","action":"Placed
+        on Calendar, on 2nd reading","chamber":"S","chamber_id":28,"importance":0},{"date":"2023-05-04","action":"Read
+        2nd time","chamber":"S","chamber_id":28,"importance":0},{"date":"2023-05-04","action":"Read
+        3rd time","chamber":"S","chamber_id":28,"importance":0},{"date":"2023-05-04","action":"Passed;
+        YEAS 39 NAYS 0","chamber":"S","chamber_id":28,"importance":0},{"date":"2023-05-04","action":"In
+        Messages","chamber":"H","chamber_id":27,"importance":1},{"date":"2023-05-04","action":"Ordered
+        enrolled","chamber":"H","chamber_id":27,"importance":1},{"date":"2023-06-12","action":"Signed
+        by Officers and presented to Governor","chamber":"","chamber_id":0,"importance":0},{"date":"2023-06-21","action":"Approved
+        by Governor","chamber":"","chamber_id":0,"importance":1},{"date":"2023-07-07","action":"Chapter
+        No. 2023-340","chamber":"","chamber_id":0,"importance":1}],"sponsors":[{"people_id":23338,"person_hash":"ivvfeu8g","party_id":"2","state_id":9,"party":"R","role_id":1,"role":"Rep","name":"Doug
+        Bankson","first_name":"Doug","middle_name":"","last_name":"Bankson","suffix":"","nickname":"","district":"HD-039","ftm_eid":55866441,"votesmart_id":173235,"opensecrets_id":"","knowwho_pid":0,"ballotpedia":"Doug_Bankson","bioguide_id":"","sponsor_type_id":1,"sponsor_order":1,"committee_sponsor":0,"committee_id":0,"state_federal":0},{"people_id":23318,"person_hash":"mff5ywb5","party_id":"1","state_id":9,"party":"D","role_id":1,"role":"Rep","name":"Johanna
+        Lopez","first_name":"Johanna","middle_name":"","last_name":"Lopez","suffix":"","nickname":"","district":"HD-043","ftm_eid":55866558,"votesmart_id":209517,"opensecrets_id":"","knowwho_pid":0,"ballotpedia":"Johanna_Lopez","bioguide_id":"","sponsor_type_id":2,"sponsor_order":2,"committee_sponsor":0,"committee_id":0,"state_federal":0}],"sasts":[],"subjects":[],"texts":[{"doc_id":2720151,"date":"2023-02-28","type":"Introduced","type_id":1,"mime":"application\/pdf","mime_id":2,"url":"https:\/\/legiscan.com\/FL\/text\/H1255\/id\/2720151","state_link":"https:\/\/www.flsenate.gov\/Session\/Bill\/2023\/1255\/BillText\/Filed\/PDF","text_size":89833,"text_hash":"56ef701b5d5b974155e939dc3b38f4ec","alt_bill_text":0,"alt_mime":"","alt_mime_id":0,"alt_state_link":"","alt_text_size":0,"alt_text_hash":""},{"doc_id":2800878,"date":"2023-05-05","type":"Enrolled","type_id":5,"mime":"application\/pdf","mime_id":2,"url":"https:\/\/legiscan.com\/FL\/text\/H1255\/id\/2800878","state_link":"https:\/\/www.flsenate.gov\/Session\/Bill\/2023\/1255\/BillText\/er\/PDF","text_size":90581,"text_hash":"aa174924731f67cf186015b47df0c243","alt_bill_text":0,"alt_mime":"","alt_mime_id":0,"alt_state_link":"","alt_text_size":0,"alt_text_hash":""}],"votes":[{"roll_call_id":1276397,"date":"2023-03-15","desc":"House
+        Local Administration, Federal Affairs & Special Districts Subcommittee","yea":17,"nay":0,"nv":0,"absent":1,"total":18,"passed":1,"chamber":"H","chamber_id":27,"url":"https:\/\/legiscan.com\/FL\/rollcall\/H1255\/id\/1276397","state_link":"https:\/\/www.myfloridahouse.gov\/Sections\/Committees\/billvote.aspx?VoteId=67275&IsPCB=0&BillId=78039"},{"roll_call_id":1284276,"date":"2023-03-24","desc":"House
+        Health & Human Services Committee","yea":16,"nay":0,"nv":0,"absent":5,"total":21,"passed":1,"chamber":"H","chamber_id":27,"url":"https:\/\/legiscan.com\/FL\/rollcall\/H1255\/id\/1284276","state_link":"https:\/\/www.myfloridahouse.gov\/Sections\/Committees\/billvote.aspx?VoteId=67844&IsPCB=0&BillId=78039"},{"roll_call_id":1298086,"date":"2023-04-11","desc":"House
+        State Affairs Committee","yea":18,"nay":0,"nv":0,"absent":3,"total":21,"passed":1,"chamber":"H","chamber_id":27,"url":"https:\/\/legiscan.com\/FL\/rollcall\/H1255\/id\/1298086","state_link":"https:\/\/www.myfloridahouse.gov\/Sections\/Committees\/billvote.aspx?VoteId=68873&IsPCB=0&BillId=78039"},{"roll_call_id":1313106,"date":"2023-04-27","desc":"House:
+        Third Reading RCS#288","yea":115,"nay":0,"nv":4,"absent":0,"total":119,"passed":1,"chamber":"H","chamber_id":27,"url":"https:\/\/legiscan.com\/FL\/rollcall\/H1255\/id\/1313106","state_link":"https:\/\/www.flsenate.gov\/Session\/Bill\/2023\/1255\/Vote\/HouseVote_h01255__288.PDF"},{"roll_call_id":1318866,"date":"2023-05-04","desc":"Senate:
+        Third Reading RCS#72","yea":39,"nay":0,"nv":1,"absent":0,"total":40,"passed":1,"chamber":"S","chamber_id":28,"url":"https:\/\/legiscan.com\/FL\/rollcall\/H1255\/id\/1318866","state_link":"https:\/\/www.flsenate.gov\/Session\/Bill\/2023\/1255\/Vote\/SenateVote_h01255__072.PDF"}],"amendments":[],"supplements":[{"supplement_id":320616,"date":"2023-03-13","type":"Veto
+        Letter","type_id":8,"title":"Analysis","description":"Local Administration,
+        Federal Affairs &amp; Special Districts Subcommittee (Post-Meeting)","mime":"application\/pdf","mime_id":2,"url":"https:\/\/legiscan.com\/FL\/supplement\/H1255\/id\/320616","state_link":"https:\/\/www.flsenate.gov\/Session\/Bill\/2023\/1255\/Analyses\/h1255.LFS.PDF","supplement_size":223340,"supplement_hash":"c23b80c5f800e48cb351c659b7f98a07","alt_supplement":0,"alt_mime":"","alt_mime_id":0,"alt_state_link":"","alt_supplement_size":0,"alt_supplement_hash":""},{"supplement_id":322104,"date":"2023-03-15","type":"Veto
+        Letter","type_id":8,"title":"Analysis","description":"Local Administration,
+        Federal Affairs &amp; Special Districts Subcommittee (Post-Meeting)","mime":"application\/pdf","mime_id":2,"url":"https:\/\/legiscan.com\/FL\/supplement\/H1255\/id\/322104","state_link":"https:\/\/www.flsenate.gov\/Session\/Bill\/2023\/1255\/Analyses\/h1255a.LFS.PDF","supplement_size":223072,"supplement_hash":"25b1b1d17b1875b8359fb26a7b745de7","alt_supplement":0,"alt_mime":"","alt_mime_id":0,"alt_state_link":"","alt_supplement_size":0,"alt_supplement_hash":""},{"supplement_id":327280,"date":"2023-03-23","type":"Veto
+        Letter","type_id":8,"title":"Analysis","description":"Health &amp; Human Services
+        Committee (Post-Meeting)","mime":"application\/pdf","mime_id":2,"url":"https:\/\/legiscan.com\/FL\/supplement\/H1255\/id\/327280","state_link":"https:\/\/www.flsenate.gov\/Session\/Bill\/2023\/1255\/Analyses\/h1255b.HHS.PDF","supplement_size":223096,"supplement_hash":"40b758e85a8133dff4e1651ea72b476e","alt_supplement":0,"alt_mime":"","alt_mime_id":0,"alt_state_link":"","alt_supplement_size":0,"alt_supplement_hash":""},{"supplement_id":328090,"date":"2023-03-24","type":"Veto
+        Letter","type_id":8,"title":"Analysis","description":"Health &amp; Human Services
+        Committee (Post-Meeting)","mime":"application\/pdf","mime_id":2,"url":"https:\/\/legiscan.com\/FL\/supplement\/H1255\/id\/328090","state_link":"https:\/\/www.flsenate.gov\/Session\/Bill\/2023\/1255\/Analyses\/h1255c.HHS.PDF","supplement_size":223126,"supplement_hash":"e35472a1ddbf88dd6c2d1d6ca706ed6e","alt_supplement":0,"alt_mime":"","alt_mime_id":0,"alt_state_link":"","alt_supplement_size":0,"alt_supplement_hash":""},{"supplement_id":351255,"date":"2023-04-07","type":"Veto
+        Letter","type_id":8,"title":"Analysis","description":"State Affairs Committee
+        (Post-Meeting)","mime":"application\/pdf","mime_id":2,"url":"https:\/\/legiscan.com\/FL\/supplement\/H1255\/id\/351255","state_link":"https:\/\/www.flsenate.gov\/Session\/Bill\/2023\/1255\/Analyses\/h1255d.SAC.PDF","supplement_size":223404,"supplement_hash":"a9d5211796b4be73139207e60553448b","alt_supplement":0,"alt_mime":"","alt_mime_id":0,"alt_state_link":"","alt_supplement_size":0,"alt_supplement_hash":""},{"supplement_id":353435,"date":"2023-04-11","type":"Veto
+        Letter","type_id":8,"title":"Analysis","description":"State Affairs Committee
+        (Post-Meeting)","mime":"application\/pdf","mime_id":2,"url":"https:\/\/legiscan.com\/FL\/supplement\/H1255\/id\/353435","state_link":"https:\/\/www.flsenate.gov\/Session\/Bill\/2023\/1255\/Analyses\/h1255e.SAC.PDF","supplement_size":223202,"supplement_hash":"d182cb4718acb5075ec0044fb41df362","alt_supplement":0,"alt_mime":"","alt_mime_id":0,"alt_state_link":"","alt_supplement_size":0,"alt_supplement_hash":""},{"supplement_id":372431,"date":"2023-05-12","type":"Veto
+        Letter","type_id":8,"title":"Analysis","description":"Local Administration,
+        Federal Affairs &amp; Special Districts Subcommittee (Post-Meeting)","mime":"application\/pdf","mime_id":2,"url":"https:\/\/legiscan.com\/FL\/supplement\/H1255\/id\/372431","state_link":"https:\/\/www.flsenate.gov\/Session\/Bill\/2023\/1255\/Analyses\/h1255z.LFS.PDF","supplement_size":308851,"supplement_hash":"fb9c8be2c3b93f81f888f95cc37b5227","alt_supplement":0,"alt_mime":"","alt_mime_id":0,"alt_state_link":"","alt_supplement_size":0,"alt_supplement_hash":""},{"supplement_id":388725,"date":"2023-07-10","type":"Veto
+        Letter","type_id":8,"title":"Analysis","description":"Local Administration,
+        Federal Affairs &amp; Special Districts Subcommittee (Post-Meeting)","mime":"application\/pdf","mime_id":2,"url":"https:\/\/legiscan.com\/FL\/supplement\/H1255\/id\/388725","state_link":"https:\/\/www.flsenate.gov\/Session\/Bill\/2023\/1255\/Analyses\/h1255z1.LFS.PDF","supplement_size":308961,"supplement_hash":"67f3b3c8db7bd6f0de1e4ba0e121dede","alt_supplement":0,"alt_mime":"","alt_mime_id":0,"alt_state_link":"","alt_supplement_size":0,"alt_supplement_hash":""}],"calendar":[{"type_id":1,"event_hash":"b29ce87c","type":"Hearing","date":"2023-03-15","time":"14:30","location":"","description":"House
+        Local Administration, Federal Affairs & Special Districts Subcommittee Hearing"},{"type_id":1,"event_hash":"07cb0b89","type":"Hearing","date":"2023-03-24","time":"09:00","location":"","description":"House
+        Health & Human Services Committee Hearing"},{"type_id":1,"event_hash":"b88de549","type":"Hearing","date":"2023-04-11","time":"14:00","location":"","description":"House
+        State Affairs Committee Hearing"}]}}'
+  recorded_at: Thu, 03 Aug 2023 15:35:35 GMT
+recorded_with: VCR 6.2.0

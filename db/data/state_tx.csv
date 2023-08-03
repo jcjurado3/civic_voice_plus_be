@@ -1,0 +1,934 @@
+id,name,current_party,current_district,current_chamber,given_name,family_name,gender,email,biography,birth_date,death_date,image,links,sources,capitol_address,capitol_voice,capitol_fax,district_address,district_voice,district_fax,twitter,youtube,instagram,facebook,wikidata
+ocd-person/19c22134-0632-4b9a-ac8e-64288ea9c1ba,Abel Herrero,Democratic,34,lower,Abel,Herrero,Male,,,,,https://house.texas.gov/members/photos/3140.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=34,https://house.texas.gov/members/member-page/?district=34,,,,"101 East Main Avenue Robstown, Texas 78380",361-387-0457,,,,,,
+ocd-person/2fd6fcd3-9676-42a4-b879-e317576ff18f,Alma Allen,Democratic,131,lower,Alma,Allen,Female,,,,,https://house.texas.gov/members/photos/2100.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=131,https://house.texas.gov/members/member-page/?district=131,,,,"10101 Fondren Road, Suite 500 Houston, TX 77096",713-776-0505,713-776-1490,,,,,
+ocd-person/4f98520b-d88b-4053-acc5-3cb2fff14660,Ana Hernandez,Democratic,143,lower,Ana,Hernandez,Female,,,,,https://house.texas.gov/members/photos/3155.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=143,https://house.texas.gov/members/member-page/?district=143,,,,"1233 Mercury Drive Houston, TX 77029",713-675-8596,713-675-8599,,,,,
+ocd-person/7f893a20-0547-4ad9-9a94-1084a9ef6469,Ana-Maria Ramos,Democratic,102,lower,Ana-Maria,Ramos,Female,,,,,https://house.texas.gov/members/photos/3735.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=102,https://house.texas.gov/members/member-page/?district=102,,,,,,,,,,,
+ocd-person/2f826108-f4d8-4af1-99c8-c0a335fb9c0a,Andrew Murr,Republican,53,lower,Andrew,Murr,Male,,,,,https://house.texas.gov/members/photos/2965.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=53,https://house.texas.gov/members/member-page/?district=53,,,,"507 Earl Garrett Street Kerrville, Texas 78028",830-257-0432,,,,,,
+ocd-person/895887ba-73cd-4321-827d-bb06d4eedfdf,Angela Paxton,Republican,8,upper,Angela,Paxton,Female,,"""Angela Paxton was elected to the Texas Senate in November of 2018 and\
+\ represents fast-growing Senate District 8 in Collin and Dallas counties.  Her\
+\ district is home to professional sports headquarters, dozens of Fortune 1000 companies,\
+\ countless entrepreneurs and small businesses, and top-rated public schools.  A\
+\ secondary math teacher and school counselor for more than 20 years, she is the\
+\ first educator elected to the Texas Senate in over two decades.  Senator Paxton\
+\ describes her job in three words: Listen. Learn. Lead. \r \r Senator Paxton is\
+\ an adopted child and the first person in her family to graduate from college.\
+\  She earned an undergraduate degree in Mathematical Science from Baylor University\
+\ and a Master of Science in Education from the University of Houston-Clear Lake.\
+\ \r \r Senator Paxton leverages her background in technology, expertise as an educator,\
+\ experience as a small business owner, and deep roots in Collin County and North\
+\ Dallas to advocate for her constituents and leads on policy that elevates educational\
+\ and economic opportunity and human dignity. \r \r In the 86th Legislature, she\
+\ authored the Texas Property Tax Reform and Transparency Act of 2019   (SB 2) and\
+\ the Omnibus Human Trafficking Prevention Act (SB 20).  She supported the constitutional\
+\ amendment prohibiting a state income tax (HJR 38) and authored legislation to\
+\ improve resources for students with dyslexia (SB 2075).  Senator Paxton also supported\
+\ critical legislation to increase teacher pay and mental health legislation.\r\
+\ \r Senator Paxton currently serves as Vice-Chair of the Senate Property Tax Committee\
+\ and sits on the Senate committees for Business & Commerce, Education, and Natural\
+\ Resources & Economic Development.  She was also appointed to the Texas Sunset\
+\ Commission and Senate Redistricting Committee by Lt. Governor Dan Patrick.\r \r\
+\ Senator Paxton and her husband, Texas Attorney General Ken Paxton, met as students\
+\ at Baylor University and have been married since 1986.  They have four grown children\
+\ and are members of Prestonwood Baptist Church in Plano.""",,,https://senate.texas.gov/members/d08/img/Paxton_2019.jpg,https://senate.texas.gov/member.php?d=8,https://senate.texas.gov/member.php?d=8,,,,,,,,,,,
+ocd-person/aa0d12c3-c318-4c97-a0d4-c63795ec50d9,Angelia Orr,Republican,13,lower,Angelia,Orr,,,,,,https://house.texas.gov/members/photos/4340.jpg?v=88.25,,,,,,"214 E. Elm Street Hillsboro, Texas 76645",254-580-9008,,,,,,
+ocd-person/2a9478ef-b573-4de6-ab96-bb3f6091346f,Angie Chen Button,Republican,112,lower,Angie,Button,Female,,,,,https://house.texas.gov/members/photos/2510.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=112,https://house.texas.gov/members/member-page/?district=112,,,,"1201 International Parkway #130 Richardson, TX 75081",972-234-8980,972-470-0789,,,,,
+ocd-person/45f3ddfb-5994-4f05-b2c8-e0e3b2a99c47,Ann Johnson,Democratic,134,lower,Ann,Johnson,Female,,,,,https://house.texas.gov/members/photos/3985.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=134,https://house.texas.gov/members/member-page/?district=134,,,,"5601 West Loop S Suite C218 Houston, Texas 77081",713-592-0006,,,,,,
+ocd-person/e2d786e9-5e46-4807-be42-546203016996,Armando Martinez,Democratic,39,lower,Armando,Martinez,Male,,,,,https://house.texas.gov/members/photos/3780.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=39,https://house.texas.gov/members/member-page/?district=39,,,,"914 W. Pike Blvd., Weslaco, TX 78596",956-447-9473,956-447-8683,,,,,
+ocd-person/3caafbc8-6561-4bf8-8247-aaf398573ba8,Armando Walle,Democratic,140,lower,Armando,Walle,Male,,,,,https://house.texas.gov/members/photos/4930.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=140,https://house.texas.gov/members/member-page/?district=140,,,,"150 West Parker Road, Suite 700 Houston, TX 77076",713-694-8620,713-694-8613,,,,,
+ocd-person/9c37e80d-af10-4433-a78a-408b2b798fb6,Barbara Gervin-Hawkins,Democratic,120,lower,Barbara,Gervin-Hawkins,Female,,,,,https://house.texas.gov/members/photos/3445.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=120,https://house.texas.gov/members/member-page/?district=120,,,,"3503 N.E. Parkway San Antonio, TX 78218",210-822-2534,,,,,,
+ocd-person/ba43365e-63dc-4bdc-aadc-e3939aa7465b,Benjamin Bumgarner,Republican,63,lower,Benjamin,Bumgarner,,,,,,https://house.texas.gov/members/photos/4125.jpg?v=88.25,,,,,,,,,,,,,
+ocd-person/013d69b7-a958-490c-a4a2-7224a30efa08,Bob Hall,Republican,2,upper,Bob,Hall,Male,,"""Senator Bob Hall, father of four boys and husband to Kay Hall, taught\
+\ his family the importance of faith, family and hard work. Senator Hall graduated\
+\ from The Citadel in Charleston, South Carolina with a degree in Electrical Engineering\
+\ and received a Regular Commission as a 2nd Lieutenant in the US Air Force. While\
+\ a cadet at the Citadel he received numerous awards for leadership. He was the\
+\ only Air Force Cadet selected to be a Battalion Commander and was awarded the\
+\ coveted Wade Hampton saber as the graduating cadet who had contributed the most\
+\ to the Citadel during the four years he was a cadet, and was listed in \""Who's\
+\ Who In American Colleges\"" his Senior year. Upon graduation, Bob began his active\
+\ duty as a Systems Engineer working to develop the Minuteman Missile System during\
+\ the Cold War at Norton AFB in California, where he achieved the rank of Captain.\r\
+\ \r After the Air Force he worked in the Aerospace industry as a systems engineer\
+\ and business development manager. In 1982 he left the corporate world and began\
+\ working as an independent proposal consultant to aerospace and defense corporations.\
+\ Then in 1984 he formed his own company,  \r \r A compelling sense of duty, shaped\
+\ by his military service, business experience, and love for this country, drives\
+\ him to leave behind the legacy of a patriotic servant for his children and grandchildren.\
+\ Envisioning their futures compelled him to become actively involved in the state's\
+\ political process and strongly believes it is time to stand in the gap for our\
+\ children, our liberties and our future.""",,,https://senate.texas.gov/members/d02/img/headshot.jpg,https://senate.texas.gov/member.php?d=2,https://senate.texas.gov/member.php?d=2,,,,"17585 State Highway 19, Suite 200 Canton, Texas 75103",903-567-0531,,,,,,
+ocd-person/51591894-e9ff-48d3-81c5-897ec1c5e600,R.D. 'Bobby' Guerra,Democratic,41,lower,Bobby,Guerra,Male,,,,,https://house.texas.gov/members/photos/2325.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=41,https://house.texas.gov/members/member-page/?district=41,,,,"10213 North 10th St. Suite B McAllen, Texas 78504",956-292-0407,956-292-0418,,,,,
+ocd-person/3475b324-1c9b-4513-90e6-063aba5ac04e,Borris Miles,Democratic,13,upper,Borris,Miles,Male,,"""A lifelong resident of Houston, Senator Borris L. Miles was elected to\
+\ the Texas Senate in 2016 after serving four terms in the Texas House of Representatives.\
+\ Miles is a successful businessman and developer, owning one of the largest insurance\
+\ agencies in Texas and redeveloping two commercial blocks.\r \r A fighter for the\
+\ people, Miles was first elected to the House in 2006 and became a leading progressive\
+\ voice. His legislative initiatives included increased funding for HIV testing,\
+\ giving second chances to individuals by making it easier to seal their juvenile\
+\ records, creating an ombudsman office for the juvenile justice department, and\
+\ creating economic development opportunity districts in his community.\r \r For\
+\ his work, Miles\u2019 recognitions included being named \u201CStar of the Legislative\
+\ Session\u201D by the Texas Classroom Teachers Association, \u201CChampion of Women\u2019\
+s Health\u201D by Planned Parenthood and an \u201CUrban Agriculture Leader\u201D\
+\ by the Texas A&M Agrilife Extension.\r \r Active in his community, Miles conceived\
+\ the Hip Hop 4 HIV concert series, which was adopted by the CDC, and has given\
+\ his time to organizations like the Urban League and the Houston Sickle Cell Association.\
+\ Miles\u2019 non-profit, the TexStars Foundation, has awarded more than 100 scholarships\
+\ to pay for the college education of African-American men.""",,,https://senate.texas.gov/members/d13/img/87-0267D-008-web.jpg,https://senate.texas.gov/member.php?d=13,https://senate.texas.gov/member.php?d=13,,,,"3300 Lyons Avenue, Suite 301 Houston, TX 77020",713-223-0387,,,,,,
+ocd-person/e3533cbc-f3ab-46bc-a591-c68657f82527,Brad Buckley,Republican,54,lower,Brad,Buckley,Male,,,,,https://house.texas.gov/members/photos/3585.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=54,https://house.texas.gov/members/member-page/?district=54,,,,"1301 North Stagecoach Road Salado, Texas 76571",254-947-5026,,,,,,
+ocd-person/7adac635-f380-409b-8ec4-1b220bbc5025,Brandon Creighton,Republican,4,upper,Brandon,Creighton,Male,,"""On August 26, 2014, Senator Brandon Creighton was sworn in to the Texas\
+\ State Senate to represent the citizens of District 4, which encompasses parts\
+\ of Montgomery, Harris, Chambers, Jefferson and Galveston Counties. \r \r During\
+\ his tenure as Senator, he has taken the lead on key issues that matter to Texas\
+\ job creators including franchise and property tax relief, water and transportation\
+\ infrastructure, and border security. \r \r Before election to the Texas Senate,\
+\ Creighton served as State Representative for District 16 where his peers elected\
+\ him to Chairman of the Texas House Republican Caucus. He also served as Chairman\
+\ of House Federalism Committees tasked with overseeing the state\u2019s relationship\
+\ with the federal government and ensuring that Texas\u2019 constitutional rights\
+\ are protected. \r \r Throughout his legislative career, his priorities have distinguished\
+\ him as a genuine defender of conservative values. He has relentlessly hammered\
+\ excessive taxation, pursued \u201Closer pays\u201D tort reform, passed drug testing\
+\ for unemployment benefits, stood up for Texas\u2019 10th Amendment rights and\
+\ effectively blocked Obamacare's Medicaid expansion. \r \r Brandon is an eighth-generation\
+\ Montgomery County resident, where he resides with his family. He is a graduate\
+\ of the University of Texas and holds his Doctor of Jurisprudence from Oklahoma\
+\ City University School of Law. In his spare time, he enjoys Texas history, sports,\
+\ hunting and fishing.""",,,https://senate.texas.gov/members/d04/img/BC-Headshot-2020.jpg,https://senate.texas.gov/member.php?d=4,https://senate.texas.gov/member.php?d=4,,,,,,,,,,,
+ocd-person/44a23037-5ccd-4781-9e93-c4b950f74355,Brian Birdwell,Republican,22,upper,Brian,Birdwell,Male,,"""Lt. Col. (Ret.) Brian Birdwell is a native Texan, decorated military veteran\
+\ and lifelong conservative Republican proudly representing Texas Senate District\
+\ 22.  Born in Fort Worth, Brian is a graduate of Lamar University in Beaumont,\
+\ U.S. Army Command and General Staff College, and the University of Missouri-Kansas\
+\ City, where he earned a Master of Public Administration degree.\r \r As the Distinguished\
+\ Military Graduate of the Lamar Army ROTC program in 1984, Brian was commissioned\
+\ as an officer in the U.S. Army and served a 20-year career with numerous training\
+\ deployments and two operational deployments.  In 1990, he deployed to Operation\
+\ Desert Shield/Desert Storm, where he was awarded the Bronze Star for Exceptional\
+\ Meritorious Achievement.  In 1998, he deployed to Central America as the Joint\
+\ Operations Officer for Joint Task Force Aguila to execute humanitarian relief\
+\ operations in the aftermath of Hurricane Mitch.  In 2001, Brian was serving on\
+\ the Department of the Army staff at the Pentagon as the military aide to the Deputy\
+\ Assistant Chief of Staff for Installation Management.  \r \r On September 11,\
+\ 2001, when American Airlines Flight 77 was crashed just yards away from his second\
+\ floor Pentagon office, Brian was critically wounded and severely burned.  Of the\
+\ burns that covered more than 60 percent of his body, nearly half were third degree\
+\ in severity.  Today, following 39 operations, months of hospitalization and numerous\
+\ skin grafts, Brian has made a miraculous recovery.  Despite physical limitations,\
+\ he testifies not only to his physical healing, but the ultimate miracle of grace\
+\ through Christ.  He was awarded the Purple Heart for wounds received that day.\
+\  Upon retirement in July 2004, he was awarded the Legion of Merit.\r \r From 2004\
+\ to 2017, Brian and his wife, Mel, operated Face the Fire Ministries, a non-profit\
+\ organization they jointly founded to support critical-burn survivors and wounded\
+\ service-members and their families.  In 2004, the Birdwells jointly authored \
+\ , which chronicles their life-changing ordeal.  Through the years, Brian has been\
+\ profiled in numerous national and regional media outlets.\r \r Brian was first\
+\ elected to the Texas State Senate in a June 2010 special election, and has since\
+\ been re-elected by his constituents three times, averaging more than 85 percent\
+\ of votes cast.  In his four legislative sessions (2011, 2013, 2015 and 2017) Brian\
+\ consistently received critical acclaim and top ratings from numerous pro-life,\
+\ pro-business and conservative organizations, including National Federation of\
+\ Independent Business, Texans for Fiscal Responsibility, Texas Eagle Forum, Texas\
+\ State Rifle Association/National Rifle Association, Young Conservatives of Texas,\
+\ Texas Alliance for Life, Texas Right to Life, Americans for Prosperity, Concerned\
+\ Women for America, Texas Heritage Alliance and Texas Conservative Coalition, among\
+\ others.\r \r Brian is proud of his diverse and impactful legislative accomplishments,\
+\ including filing and passing legislation broadening access to higher education,\
+\ strengthening eminent domain laws protecting landowners, expanding self-defense\
+\ rights of law-abiding gun owners, strengthening legislative oversight of state\
+\ river authorities, increasing technical- and associate-degree options for high\
+\ school graduates and adult students, serving Texas veterans and their family members,\
+\ and authoring the strongest border security package in Texas history\u2014the\
+\ Stronger Border, Safer Texas Act.  In 2017, Brian led the successful effort to\
+\ make Texas just the eleventh state in the nation to pass a resolution and corresponding\
+\ legislation calling for an Article V convention of states. Brian chaired the Sunset\
+\ Commission for the 2018 interim and 2019 Regular Session, which made numerous\
+\ improvements to state agencies.  One of the most critical reforms which Brian\
+\ carried was the Texas Alcoholic Beverage Commission bill, which reformed several\
+\ antiquated provisions of the Alcoholic Beverage Code, among other significant\
+\ changes as well as other agencies.\r \r Brian serves as Chairman of the Senate\
+\ Committee on Natural Resources and Economic Development, which provides oversight\
+\ to the Railroad Commission, the Texas Commission on Environmental Quality (TCEQ),\
+\ and the Workforce Commission. Senator Birdwell also serves as a member of the\
+\ Senate Committees on Finance and State Affairs. Since 2013, Brian has served as\
+\ Chairman of U.S. Senator Ted Cruz's 22-member U.S. Service Academy Nominations\
+\ Board.\r \r The Birdwells have been married for more than 30 years and reside\
+\ in Granbury. They have one son, Matt, a 2013 graduate of Texas Tech University,\
+\ and a daughter-in-law, Ann Marie, who reside in Tarrant County with the Birdwell's\
+\ two grandchildren.""",,,https://senate.texas.gov/members/d22/img/headshot.jpg,https://senate.texas.gov/member.php?d=22,https://senate.texas.gov/member.php?d=22,,,,"3900 Arlington Highlands Blvd., Suite 265 Arlington, TX 76018",817-466-7327,,,,,,
+ocd-person/b1bf46ac-e99e-49f6-8f40-cf07aca12187,Brian Harrison,Republican,10,lower,Brian,Harrison,Male,,,,,https://house.texas.gov/members/photos/4085.jpg?v=88.25,,,,,,"100 N College Street, Suite 306 Waxahachie, TX 75165",972-923-0264,,,,,,
+ocd-person/065c24a0-401a-4dc5-a19c-e7d96dcbffc5,Briscoe Cain,Republican,128,lower,Briscoe,Cain,Male,,,,,https://house.texas.gov/members/photos/3265.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=128,https://house.texas.gov/members/member-page/?district=128,,,,"606 Rollingbrook Drive Suite 1E Baytown, TX 77521",281-420-1588,,,,,,
+ocd-person/83030f8b-5f1f-4475-b564-a07ae42f6d98,Brooks Landgraf,Republican,81,lower,Brooks,Landgraf,Male,,,,,https://house.texas.gov/members/photos/3040.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=81,https://house.texas.gov/members/member-page/?district=81,,,,,432-332-0937,,,,,,
+ocd-person/8326538c-c907-43b2-a6db-76434036afd7,Bryan Hughes,Republican,1,upper,Bryan,Hughes,Male,,"""Bryan Hughes is serving his first term in the Texas Senate, representing\
+\ the 16 coun\xADties of Senate District One in Northeast Texas. He previously represented\
+\ District Five in the Texas House. \r \r Born and raised in East Texas, Bryan attended\
+\ Tyler Junior College and the University of Texas at Tyler, receiving his BBA in\
+\ Economics,  , and becoming the first member of his family to receive a Bachelor\u2019\
+s degree. He later graduated from Baylor University School of Law and served as\
+\ law clerk to U.S. District Judge William Steger of Tyler before entering private\
+\ practice.\r \r He has received numerous awards for his work in the Legislature,\
+\ including the Taxpayer Champion Award from Texans for Fiscal Responsibility and\
+\ the Horizon Award from Texas Right to Life. He also has been named Defender of\
+\ the American Dream by Americans for Prosperity and Guardian of Small Business\
+\ by the National Federation of Independent Business.  Mothers Against Drunk Driving\
+\ honored Senator Hughes as 2017 Legislator of the Year. \r \r Senator Hughes promotes\
+\ individual opportunity and personal liberty so that everyone can experience the\
+\ American Dream.""",,,https://senate.texas.gov/members/d01/img/Hughes_86-0702D-030-web.jpg,https://senate.texas.gov/member.php?d=1,https://senate.texas.gov/member.php?d=1,,,,"2500 N Robinson Road, Suite 190 Texarkana, TX 75599",903-223-7958,,,,,,
+ocd-person/d9919785-4e85-4927-a36e-346f5774aa52,Bryan Slaton,Republican,2,lower,Bryan,Slaton,Male,,,,,https://house.texas.gov/members/photos/0000.jpg,https://house.texas.gov/members/member-page/?district=2,https://house.texas.gov/members/member-page/?district=2,,,,"3101 Joe Ramsey Blvd, Suite 101 Greenville, TX 74501",,,,,,,
+ocd-person/f4976334-0e0e-4474-b5b4-3264e8d73f1d,Candy Noble,Republican,89,lower,Candy,Noble,Female,,,,,https://house.texas.gov/members/photos/3740.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=89,https://house.texas.gov/members/member-page/?district=89,,,,"206 North Murphy Road Murphy, Texas 75094",972-423-6542,,,,,,
+ocd-person/8f7f161e-6ef4-4c12-8eea-de88a313b36c,Carl H. Tepper,Republican,84,lower,,,,,,,,https://house.texas.gov/members/photos/4360.jpg?v=88.25,,,,,,"6515 68th Street, Suite 200-7 Lubbock, Texas 79424",,,,,,,
+ocd-person/c5d16702-0b70-4f46-a0ba-3c47acd352f0,"Carl Sherman, Sr.",Democratic,109,lower,Carl,Sherman,Male,,,,,https://house.texas.gov/members/photos/3675.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=109,https://house.texas.gov/members/member-page/?district=109,,,,"103 N. Dallas Avenue Lancaster, Texas 75146",972-227-1064,,,,,,
+ocd-person/e78373de-6d96-44db-b552-6da34ed992fc,Carol Alvarado,Democratic,6,upper,Carol,Alvarado,Female,,"""Senator Carol Alvarado is proud to serve Texas Senate District 6 in Harris\
+\ County and was first elected in a 2018 Special Election.\r \r In 2008, she was\
+\ elected to the Texas House of Representatives and served 5 terms representing\
+\ District 145. She served as Chair of the Urban Affairs Committee and Co-Chair\
+\ of the Select Committee on Transparency in State Agency Operations.\r \r Carol\u2019\
+s primary legislative focus has been on economic development, public health and\
+\ public education. She has championed legislation aimed at strengthening our state\u2019\
+s workforce, regulating the use of e-cigarettes for children and criminal justice\
+\ reform.\r \r Carol is an advocate for women\u2019s health and reproductive rights\
+\ and has passed legislation to assist victims of sexual abuse.\r \r As a member\
+\ of the Houston City Council from 2002-2008, Carol led the effort to make restaurants\
+\ smoke free, stopped the shipping of more hazardous chemicals through our neighborhoods,\
+\ and had air quality monitors installed in neighborhoods near chemical plants.\r\
+\ \r Carol is a native Houstonian and longtime resident of Houston\u2019s East End.\
+\ She holds a Master of Business Administration and a Bachelor of Arts degree in\
+\ Political Science from the University of Houston and is a member of St. Alphonsus\
+\ Catholic Church.""",,,https://senate.texas.gov/members/d06/img/CA-2018_web.jpg,https://senate.texas.gov/member.php?d=6,https://senate.texas.gov/member.php?d=6,,,,,,,,,,,
+ocd-person/72920206-cbe7-4429-b42b-c6fc746a1d56,Caroline Harris,Republican,52,lower,Caroline,Harris,,,,,,https://house.texas.gov/members/photos/4205.jpg?v=88.25,,,,,,,,,,,,,
+ocd-person/64221b86-e3ca-4b67-b2bb-3f4f9641e133,Carrie Isaac,Republican,73,lower,Carrie,Isaac,,,,,,https://house.texas.gov/members/photos/4265.jpg?v=88.25,,,,,,,,,,,,,
+ocd-person/33f871c9-15a6-4094-9181-ff822cd9eca4,"Cecil Bell, Jr.",Republican,3,lower,Cecil,Bell,Male,,,,,https://house.texas.gov/members/photos/2335.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=3,https://house.texas.gov/members/member-page/?district=3,,,,"18230 FM 1488, Ste. 302 Magnolia, TX 77354",281-259-3700,281-259-3706,,,,,
+ocd-person/41f4a5e2-a2d5-4e54-aae3-9c99f9ea5eba,Charles Cunningham,Republican,127,lower,Charles,Cunningham,,,,,,https://house.texas.gov/members/photos/4130.jpg?v=88.25,,,,,,"7702 FM 1960 East, Suite 370B Humble, Texas 77346",,,,,,,
+ocd-person/a289901c-76aa-4288-a4b9-3bb1bf081c89,Charles 'Doc' Anderson,Republican,56,lower,Charles,Anderson,Male,,,,,https://house.texas.gov/members/photos/2155.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=56,https://house.texas.gov/members/member-page/?district=56,,,,"900 Austin Ave., Suite 804 Waco, TX 76701",254-754-3892,254-754-1604,,,,,
+ocd-person/6522ba2d-f263-455a-9470-cec0aa03033b,Charles Perry,Republican,28,upper,Charles,Perry,Male,,"""Sen. Charles Perry, a practicing CPA from Lubbock, was elected to the\
+\ Texas Senate in 2014 after serving two terms in the Texas House of Representatives.\
+\ A life-long West Texan, he is a conservative \u2013 fighting for lower taxes,\
+\ better schools, safer communities, and individual liberties.\r \r Sen. Perry currently\
+\ chairs the Senate Committee on Water & Rural Affairs and is Vice-Chair of the\
+\ Health and Human Services Committee. He also sits on the Senate Committees for\
+\ Agriculture, Criminal Justice, Finance, Redistricting, and Transportation and\
+\ he co-chairs the State Water Implementation Fund for Texas (SWIFT) Advisory Committee.\
+\ Gov. Abbott appointed him to the Southwestern States Water Commission and the\
+\ Western States Water Council.\r \r In the 86th Legislative Session, Sen. Perry\
+\ championed a number of issues for West Texans \u2013 establishing a much needed\
+\ veterinary school at Texas Tech University, increasing rural hospital funding\
+\ by $100 million, authorizing the growing and processing of industrial hemp, increasing\
+\ funding for the Alternatives to Abortion program, and expanding rural access to\
+\ broadband.\r \r Of all the issues he worked on this session, Sen. Perry is especially\
+\ proud of the bills he passed that improve the coordination of care for medically\
+\ fragile children and his bill that increases penalties for sexual assault.\r \r\
+\ Most notably, Sen. Perry authored and passed Senate Bill 8, which creates the\
+\ first-ever State Flood Plan and secures funding to reinforce high hazard dams,\
+\ many of which are in West Texas. This landmark legislation is a bottom-up solution\
+\ to flood planning that will save lives and prevent property loss by increasing\
+\ coordination between local flood authorities across the State.\r \r Outside the\
+\ Legislature, Perry previously served as Presidents of the Lubbock Boys & Girls\
+\ Club, American Business Clubs and Community Partners, and has previously served\
+\ on the board of the National Council on Family Violence and the Women's Protective\
+\ Services of Lubbock. He also currently serves as a deacon at his church, Southcrest\
+\ Baptist.\r \r Sen. Perry graduated from Sweetwater High School in 1980 and from\
+\ Texas Tech University with a Bachelor of Business Administration in Accounting\
+\ and Management Information Systems in 1984.\r \r He and his wife Jacklyn have\
+\ been married for over 35 years. They have two children and three grandchildren,\
+\ and the entire family are graduates (and future graduates) of Texas Tech University.\r\
+\ \r Geographically, Perry represents the largest Senate District in Texas. The\
+\ district covers 51 counties and is over 48,000 square miles, which is larger than\
+\ 19 U.S. states and 107 countries.""",,,https://senate.texas.gov/members/d28/img/Perry-Headshot-2019.jpg,https://senate.texas.gov/member.php?d=28,https://senate.texas.gov/member.php?d=28,,,,"203 Commerce Childress, TX 79201",940-937-0909,,,,,,
+ocd-person/d7d0bd69-2615-4d0c-84df-4cdb75809343,Charles Schwertner,Republican,5,upper,Charles,Schwertner,Male,,"""Senator Charles Schwertner is a physician, family man, business owner,\
+\ and a life-long fiscal and social conservative. In 2010, Schwertner was first\
+\ elected to serve the people of House District 20 as a member of the Texas House\
+\ of Representatives. There, he quickly earned a reputation as a measured and effective\
+\ legislator, working with his colleagues to pass one of the most conservative legislative\
+\ agendas in Texas history. \r \r In 2012, Schwertner won the Republican Primary\
+\ for the Texas Senate (District 5) with nearly 75 percent of the vote. Senate District\
+\ 5 is a ten-county region of Central and East Texas that includes Brazos, Freestone,\
+\ Grimes, Leon, Limestone, Madison, Milam, Robertson, Walker and Williamson Counties.\
+\ \r \r Throughout his time in the Texas Senate, Senator Schwertner has fought for\
+\ the families in his district by supporting retired teachers, working to make higher\
+\ education more affordable, and protecting children from abuse and neglect by reforming\
+\ the Department of Family and Protective Services. Schwertner has also worked to\
+\ protect our seniors by authoring legislation to improve nursing homes and punish\
+\ bad actors in the industry. In the Senate, Dr. Schwertner serves on the Senate\
+\ Committees on Business and Commerce, Veteran Affairs & Border Security, Agriculture,\
+\ and Transportation, as well as serving as the Vice Chair of the Senate Committee\
+\ on Intergovernmental Relations.  \r \r For his leadership in the Texas Legislature,\
+\ Senator Schwertner has been named a \""Taxpayer Advocate\"" by Texans for Fiscal\
+\ Responsibility, a \""Fighter for Free Enterprise\"" by the Texas Association of\
+\ Business, a \""Courageous Conservative\"" by the Texas Conservative Coalition, a\
+\ \""Lone Star Conservative Leader\"" by the Texas Conservative Roundtable, and \""\
+Senate Freshman of the Year\"" by Texas Monthly magazine. Additionally, Senator Schwertner\
+\ has been named a CASA Champion for Texas Children, YMCA Champion, and Legislator\
+\ of the Year by the Texas Assisted Living Association. \r \r Charles comes from\
+\ six generations of farming and ranching in Texas. In addition to his role in the\
+\ Texas Legislature, Dr. Schwertner also works as a practicing orthopedic surgeon,\
+\ treating thousands of patients each year. He and his wife Belinda (an obstetrician/gynecologist)\
+\ reside in Georgetown with their three sons: Carson, Zachary, and Matthew.""",,,https://senate.texas.gov/members/d05/img/headshot.jpg,https://senate.texas.gov/member.php?d=5,https://senate.texas.gov/member.php?d=5,,,,"27, 501 S Austin Ave. Georgetown, TX 78626",512-863-8456,,,,,,
+ocd-person/65a42043-6243-4f79-b1e0-69b3b8b4af29,Charlie Geren,Republican,99,lower,Charlie,Geren,Male,,,,,https://house.texas.gov/members/photos/2945.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=99,https://house.texas.gov/members/member-page/?district=99,,,,"6713 Telephone Rd Suite 301 Lake Worth, TX 76135",817-237-2251,817-237-2264,,,,,
+ocd-person/a5e2021c-8221-41ba-b45c-cc89d13b2af2,Chris Turner,Democratic,101,lower,Chris,Turner,Male,,,,,https://house.texas.gov/members/photos/4680.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=101,https://house.texas.gov/members/member-page/?district=101,,,,"320 Westway Place, Suite 501 Arlington, TX 76018",817-459-2800,,,,,,
+ocd-person/26090510-8782-4d64-b981-3d1cde573090,Christian Manuel,Democratic,22,lower,Christian,Manuel,,,,,,https://house.texas.gov/members/photos/4255.jpg?v=88.25,,,,,,"1 Plaza Square Suite 203, Port Arthur, TX 77642",,,,,,,
+ocd-person/791e4399-56bb-4d4c-8561-71f0979fb999,Christina Morales,Democratic,145,lower,Christina,Morales,Female,,,,,https://house.texas.gov/members/photos/3910.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=145,https://house.texas.gov/members/member-page/?district=145,,,,"6960 Rustic Street, Suite 107 Parking Garage, Bldg. C Houston, Texas 77087",713-718-5915,,,,,,
+ocd-person/6feda596-fd20-429b-ae4e-bedab7e5a1c5,Claudia Ordaz,Democratic,79,lower,Claudia,Ordaz Perez,Female,,,,,https://house.texas.gov/members/photos/4015.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=76,https://house.texas.gov/members/member-page/?district=76,,,,"1200 Golden Key Circle, Ste 310 El Paso TX 79925",915-591-0299,,,,,,
+ocd-person/baafecd4-6f74-4a97-b564-691c1e938291,Cody Harris,Republican,8,lower,Cody,Harris,Male,,,,,https://house.texas.gov/members/photos/3580.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=8,https://house.texas.gov/members/member-page/?district=8,,,,"519 N Sycamore Palestine, TX 75801",903-731-4005,,,,,,
+ocd-person/3194ee5e-f4d8-4449-8ff6-ec47c0822a3d,Cody Vasut,Republican,25,lower,Cody,Vasut,Male,,,,,https://house.texas.gov/members/photos/4065.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=25,https://house.texas.gov/members/member-page/?district=25,,,,"222 N Velasco Street, Suite 25 Angleton, TX 77515",979-848-1770,,,,,,
+ocd-person/43bbf34a-6bc4-41f9-9bdc-3e944c5b8495,Cole Hefner,Republican,5,lower,Cole,Hefner,Male,,,,,https://house.texas.gov/members/photos/3505.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=5,https://house.texas.gov/members/member-page/?district=5,,,,"520 North Main Street, Suite A-3 Lindale, TX 75711",903-882-3254,,,,,,
+ocd-person/74225274-40f8-4ef8-b2b5-bb7e4f8b5115,Craig Goldman,Republican,97,lower,Craig,Goldman,Male,,,,,https://house.texas.gov/members/photos/2395.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=97,https://house.texas.gov/members/member-page/?district=97,,,,"4521 South Hulen Street, Suite 208 Fort Worth, TX 76109",817-920-5912,,,,,,
+ocd-person/3e0f0e51-20c0-4da4-82b5-ff81606148d0,César Blanco,Democratic,29,upper,Cesar,Blanco,Male,,"""Senator Cesar J. Blanco proudly represents the people of Culberson, El\
+\ Paso, Hudspeth, Jeff Davis and Presidio counties in the Texas Senate.\r \r Cesar\
+\ was raised in El Paso and after high school, he continued his family\u2019s tradition\
+\ of military service in the U.S. Navy. He graduated from the University of Texas\
+\ at El Paso and continued his public service by working for three Members of Congress\
+\ representing El Paso and West Texas.\r \r Cesar was first elected in 2014 to the\
+\ Texas House of Representatives. During his three terms he delivered for El Paso\
+\ by leading initiatives to strengthen our workforce, economy, and border communities,\
+\ improving the quality of life and increasing economic opportunities. He led efforts\
+\ to protect education benefits and expand mental health resources for veterans,\
+\ rein in rising prescription drug prices, and increase oversight over border security.\
+\ For his record,   named him one of the best legislators in Texas. \r \r Sen. Blanco\
+\ is active in the community as a member of the American Legion, El Paso Metropolitan\
+\ Planning Organization, the Rio Grande Council of Governments and the Medical Center\
+\ of Americas. Cesar lives in El Paso with his wife Lili and their dog Jefe.""",,,https://senate.texas.gov/members/d29/img/SCBBio88th-web.jpg,https://house.texas.gov/members/member-page/?district=76;https://senate.texas.gov/member.php?d=29,https://house.texas.gov/members/member-page/?district=76;https://senate.texas.gov/member.php?d=29,,,,,,,,,,,
+ocd-person/7952d7d7-0fe5-4712-9967-6cb9bcedff05,Dade Phelan,Republican,21,lower,Dade,Phelan,Male,,,,,https://house.texas.gov/members/photos/2905.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=21,https://house.texas.gov/members/member-page/?district=21,,,,"812 North 16th Street Orange, Texas 77630",409-745-2777,,,,,,
+ocd-person/2d5f629c-76a7-455b-aff7-262d8c1c23f6,David Cook,Republican,96,lower,David,Cook,Male,,,,,https://house.texas.gov/members/photos/3960.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=96,https://house.texas.gov/members/member-page/?district=96,,,,"309 E. Broad Street, Mansfield, TX 76063",817-473-1960,,,,,,
+ocd-person/36338558-c2b0-4b43-b656-261dccbee871,David Spiller,Republican,68,lower,David,Spiller,Male,na,,,,https://house.texas.gov/members/photos/4075.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=68,https://house.texas.gov/members/member-page/?district=68,,,,"P.O. Box 447 Jacksboro, Texas 76458",,,,,,,
+ocd-person/a5e6ba30-dfa5-4e59-baa3-c96f0dcf775f,DeWayne Burns,Republican,58,lower,DeWayne,Burns,Male,,,,,https://house.texas.gov/members/photos/2975.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=58,https://house.texas.gov/members/member-page/?district=58,,,,"115 S. Main Street, Suite 202 Cleburne, TX 76033",817-645-3685,,,,,,
+ocd-person/e05f502a-0d27-4c51-8cad-d3b5eca585b1,Dennis Paul,Republican,129,lower,Dennis,Paul,Male,,,,,https://house.texas.gov/members/photos/3090.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=129,https://house.texas.gov/members/member-page/?district=129,,,,"17225 El Camino Real Blvd Suite 415 Houston, TX",281-488-8900,,,,,,
+ocd-person/7847295c-78f3-4f8c-adb6-3536fca2782e,Diego Bernal,Democratic,123,lower,Diego,Bernal,Male,,,,,https://house.texas.gov/members/photos/3110.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=123,https://house.texas.gov/members/member-page/?district=123,,,,"6531 San Pedro Village Plaza San Antonio, TX 78216",210-308-9700,,,,,,
+ocd-person/9f80cd7f-1067-4322-8777-62bc129cd6f2,Donna Campbell,Republican,25,upper,Donna,Campbell,Female,,"""Senator Donna Campbell, M.D. is a board certified emergency room physician\
+\ and proud parent of four daughters. She lives in New Braunfels and represents\
+\ Senate District 25, a six county district which includes parts of San Antonio\
+\ and Austin. She currently serves as the Chair of the Senate Veteran Affairs and\
+\ Border Security Committee.\r \r Senator Campbell was born on a naval base and\
+\ grew up with a great respect for the military and law enforcement. Her father\
+\ served in the U.S. Navy and later as a trooper in the highway patrol. Her mother\
+\ worked in factories most of her life until studying to become a nurse at the age\
+\ of 48.\r \r Senator Campbell completed her Masters of Nursing from Texas Woman's\
+\ University and received her M.D. from Texas Tech University, where she was a member\
+\ of Alpha Omega Alpha, the honor society for medical schools. She completed her\
+\ residency at the University of Texas Health Science Center in Houston and was\
+\ awarded the prestigious Morton Award as an outstanding resident in ophthalmology.\r\
+\ \r Senator Campbell has received top honors for her legislative accomplishments\
+\ from the NRA, Texas Alliance for Life, Texas Values, and the Texas Veterans Commission.\
+\ She has been recognized as a Top Courageous Conservative three times in a row\
+\ by the Texas Conservative Coalition and designated as a Fighter for Free Enterprise\
+\ by the Texas Association of Business.\r \r Senator Campbell was appointed by the\
+\ Lieutenant Governor as the first female Chairwoman of Veteran Affairs and Border\
+\ Security. She also serves on five other Senate committees which include Senate\
+\ Finance, Business and Commerce, Senate Education, Senate Health and Human Services,\
+\ and Senate Intergovernmental Relations.\r \r A proud woman of faith, Senator Campbell\
+\ has volunteered with Christian Eye Ministries and performed hundreds of eye surgeries\
+\ in the West African nation of Ghana. In her spare time, she is an avid hiker and\
+\ runner.\r \r In 2012, she became just the fifteenth woman ever elected to serve\
+\ in the Texas Senate.""",,,https://senate.texas.gov/members/d25/img/headshot.jpg,https://senate.texas.gov/member.php?d=25,https://senate.texas.gov/member.php?d=25,,,,,,,,,,,
+ocd-person/349071fd-3c36-43c6-aaca-6d7f9d04322d,Donna Howard,Democratic,48,lower,Donna,Howard,Female,,,,,https://house.texas.gov/members/photos/3310.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=48,https://house.texas.gov/members/member-page/?district=48,,,,"P.O. Box 2910 Austin, TX 78768",,,,,,,
+ocd-person/40f0e868-e021-4453-8675-a9d2357e41e1,Drew Darby,Republican,72,lower,Drew,Darby,Male,,,,,https://house.texas.gov/members/photos/2645.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=72,https://house.texas.gov/members/member-page/?district=72,,,,"36 W. Beauregard Suite 517 San Angelo, TX 76903",325-658-7313,325-659-3762,,,,,
+ocd-person/f1332c39-f120-4ccd-ac64-cae40b2be91a,Drew Springer,Republican,30,upper,Drew,Springer,Male,,"""Drew, a lifelong conservative Christian, fights to preserve traditional\
+\ Texas values, promote economic development, and undue burdensome regulations.\
+\ Ever a fighter for the U.S. Constitution, Drew is a champion for the taxpayers,\
+\ fights for Pro-Life legislation, and defends the Second Amendment. He was consistently\
+\ ranked among the top conservatives during his tenure in the Texas House of Representatives.\r\
+\ \r Drew grew up in Weatherford where he attended Weatherford High School. He went\
+\ on to attend Weatherford College, and then the University of North Texas where\
+\ he was a letterman and received his accounting degree.\r \r He spent fifteen years\
+\ working for a Texas railcar company where he was an accountant, leasing VP, and\
+\ president of three divisions.  He left to join his father\u2019s financial services\
+\ company where he has specialized in agricultural managed futures for the last\
+\ sixteen years and now works in securities.\r \r Drew and his wife of 29 years,\
+\ Lydia, reside in Muenster where they are blessed to have raised their three children\
+\ and welcomed their first grandson in 2020. The family are active members of Sacred\
+\ Heart Catholic Church where Drew serves on the finance council.  Additionally,\
+\ Drew has been a volunteer fireman for fifteen years.""",,,https://senate.texas.gov/members/d30/img/Springer_87-0036D-009-web.jpg,https://senate.texas.gov/member.php?d=30,https://senate.texas.gov/member.php?d=30,,,,"723 S - I35 East, Suite 222 Denton, TX 76205",940-323-9338,,,,,,
+ocd-person/fff5eb4f-2c41-4d00-a1c5-e566a15b063e,Dustin Burrows,Republican,83,lower,Dustin,Burrows,Male,,,,,https://house.texas.gov/members/photos/3055.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=83,https://house.texas.gov/members/member-page/?district=83,,,,"10507 Quaker Avenue, Suite 103 Lubbock, Texas 79424",806-795-0635,,,,,,
+ocd-person/9fb69a65-467d-491c-9663-3892583795c5,Ed Thompson,Republican,29,lower,Ed,Thompson,Male,,,,,https://house.texas.gov/members/photos/2815.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=29,https://house.texas.gov/members/member-page/?district=29,,,,"2341 N. Galveston Ave., Suite 120 Pearland, Texas 77581",281-485-6565,,,,,,
+ocd-person/c84056d0-47e0-4a0c-94e1-9f90c2d90a15,Eddie Morales,Democratic,74,lower,Eddie,Morales,Male,,,,,https://house.texas.gov/members/photos/4000.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=74,https://house.texas.gov/members/member-page/?district=74,,,,"100 S Monroe St, Eagle Pass, TX 78852",,,,,,,
+ocd-person/b91e1420-1732-4063-9f3d-edcc5e71d416,Liz Campos,Democratic,119,lower,Liz,Campos,Female,,,,,https://house.texas.gov/members/photos/3950.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=119,https://house.texas.gov/members/member-page/?district=119,,,,"3124 Sidney Brooks, Ste. A San Antonio, Texas 78235",210-806-0899,,,,,,
+ocd-person/34590156-1109-4ab6-84bc-bbe07764f365,Ellen Troxclair,Republican,19,lower,Ellen,Troxclair,,,,,,https://house.texas.gov/members/photos/4385.jpg?v=88.25,,,,,,,,,,,,,
+ocd-person/2cadcb59-210a-4a71-af9f-7dba9ab06112,Erin Elizabeth Gámez,Democratic,38,lower,,,,,,,,https://house.texas.gov/members/photos/4095.jpg?v=88.25,,,,,,,,,,,,,
+ocd-person/b55d57f4-bd06-4487-8860-0b6eeb9a1dea,Erin Zwiener,Democratic,45,lower,Erin,Zwiener,Female,,,,,https://house.texas.gov/members/photos/3710.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=45,https://house.texas.gov/members/member-page/?district=45,,,,"225 S Main St. Unit 102 Kyle, Texas 78640",,,,,,,
+ocd-person/0b54bd1c-fe8a-4af1-9627-ae9371a3ff30,Ernest Bailes,Republican,18,lower,Ernest,Bailes,Male,,,,,https://house.texas.gov/members/photos/3200.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=18,https://house.texas.gov/members/member-page/?district=18,,,,"P.O. Box 1116 Shepherd, TX 77371",936-628-6687,,,,,,
+ocd-person/d731c9f0-44ff-4abf-92c4-0069c07f6b26,Lina Ortega,Democratic,77,lower,Evelina,Ortega,Female,,,,,https://house.texas.gov/members/photos/3545.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=77,https://house.texas.gov/members/member-page/?district=77,,,,"310 N. Mesa, Suite 424 El Paso, Texas 79901",915-351-4031,,,,,,
+ocd-person/7e01abb6-d4c5-40e9-bdef-7a7efd11aaca,Four Price,Republican,87,lower,Four,Price,Male,,,,,https://house.texas.gov/members/photos/2185.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=87,https://house.texas.gov/members/member-page/?district=87,,,,"P.O. Box 2848 Amarillo, Texas 79105",806-374-8787,,,,,,
+ocd-person/10277692-2a2f-43d8-b120-70e591db636f,Frederick Frazier,Republican,61,lower,Frederick,Frazier,Male,,,,,https://house.texas.gov/members/photos/4155.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=61,https://house.texas.gov/members/member-page/?district=61,,,,,,,,,,,
+ocd-person/5ff88048-ebd8-4ac3-af9c-d02e1305ef37,Gary Gates,Republican,28,lower,Gary,Gates,Male,,,,,https://house.texas.gov/members/photos/3920.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=28,https://house.texas.gov/members/member-page/?district=28,,,,,,,,,,,
+ocd-person/26617394-4276-4aa7-878c-d20552b260a4,Gary VanDeaver,Republican,1,lower,Gary,VanDeaver,Male,,,,,https://house.texas.gov/members/photos/2540.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=1,https://house.texas.gov/members/member-page/?district=1,,,,"710 James Bowie Drive New Boston, Texas 75570",903-628-0361,,,,,,
+ocd-person/54769259-df18-4363-818e-127341188531,Geanie Morrison,Republican,30,lower,Geanie,Morrison,Female,,,,,https://house.texas.gov/members/photos/3870.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=30,https://house.texas.gov/members/member-page/?district=30,,,,"1908 N. Laurent, Suite 500 Victoria, Texas 77901",361-572-0196,361-576-0747,,,,,
+ocd-person/5556a81a-eca2-451d-bb29-74cfb00d1959,Gene Wu,Democratic,137,lower,Gene,Wu,Male,,,,,https://house.texas.gov/members/photos/2865.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=137,https://house.texas.gov/members/member-page/?district=137,,,,"6500 Rookin, Building C Houston, TX 77074",713-271-3900,713-271-3902,,,,,
+ocd-person/1f9ed42e-27de-4cd1-b2bf-f890ee33cb49,Gina Hinojosa,Democratic,49,lower,Gina,Hinojosa,Female,,,,,https://house.texas.gov/members/photos/3210.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=49,https://house.texas.gov/members/member-page/?district=49,,,,,,,,,,,
+ocd-person/40ecf6ee-92a4-4daf-b950-ac70b6cdfeee,Giovanni Capriglione,Republican,98,lower,Giovanni,Capriglione,Male,,,,,https://house.texas.gov/members/photos/2345.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=98,https://house.texas.gov/members/member-page/?district=98,,,,"1100 Bear Creek Parkway Keller, Texas 76248",817-431-5339,,,,,,
+ocd-person/b95a6eac-71b2-47ef-918e-91a5ae413a4e,Glenn Rogers,Republican,60,lower,Glenn,Rogers,Male,,,,,https://house.texas.gov/members/photos/4025.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=60,https://house.texas.gov/members/member-page/?district=60,,,,"103 South Oaks, Suite 102 Mineral Wells, TX 76067",,,,,,,
+ocd-person/d0fbfb15-2f0c-4167-b8b4-d6135bbb6616,Greg Bonnen,Republican,24,lower,Greg,Bonnen,Male,,,,,https://house.texas.gov/members/photos/2875.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=24,https://house.texas.gov/members/member-page/?district=24,,,,"174 Calder Rd., Suite 1000 League City, TX 77573",281-338-0924,,,,,,
+ocd-person/85d064ed-6f3d-4a81-93ee-1baf49c7f2c3,"Harold V. Dutton, Jr.",Democratic,142,lower,Harold,Dutton,Male,,,,,https://house.texas.gov/members/photos/2650.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=142,https://house.texas.gov/members/member-page/?district=142,,,,"8799 N. Loop East, Suite 200 Houston, TX 77029",713-692-9192,713-692-6791,,,,,
+ocd-person/5c2743d2-fe0e-41d6-969d-de830d5787f8,Hubert Vo,Democratic,149,lower,Hubert,Vo,Male,,,,,https://house.texas.gov/members/photos/4900.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=149,https://house.texas.gov/members/member-page/?district=149,,,,"7474 South Kirkwood #106 Houston, TX 77072",281-988-0212,281-498-6905,,,,,
+ocd-person/0b3fe2fc-7445-4986-b34b-0c3ca545eab8,Hugh Shine,Republican,55,lower,Hugh,Shine,Male,,,,,https://house.texas.gov/members/photos/4455.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=55,https://house.texas.gov/members/member-page/?district=55,,,,"101 East Central Avenue, Suite 122 Belton, TX 76513",254-831-2298,,,,,,
+ocd-person/a43f2db5-4b24-4dfa-af7f-a2c7cbc5ea21,J.M. Lozano,Republican,43,lower,J. M.,Lozano,Male,,,,,https://house.texas.gov/members/photos/2065.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=43,https://house.texas.gov/members/member-page/?district=43,,,,"1211 US Highway 181 #106 Portland, TX 78374",361-643-0063,,,,,,
+ocd-person/8c82ede2-a4c6-4625-92ca-2b24c370de17,Jacey Jetton,Republican,26,lower,Jacey,Jetton,Male,,,,,https://house.texas.gov/members/photos/3980.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=26,https://house.texas.gov/members/member-page/?district=26,,,,"22333 Grand Corner Dr. Ste. 151 Katy, TX 77494",281-392-5898,,,,,,
+ocd-person/6cbb02e6-5876-47a1-86aa-98566fe0073a,James Frank,Republican,69,lower,James,Frank,Male,,,,,https://house.texas.gov/members/photos/2385.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=69,https://house.texas.gov/members/member-page/?district=69,,,,"1206 Hatton Road Wichita Falls, TX 76302",940-767-1700,,,,,,
+ocd-person/5e4e2fd2-e8a9-46f3-aab5-ffbc782afa8b,James Talarico,Democratic,50,lower,James,Talarico,Male,,,,,https://house.texas.gov/members/photos/3685.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=52,https://house.texas.gov/members/member-page/?district=52,,,,,,,,,,,
+ocd-person/a732704e-9b03-449c-b24f-f4c567b5acdd,Janie Lopez,Republican,37,lower,Janie,Lopez,,,,,,https://house.texas.gov/members/photos/4295.jpg?v=88.25,,,,,,"1390 W. Expressway 83 San Benito, Texas 78586",,,,,,,
+ocd-person/e926ca11-64dd-4e15-97bd-1f7b0915de36,Jared Patterson,Republican,106,lower,Jared,Patterson,Male,,,,,https://house.texas.gov/members/photos/3655.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=106,https://house.texas.gov/members/member-page/?district=106,,,,"5533 FM 423, Suite 503 Frisco, Texas 75034",214-494-6498,,,,,,
+ocd-person/1ffa3f66-7055-4dda-b497-f2d368e6cdc7,Jarvis Johnson,Democratic,139,lower,Jarvis,Johnson,Male,,,,,https://house.texas.gov/members/photos/3185.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=139,https://house.texas.gov/members/member-page/?district=139,,,,6112 Wheatley Street Houston TX 77091,713-699-3043,713-699-3498,,,,,
+ocd-person/37886d81-901f-43b4-841b-f3ffbfeeb257,Jay Dean,Republican,7,lower,Jay,Dean,Male,,,,,https://house.texas.gov/members/photos/3515.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=7,https://house.texas.gov/members/member-page/?district=7,,,,"101 E. Methvin, Suite 103 Longview, Texas 75601",903-238-8452,,,,,,
+ocd-person/40a678a3-7d85-486e-bf38-5d070142aa83,Jeff Leach,Republican,67,lower,Jeff,Leach,Male,,,,,https://house.texas.gov/members/photos/2475.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=67,https://house.texas.gov/members/member-page/?district=67,,,,"300 E. Davis St., #170 McKinney, Texas 75069",214-491-1537,,,,,,
+ocd-person/8eeb1aad-24b6-487b-bbc0-31c2238b1ccd,Jessica González,Democratic,104,lower,Jessica,González,Female,,,,,https://house.texas.gov/members/photos/3335.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=104,https://house.texas.gov/members/member-page/?district=104,,,,"400 South Zang Blvd., Suite 1214 Dallas, Texas 75208",214-944-5441,,,,,,
+ocd-person/1997b231-45f7-4f29-a435-9f52e60ebea4,Joan Huffman,Republican,17,upper,Joan,Huffman,Female,,"""Senator Joan Huffman started her career as a public servant in 1981. Upon\
+\ earning her undergraduate degree from Louisiana State University, she became a\
+\ secretary for the Harris County District Attorney\u2019s office. It was there\
+\ that she became inspired by the work of prosecutors and decided to enroll in night\
+\ classes at the South Texas College of Law while continuing to work full time.\r\
+\ \r Upon earning her law degree, Joan was hired as a prosecutor and advanced from\
+\ misdemeanor court to Chief Felony Prosecutor, Special Crimes Gang Prosecutor,\
+\ and Legal Counsel to the Organized Crime Narcotics Task Force. She served as lead\
+\ prosecutor in over 100 jury trials, including murders, aggravated robberies, and\
+\ sexual assaults of adults, and children. Senator Huffman earned a reputation as\
+\ a fair and tough enforcer of the law both as a prosecutor and a twice elected\
+\ Judge to the 183rd Criminal District Court in Harris County.\r \r Senator Huffman\
+\ was first elected to the Texas Senate in 2008 and has been re-elected four times.\
+\ She currently serves as President Pro Tempore, Chair of the Senate Select Committee\
+\ on Redistricting, Vice Chair of the Senate Committee on Criminal Justice, as a\
+\ senior member of the Senate Committee on Finance and Senate Committee on State\
+\ Affairs, and as a member of the Senate Committee on Administration and Legislative\
+\ Budget Board.\r \r Senator Huffman\u2019s common sense approach to solving issues\
+\ has allowed for her to build strong relationships with members of both parties,\
+\ which enables her to represent the needs of her district and her constituents\
+\ efficiently and effectively. Her leadership has been acknowledged by numerous\
+\ advocacy groups. She was named as the \""2017 Hero for Texas Children\"" by the\
+\ National Center for Missing and Exploited Children, and a \u201CBig Voice for\
+\ Little Texans\u201D by Court Appointed Special Advocates for her work to protect\
+\ children. She is also the only three-time recipient of the Texas District and\
+\ County Attorneys Association\u2019s \u201CLaw and Order Award\u201D since its\
+\ inception, for her efforts to improve victims\u2019 protections and the criminal\
+\ justice system. She is widely recognized as the Senate's leader in the fight against\
+\ human trafficking and also serves on the Board of Directors for Child Advocates.\r\
+\ \r Senator Huffman lives with her family in Houston and proudly represents a diverse\
+\ district which includes portions of Brazoria, Fort Bend, and Harris counties.""",,,https://senate.texas.gov/members/d17/img/Huffman_9S5A0096-2021web.jpg,https://senate.texas.gov/member.php?d=17,https://senate.texas.gov/member.php?d=17,,,,"129 Circle Way, Suite 101 Lake Jackson, TX 77566",979-480-0994,,,,,,
+ocd-person/5898294d-5b10-4aaf-a084-b8522e69623c,Joe Moody,Democratic,78,lower,Joe,Moody,Male,,,,,https://house.texas.gov/members/photos/3850.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=78,https://house.texas.gov/members/member-page/?district=78,,,,"7365 Remcon Circle C-301 El Paso, Tx 79912",915-751-2700,915-751-2702,,,,,
+ocd-person/4e07d8dc-f5b5-47e7-a1de-83f36d3b734f,John Bryant,Democratic,114,lower,John,Bryant,,,,,,https://house.texas.gov/members/photos/4120.jpg?v=88.25,,,,,,,,,,,,,
+ocd-person/53b19d1e-5b07-4f6e-87a9-27baecddaf70,John H. Bucy III,Democratic,136,lower,John,Bucy,Male,,,,,https://house.texas.gov/members/photos/3595.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=136,https://house.texas.gov/members/member-page/?district=136,,,,"3016 Polar Lane Suite 108 Cedar Park, Texas 78613",512-259-1478,,,,,,
+ocd-person/93474b2b-546e-49e4-9399-5c208bbcb524,John Kuempel,Republican,44,lower,John,Kuempel,Male,,,,,https://house.texas.gov/members/photos/2310.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=44,https://house.texas.gov/members/member-page/?district=44,,,,"200 N. River Street, #100-E Seguin, Texas 78155",830-379-8732,,,,,,
+ocd-person/fbd66d9f-2a93-4cbf-b75d-b51cb01e955e,John Lujan,Republican,118,lower,John,Lujan,,,,,,https://house.texas.gov/members/photos/3145.jpg?v=88.25,,,,,,,210-595-0068,,,,,,
+ocd-person/6613aff4-3874-44c6-960b-121eb6b0b2d2,John Raney,Republican,14,lower,John,Raney,Male,,,,,https://house.texas.gov/members/photos/2315.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=14,https://house.texas.gov/members/member-page/?district=14,,,,"4103 South Texas Avenue, Suite 103 Bryan, Texas 77802",979-260-5040,,,,,,
+ocd-person/3cac81cd-62ca-41d6-aa4a-8e4156244dec,John Smithee,Republican,86,lower,John,Smithee,Male,,,,,https://house.texas.gov/members/photos/4530.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=86,https://house.texas.gov/members/member-page/?district=86,,,,"320 S. Polk, 1st Floor Amarillo, TX 79101",806-372-3327,806-342-0327,,,,,
+ocd-person/54ac2dae-47ea-4f0b-8ce9-594c1c58b423,John Whitmire,Democratic,15,upper,John,Whitmire,Male,,"""Senator John Whitmire represents the 15th Senatorial District comprised\
+\ of north Houston and parts of Harris County. He was elected to the Texas Senate\
+\ in 1982 after serving 10 years in the Texas House of Representatives. With over\
+\ 30 years of service in the Texas Senate, Senator Whitmire ranks first in seniority\
+\ and is the \""Dean of the Texas Senate.\""\r \r Senator Whitmire serves as Chair\
+\ of the Senate Criminal Justice Committee and works to bring about needed changes\
+\ to the adult and juvenile criminal justice systems. He is also a member of the\
+\ Senate Administration Committee and the Senate Business and Commerce Committee.\
+\ In addition, he serves as a member of the Senate Finance Committee where he is\
+\ committed to finding appropriate solutions for funding the state's many agencies\
+\ and programs.\r \r Senator Whitmire chairs the School Discipline Consensus Project,\
+\ a nonpartisan effort led by the Council of State Governments Justice Center, which\
+\ brings together leaders from across the United States to develop strategies to\
+\ minimize the over-use of suspension and expulsion in public schools, improve students'\
+\ academic outcomes, reduce the referral to the juvenile justice system, and promote\
+\ safe and productive learning environments.\r \r In addition to his leadership\
+\ in criminal justice and public safety, Senator Whitmire is a passionate advocate\
+\ for quality public education, affordable higher education, minority and women's\
+\ rights, and access to quality affordable health care and mental health services,\
+\ and sound business and economic development.\r \r Originally from Hillsboro, Texas,\
+\ Senator Whitmire moved to Houston where he graduated from Waltrip High School.\
+\ He earned a Bachelor of Arts degree from the University of Houston and attended\
+\ the Bates College of Law. He was admitted to the Texas State Bar in 1981 and is\
+\ attorney of counsel to the law firm Locke Lord LLP. Senator Whitmire has two daughters,\
+\ Whitney and Sarah Whitmire.""",,,https://senate.texas.gov/members/d15/img/headshot.jpg,https://senate.texas.gov/member.php?d=15,https://senate.texas.gov/member.php?d=15,,,,,,,,,,,
+ocd-person/45cd43ff-77b3-467c-aa61-890ebee8ece5,Jolanda 'Jo' Jones,Democratic,147,lower,,,,,,,,https://house.texas.gov/members/photos/4105.jpg?v=88.25,,,,,,"5445 Almeda Rd., Suite 501 Houston, TX 77004",713-522-0555,,,,,,
+ocd-person/ab211984-06a9-447c-9ded-564d200bee60,Jon Rosenthal,Democratic,135,lower,Jon,Rosenthal,Male,,,,,https://house.texas.gov/members/photos/3635.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=135,https://house.texas.gov/members/member-page/?district=135,,,,"9601 Jones Rd. Suite 215 Houston, Texas 77065",832-318-0611,,,,,,
+ocd-person/8bb90ee9-e764-44da-b27f-b5bc3cdb394e,José Menéndez,Democratic,26,upper,José,Menéndez,Male,,"""is Texas State Senator serving District 26 since 2015.\r \r The son of\
+\ immigrants, Jos\xE9 Men\xE9ndez grew up working at his family\u2019s small business\
+\ located in San Antonio's West Side. During his term in office, Men\xE9ndez passed\
+\ over 200 bills that benefited children, seniors, veterans, and San Antonio families.\
+\ One of the bills,  , empowers students, parents, schools, and law enforcement\
+\ to combat and prevent cyberbullying. Senator Men\xE9ndez is also a strong advocate\
+\ for job growth, community and business development. Along with his successful\
+\ legislation, Senator Men\xE9ndez has secured millions of dollars for advancements\
+\ in education, healthcare, parks, and additional funding developments, including\
+\ $17 million for the Alamo Colleges.\r \r Senator Men\xE9ndez began his public\
+\ service career in 1997 when he was elected to the San Antonio City Council District\
+\ 6 office, representing the city\u2019s West Side. He was then elected to serve\
+\ as State Representative for House District 124 in 2000. He was later entrusted\
+\ with an appointment to the powerful Appropriations Committee where he secured\
+\ millions of dollars for various crucial San Antonio initiatives. In his final\
+\ session serving in the House, Men\xE9ndez was appointed Chairman of the House\
+\ Committee on Defense and Veterans\u2019 Affairs where he secured one of the state\u2019\
+s largest mental health programs for Veterans.\r \r Senator Men\xE9ndez has distinguished\
+\ himself as a commonsense problem solver, able to work with colleagues on all sides\
+\ to serve the needs of Texas families. He has continued to remain committed to\
+\ improving the state\u2019s public education system, utilities and energy infrastructure,\
+\ as well as housing and economic development.\r \r Senator Men\xE9ndez received\
+\ the esteemed ' ' in 2017 which honors his outstanding efforts to empower Texans\
+\ to make decisions affecting their local communities. Among his many distinguished\
+\ honors, Men\xE9ndez is also the proud recipient of the Nation's Mothers Against\
+\ Drunk Driving (MADD) ' ' award; ' ' from the Center for Health Care Services;\
+\ Texas Parent Teacher Association's (PTA) ' '; and ' ' from the Combined Law Enforcement\
+\ Association of Texas (CLEAT). \r \r Senator Men\xE9ndez graduated from Central\
+\ Catholic High School before earning degrees in Business Administration and Latin\
+\ American Studies at Southern Methodist University. He has been married to his\
+\ best friend Cehlia Newman-Men\xE9ndez since 1995. They have three children, Dominic,\
+\ Victoria, and Austin. As a father, husband and lifelong Texan, Senator Men\xE9\
+ndez is extremely grateful to be able to serve the people of District 26 and the\
+\ state of Texas.""",,,https://senate.texas.gov/members/d26/img/headshot.jpg,https://senate.texas.gov/member.php?d=26,https://senate.texas.gov/member.php?d=26,,,,,,,,,,,
+ocd-person/1ec50565-379f-4a8b-ab18-c54d31df9929,Josey Garcia,Democratic,124,lower,Josey,Garcia,,,,,,https://house.texas.gov/members/photos/4170.jpg?v=88.25,,,,,,,,,,,,,
+ocd-person/72766791-084c-4a20-a12c-6e809b51e95c,"Juan ""Chuy"" Hinojosa",Democratic,20,upper,Juan,Hinojosa,Male,,"""State Senator Juan \""Chuy\"" Hinojosa proudly represents the people of\
+\ District 20.  Born in McAllen, Texas, Hinojosa is the eldest of eight children.\
+\ He attended Mission Independent School District schools as a child, and worked\
+\ as a farm worker during his teen years. Hinojosa led the Mission Eagles football\
+\ team as their quarterback, and after graduation he volunteered to serve in the\
+\ U.S. Marine Corps. \r \r Hinojosa served his country with distinction in Vietnam\
+\ before returning home to continue his education. He earned a bachelor's degree\
+\ in political science from the University of Texas-Pan American, where he graduated\
+\ with honors, and a law degree from Georgetown University in Washington, D.C. \r\
+\ \r After returning to South Texas, Hinojosa served as staff attorney for the Legal\
+\ Aid Society of Nueces County and later as an Assistant Attorney General for the\
+\ Texas Attorney General. Since 1980, Hinojosa has operated a private practice in\
+\ Hidalgo County representing clients in both civil and criminal matters. \r \r\
+\ Hinojosa served in the Texas House of Representatives from 1981 until 1991 and\
+\ again from 1997 to 2003. During his tenure in the Texas House, Hinojosa passed\
+\ landmark legislation, such as the establishment of the Regional Academic Health\
+\ Center (RAHC) which promotes physician training on the Texas/Mexico Border. As\
+\ the Chairman of Criminal Jurisprudence, Senator Hinojosa sponsored the Texas Fair\
+\ Defense Act, reforming procedures for providing court-appointed defense counsel\
+\ to indigent defendants, and carried DNA legislation that has resulted in freeing\
+\ many wrongly convicted citizens. \r \r Since his election to the Texas Senate\
+\ in 2003, Senator Hinojosa has secured nearly $1 billion for the Corpus Christi\
+\ Harbor Bridge Replacement project and $300 million for the Pharr Interchange Project\
+\ to address traffic congestion. This funding is in addition to the active $200\
+\ million in construction and maintenance projects currently being administered\
+\ by the Texas Department of Transportation\u2019s Pharr District, including the\
+\ funding secured to demolish and re-construct the Bicentennial Boulevard overpass\
+\ in McAllen. \r \r During the 2013 Legislative Session, Hinojosa authored SB 24,\
+\ historic legislation that created the University of Texas Rio Grande Valley (UTRGV)\
+\ and UTRGV School of Medicine by merging UT-Pan American and UT-Brownsville. The\
+\ School of Medicine is already providing greater access to healthcare and is boosting\
+\ the South Texas economy. The educational and healthcare opportunities are endless\
+\ and will serve the unique and critical needs of South Texas for decades to come.\
+\  \r \r Senator Hinojosa has also passed legislation to allow South Texas communities\
+\ and hospitals to draw down millions of federal matching funds to expand and invest\
+\ in their healthcare infrastructure and to reimburse hospitals for indigent care\
+\ through a federal 1115 Healthcare Transformation Waiver.\r \r Senator Hinojosa\
+\ has received the prestigious honor of being named a \""Top Ten Best Legislator\""\
+\ by   magazine three times. He has also been named a  \""Top Ten Legislator\"" by\
+\   three times as well.""",,,https://senate.texas.gov/members/d20/img/Hinojosa_84-0784D-006.jpg,https://senate.texas.gov/member.php?d=20,https://senate.texas.gov/member.php?d=20,,,,"602 N. Staples Street, Suite 200 Corpus Christi, TX 78401",361-882-0900,,,,,,
+ocd-person/c7aad3b7-ca16-4989-bf68-87ed72498a6b,Judith Zaffirini,Democratic,21,upper,Judith,Zaffirini,Female,,"""Senator Judith Zaffirini (D-Laredo) represents the 21st Senatorial District,\
+\ which stretches from the Rio Grande to the Colorado River and to the Port of Corpus\
+\ Christi and the Valley. Re-elected in 2016 in a ninth landslide victory, she is\
+\ the first Hispanic woman elected to the Texas Senate, the second highest-ranking\
+\ senator, and the highest-ranking woman and Hispanic senator.\r \r Her appointments\
+\ provide countless opportunities to champion the priorities of SD 21, the heart\
+\ of the Eagle Ford Shale, which has generated billions of dollars in economic activity\
+\ for our state. As Senate Chair of the Eagle Ford Shale Legislative Caucus, Senator\
+\ Zaffirini prioritizes the district\u2019s continued prosperity, and as Vice Chair\
+\ of the Natural Resources and Economic Development Committee and member of the\
+\ Energy Council since 2009, she promotes responsible, sustainable development of\
+\ Texas' energy resources. She also helps protect and conserve the district\u2019\
+s air, land, and water resources such as the Rio Grande, the Edwards Aquifer, and\
+\ the Gulf of Mexico. \r \r Through the State Affairs Committee, she addresses issues\
+\ such as bond issuances and eminent domain, and through that committee, and, as\
+\ a member of the Judicial Council and the Texas Access to Justice Commission, she\
+\ champions preventing cronyism and corruption in the legal system, promoting access\
+\ to justice, and protecting persons under guardianship. As a member of the Senate\
+\ Business and Commerce Committee, she advocates for large and small Texas businesses\
+\ and workers, and as a member of the Senate Administration Committee, she prioritizes\
+\ issues of importance to local governments in the 18 counties of SD 21. Health\
+\ care is a major industry in the district, and as an expert in the health and human\
+\ services policy and funding, Senator Zaffirini advocates for improved health services,\
+\ especially for the very young, the very old, the very poor, veterans, and persons\
+\ with disabilities.\r \r Her legendary work ethic is reflected in her 100 percent\
+\ voting record, having cast more than 64,000 consecutive votes, and her perfect\
+\ attendance in the Texas Senate since 1987, except for breaking quorum deliberately\
+\ to prevent an untimely re-redistricting that the U.S. Supreme Court (2006) ruled\
+\ violated the Voting Rights Act and disenfranchised voters in SD 21. She has sponsored\
+\ and passed 1,160 bills and 36 substantive resolutions. Showing her bipartisan\
+\ effectiveness, in the 2019 Republican-dominated Texas Legislature she passed 127\
+\ bills, breaking her record of 108 and passing more bills than any other legislator\
+\ for the third consecutive legislative session. What's more, she has passed more\
+\ bills than any other legislator in the history of the State of Texas.\r \r Senator\
+\ Zaffirini has received more than 1,000 awards and honors for her legislative,\
+\ public service, and professional work, including more than 360 in communication.\
+\ They include being inducted into the Texas Women's Hall of Fame by Governor Greg\
+\ Abbott in 2019; named to the \""All Decades Teams\"" for the 2000s and the 1990s\
+\ and 10 Best of the 2017 Legislature by   and a   by the  ; honored with the Lifetime\
+\ Achievement Award from LULAC Council 12 for her illustrious career as an Hispanic\
+\ leader; and receiving the Mary Holdsworth Butt Award from Mental Health America\
+\ of Texas and the Pinnacle of Achievement Award from the Center for Health Care\
+\ Services for her legendary leadership for persons with emotional, physical, intellectual,\
+\ and developmental disabilities. The Hispanic Sports Foundation for Education inducted\
+\ her into the National Hispanic Heritage Hall of Honor, and the Texas Nurses Association\
+\ named her its 2019 Legislative Champion for her legislation promoting public health.\
+\ She received the \""People's Friend: Lord's Work Award\"" from the  , and The University\
+\ of Texas at Austin named her a Distinguished Alumna in 2003; an Outstanding Alumna\
+\ of the Moody College of Communication in 2016; awarded her the Presidential Citation\
+\ in 2013; and inducted her into the UT   Hall of Fame in 2016.   has named Senator\
+\ Zaffirini one of Texas' \""10 Best Legislators\"" four times and given her the \""\
+Bull of the Brazos\"" award and an \""Honorable Mention.\"" She also received the Legislative\
+\ Hero Award from the Texas Access to Justice Foundation and the Godmother of Texas\
+\ Children Award from Teaching and Mentoring Communities and was named a Legislative\
+\ Champion by Texas oil and gas leaders. Interestingly, she was named  , an Honorary\
+\ Nun, by the Sisters of Mercy and Mercy Ministries and   by the Washington's Birthday\
+\ Celebration Association.\r \r The senator is the namesake of Laredo Community\
+\ College's Senator Judith Zaffirini Library and Texas A&M International University's\
+\ Senator Judith Zaffirini Student Success Center, as well as of the Senator Judith\
+\ Zaffirini Road and Senator Judith Zaffirini Elementary School in Laredo and the\
+\ AAMA Judith Zaffirini Residential Center in Edinburg. Her son, Carlos Jr., honored\
+\ her as the namesake of endowed scholarships at The University of Texas at Austin,\
+\ Baylor College of Medicine, and Texas A&M International University; two grant\
+\ programs, one to help teachers pay their college student loan debts and another\
+\ to support good works; and a patient suite at the UT Dell Seton Medical Center.\
+\ He also established the Carlos Sr. and Senator Judith Zaffirini Access to Justice\
+\ Initiative, which pays for bar review courses and exam fees for low-income UT\
+\ law graduates who pledge to represent low-income clients. What\u2019s more, the\
+\ Beaumont Foundation endowed a scholarship honoring Senator Zaffirini and her husband\
+\ at A&M International, where the annual Senator Judith Zaffirini Medal is presented\
+\ to faculty and students who excel in scholarship and leadership. The senator is\
+\ featured in 25 books and referenced in 19.\r \r Dr. Zaffirini is an award-winning\
+\ communication specialist with 13 years of teaching experience, including at the\
+\ college and university levels. The South Texas Press Association honored her for\
+\ her distinguished career in journalism and public service. Press Women of Texas\
+\ (PWT) and the National Association of Press Women have recognized her communications\
+\ expertise repeatedly with awards for her publications, speeches, and public relations\
+\ campaigns. PWT twice named her its Communicator of Achievement, and Junior Achievement\
+\ of Laredo named her a laureate of its Business Hall of Fame. \r \r Through her\
+\ business, Zaffirini Communications, she provides professional communication services,\
+\ including consulting, workshops and seminars, keynote addresses, and writing.\
+\ She also is president of the Mr. South Texas Foundation and of the D&J Alexander\
+\ Foundation and of its two subsidiaries, D&J Alexander Investments and D&J Alexander\
+\ Development. \r \r A distinguished communicator, educator, businessperson, and\
+\ leader, she holds B.S., M.A., and PhD degrees from UT-Austin, each with a 3.9\
+\ grade-point average.\r \r A member of the Texas Philosophical Society and of Phi\
+\ Kappa Phi Honor Society, her professional memberships include the Texas Press\
+\ Women, International Communication Association, Texas Speech Communication Association,\
+\ American Institute of Parliamentarians and Association for Borderlands Studies.\
+\ Judith and Carlos Zaffirini have been married for 55 years. Their son, Carlos\
+\ Jr., an attorney and businessman, and Audrey welcomed their first son, Asher Maxwell,\
+\ in 2017 and their second, George William, in 2019!""",,,https://senate.texas.gov/members/d21/img/Zaffirini_2017.jpg,https://senate.texas.gov/member.php?d=21,https://senate.texas.gov/member.php?d=21,,,,,,,,,,,
+ocd-person/b40c5c95-3141-4ac5-9b0e-28b3b3162bf5,Julie Johnson,Democratic,115,lower,Julie,Johnson,Female,,,,,https://house.texas.gov/members/photos/3770.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=115,https://house.texas.gov/members/member-page/?district=115,,,,,,,,,,,
+ocd-person/798a9db1-dee4-48cd-ae0a-9b43d9f287a7,Justin Holland,Republican,33,lower,Justin,Holland,Male,,,,,https://house.texas.gov/members/photos/3205.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=33,https://house.texas.gov/members/member-page/?district=33,,,,"101 E. Rusk St., # 201 Rockwall, Texas 75087",972-722-7521,,,,,,
+ocd-person/fe47f6d5-2db3-495b-8da6-5cd12e0dc677,Keith Bell,Republican,4,lower,Keith,Bell,Male,,,,,https://house.texas.gov/members/photos/3695.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=4,https://house.texas.gov/members/member-page/?district=4,,,,"771 East Hwy 80, Suite 208 Forney, TX 75126",972-552-5573,,,,,,
+ocd-person/043dfef3-3605-4c75-b72d-965985edfdd5,Kelly Hancock,Republican,9,upper,Kelly,Hancock,Male,,"""First elected to the Texas Senate in 2012, Kelly Hancock represents Senate\
+\ District 9, which includes portions of Tarrant and Dallas Counties. He served\
+\ three terms in the Texas House of Representatives where he advocated for core\
+\ conservative values of limited government, lower taxes, and strong family values.\r\
+\ \r Throughout his legislative career, Senator Hancock has worked to pass voter\
+\ identification legislation, pro-life legislation, eminent domain legislation,\
+\ immigration reform legislation, and state sovereignty legislation.\r \r Numerous\
+\ organizations including the Texas Conservative Coalition, the National Coalition\
+\ for Capital, and the Texas Conservative Roundtable have acknowledged Senator Hancock\
+\ for his efforts in promoting fiscal responsibility and conservative values. He\
+\ has been recognized as a \""Courageous Conservative,\"" a \""Champion of Small Business,\""\
+\ and a \""Lone Star Conservative Leader.\"" Senator Hancock also received the 2015\
+\ Guardian of Small Business award from the National Federation of Independent Business.\r\
+\ \r A graduate of Baylor University with a degree in business, Senator Hancock\
+\ possesses an extensive business background through his work at Advanced Chemical\
+\ Logistics, his family-founded company. His commitment to public service began\
+\ shortly after the birth of his first child, Chloe. As a parent dedicated to a\
+\ strong education system, Senator Hancock spent the next 13 years serving on the\
+\ Birdville ISD School Board.\r \r The Senator and his wife, Robin, have been married\
+\ for more than 30 years and have three children: Chloe (Greg), Skylar (Aaron) and\
+\ Harrison. They welcomed their first grandchild in 2018.""",,,https://senate.texas.gov/members/d09/img/Hancock_87-0441D-110-web.jpg,https://senate.texas.gov/member.php?d=9,https://senate.texas.gov/member.php?d=9,,,,,,,,,,,
+ocd-person/d9f32e07-7835-4edf-b986-7a2cf16d608b,Ken King,Republican,88,lower,Ken,King,Male,,,,,https://house.texas.gov/members/photos/2455.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=88,https://house.texas.gov/members/member-page/?district=88,,,,"PO Box 507 Canadian, TX",806-323-8870,,,,,,
+ocd-person/aa6deb86-b21b-4ed2-ad67-bd6217238afc,Kevin Sparks,Republican,31,upper,Kevin,Sparks,,,,,,https://senate.texas.gov/members/d31/img/Sparks_88-0063D-012-web.jpg,https://senate.texas.gov/member.php?d=31,https://senate.texas.gov/member.php?d=31,,,,"P.O. Box 2463 Big Spring, Texas 79721",432-994-2377,,,,,,
+ocd-person/5bbe665a-bde8-469f-8c92-958c457236f0,Kronda Thimesch,Republican,65,lower,Kronda,Thimesch,,,,,,https://house.texas.gov/members/photos/4365.jpg?v=88.25,,,,,,"6200 Canyon Falls Dr., Rooms 901 & 903 Flower Mound, TX 76226",,,,,,,
+ocd-person/28512987-3275-4a5d-8af5-b8f3b7be2457,Kyle Kacal,Republican,12,lower,Kyle,Kacal,Male,,,,,https://house.texas.gov/members/photos/2445.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=12,https://house.texas.gov/members/member-page/?district=12,,,,"3000 Briarcrest Dr., Suite 203, Bryan, TX 77802",979-774-7276,,,,,,
+ocd-person/2609ba13-abf1-40b5-9f4c-a4c1135e56e2,Lacey Hull,Republican,138,lower,Lacey,Hull,Female,,,,,https://house.texas.gov/members/photos/3975.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=138,https://house.texas.gov/members/member-page/?district=138,,,,"10190 Katy Freeway, Suite 555G Houston, TX 77043",713-647-0042,,,,,,
+ocd-person/28eb71be-bce7-4b32-908d-289ecc265c3c,Lois Kolkhorst,Republican,18,upper,Lois,Kolkhorst,Female,,"""Senator Lois W. Kolkhorst is a fifth generation Texan, with ancestral\
+\ roots dating back to the Texas War of Independence.  Married to her high school\
+\ sweetheart Jim, she is a dedicated mother and small business owner.  Born and\
+\ raised in Senate District 18, she attended public schools before graduating  from\
+\ Texas Christian University, where she was a four-year letter winner on the Lady\
+\ Frog golf team. \r \r Growing up in the small town of Brenham, Kolkhorst was taught\
+\ strong family values and the importance of hard work at an early age.  Her father\
+\ served in the Navy during World War II and afterwards, became a dentist and raised\
+\ cattle.  One of her favorite childhood memories is of her time working cattle\
+\ and hunting on the family farm, which is still owned by her family today.  \r\
+\ \r Her professional career began in athletic administration at TCU, prior to her\
+\ and her husband relocating to their hometown of Brenham to start a number of small\
+\ businesses.  Senator Kolkhorst also served as the President and CEO of the Washington\
+\ County Chamber of Commerce and the Brenham Economic Development Foundation before\
+\ being elected to the Texas House of Representatives in 2001.  \r \r In 2014, after\
+\ seven successful terms in the Texas House, she was elected to the Texas Senate\
+\ in a special election, becoming only the 17th female to serve in the Texas Senate\
+\ since 1845.  Encompassing nearly one million constituents, Senate District 18\
+\ spans all or parts of 21 counties and covers one-third of the Texas coastline.\r\
+\ \r As Chair of the Senate Committee on Health and Human Services, Senator Kolkhorst\
+\ sets public health policies, and oversees physicians and licensed health professionals.\
+\ Senator Kolkhorst has created new initiatives that improve women's health and\
+\ maternal mortality rates.  She has worked with hospitals to see that they provide\
+\ better care for high-risk pregnant women and newborns, and created an innovative\
+\ funding method for newborn screenings in Texas.  She has also worked closely with\
+\ advocates to protect abused children and reform our foster care system.\r \r Additionally,\
+\ Senator Kolkhorst serves on eight other committees in the Texas Senate, including\
+\ the Senate Committee on Finance, the Senate Committee on Nominations, the Senate\
+\ Committee on Transportation, the Senate Committee on Water and Rural Affairs,\
+\  the Health & Human Services Transition Legislative Oversight Committee, the State\
+\ Water Implementation Fund for Texas Advisory Committee, the Texas Infrastructure\
+\ Resiliency Fund Advisory Committee, and the Select Committee on Texas Ports.\r\
+\ \r Known by her colleagues for being a hard worker, Kolkhorst has passed legislation\
+\ that impacts every code of Texas law, ranging from classrooms to cattle rustling.\
+\  During the most recent 86th Legislature that ended in 2019, Kolkhorst authored\
+\ and passed 107 bills, many of which focused on Hurricane Harvey recovery to help\
+\ her severely impacted district.  She also helped secure more than $3 billion for\
+\ Harvey repairs and flood mitigation across her vast coastal district.   \r \r\
+\ A longtime voice for private property rights, Senator Kolkhorst has worked with\
+\ agriculture and land owner groups to stop eminent domain abuse.  To protect and\
+\ increase funding for our state parks and historic sites, she authored Prop 5 in\
+\ 2019, which passed statewide with overwhelming support.  She has also led efforts\
+\ to enhance Texas roads, ports and trade corridors as a member of the Senate Transportation\
+\ Committee, delivering millions of dollars in funding for the state highways across\
+\ her district. \r \r As a supporter of the education community,  her efforts over\
+\ the years have earned her both the \u201CLegislator of the Year\u201D by the Texas\
+\ Association of College Teachers and the \u201CFriend of Education\u201D award\
+\ from Sam Houston State University College of Education.  Recently she championed\
+\ school finance reforms in 2019 that resulted in over $11 billion in student funding,\
+\ teacher pay raises, and local property tax rate reductions.  She also backs efforts\
+\ to support the Teacher Retirement System.    \r \r The daughter of a veteran,\
+\ Senator Kolkhorst has worked to see that our men and women in uniform receive\
+\ the support they deserve, such as property tax exemptions for disabled veterans\
+\ and additional funds for the Texas Veterans Commission.  She has also collaborated\
+\ with groups like the American Legion to pass legislation to help them expand their\
+\ fundraising capabilities.    \r \r A recipient of the Legislator of the Year Award\
+\ from the Sheriffs Association of Texas, Senator Kolkhorst is a vocal supporter\
+\ for peace officers and first responders.  Along with helping to secure nearly\
+\ $3 billion for border security, Senator Kolkhorst has worked with local law enforcement\
+\ to shut down criminal smuggling networks and develop sensible solutions to the\
+\ mental health crisis that crowds our jails.      \r \r She has received accolades\
+\ for her work from the Texas & Southwestern Cattle Raisers, Texas Farm Bureau,\
+\ Texas Wildlife Association, the NRA, CASA, the Texas Medical Association, the\
+\ Texas Hospital Association, the Texas Nurses Association, and the Texas DPS Officer\
+\ Association, among many others.  \r \r Senator Kolkhorst and her husband are blessed\
+\ with two children, Lois Kate and Jake.  A frequent volunteer at her church, Senator\
+\ Kolkhorst also enjoys hobbies such as hunting, fishing and gardening.""",,,https://senate.texas.gov/members/d18/img/LWK_2020.jpg,https://senate.texas.gov/member.php?d=18,https://senate.texas.gov/member.php?d=18,,,,"18230 FM 1488 Suite 314 Magnolia, TX 77354",281-259-8513,,,,,,
+ocd-person/ab3ddc65-0fb9-476b-993f-b3dc4050127e,Lulu Flores,Democratic,51,lower,Lulu,Flores,,,,,,https://house.texas.gov/members/photos/4150.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=51,https://house.texas.gov/members/member-page/?district=51,,,,,,,,,,,
+ocd-person/9c13f4e5-0ce2-488e-b2f3-50d4bfc2dd9c,Lynn Stucky,Republican,64,lower,Lynn,Stucky,Male,,,,,https://house.texas.gov/members/photos/3220.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=64,https://house.texas.gov/members/member-page/?district=64,,,,"400 West Oak Street, suites 106 Denton, Texas 76201",940-243-0230,,,,,,
+ocd-person/a61b0fd1-9fdf-4b4c-abe6-b790cc856023,Mano DeAyala,Republican,133,lower,Mano,DeAyala,,,,,,https://house.texas.gov/members/photos/4135.jpg?v=88.25,,,,,,"9525 Katy Freeway, suite 215B Houston, Texas 77024",,,,,,,
+ocd-person/2c0a4352-9871-4122-97fd-832ec998e907,Mark Dorazio,Republican,122,lower,Mark,Dorazio,,,,,,https://house.texas.gov/members/photos/4145.jpg?v=88.25,,,,,,,,,,,,,
+ocd-person/26244d6a-f0d5-4dbe-b9ed-a38df74a7bac,Mary Ann Perez,Democratic,144,lower,Mary Ann,Perez,Female,,,,,https://house.texas.gov/members/photos/2535.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=144,https://house.texas.gov/members/member-page/?district=144,,,,"101 S. Richey Street, Ste. F107 Pasadena, Texas 77506",713-740-8153,,,,,,
+ocd-person/93379bbe-5fb3-400f-853a-d0b3553e7772,Mary González,Democratic,75,lower,Mary,González,Female,,,,,https://house.texas.gov/members/photos/2410.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=75,https://house.texas.gov/members/member-page/?district=75,,,,"P.O. Box 1343 San Elizario, TX 79849",915-851-6632,,,,,,
+ocd-person/39511354-7239-40f6-b431-5ac53ef3c462,Matt Schaefer,Republican,6,lower,Matt,Schaefer,Male,,,,,https://house.texas.gov/members/photos/2725.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=6,https://house.texas.gov/members/member-page/?district=6,,,,"200 E. Ferguson, Suite 435 Tyler, TX 75702",903-592-0900,,,,,,
+ocd-person/71555c46-28b0-4887-98a1-997dc7482e75,Matt Shaheen,Republican,66,lower,Matt,Shaheen,Male,,,,,https://house.texas.gov/members/photos/2995.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=66,https://house.texas.gov/members/member-page/?district=66,,,,,469-642-8708,,,,,,
+ocd-person/1399b6ba-cbfa-45ca-bf91-6ba89fe777bf,Mayes Middleton,Republican,11,upper,Mayes,Middleton,Male,,,,,https://senate.texas.gov/members/d11/img/Middleton_87-0662D-009.jpg,https://house.texas.gov/members/member-page/?district=23;https://senate.texas.gov/member.php?d=11,https://house.texas.gov/members/member-page/?district=23;https://senate.texas.gov/member.php?d=11,,,,"6117 Broadway Street, Suite 104 Pearland, TX 77581",409-621-5060,,,,,,
+ocd-person/b69579f7-74de-4a71-86ba-033264cc5bc7,Mihaela Plesa,Democratic,70,lower,Mihaela,Plesa,,,,,,https://house.texas.gov/members/photos/4345.jpg?v=88.25,,,,,,"900 E. Park Blvd., Suite 140-C Plano, Texas 75074",,,,,,,
+ocd-person/df010291-7350-4262-9220-4c576730b2db,Mike Schofield,Republican,132,lower,Mike,Schofield,Male,,,,,https://house.texas.gov/members/photos/3095.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=132,https://house.texas.gov/members/member-page/?district=132,,,,"22910 Colonial Parkway, Suite 1001 Katy, TX 77449",281-492-0684,,,,,,
+ocd-person/df4db9dd-3640-4eaf-bc7e-1ce125a57199,Morgan LaMantia,Democratic,27,upper,Morgan,LaMantia,,,,,,https://senate.texas.gov/members/d27/img/Lamantia-00271-Edit-web.jpg,https://senate.texas.gov/member.php?d=27,https://senate.texas.gov/member.php?d=27,,,,"1702 US Highway 181, Suite B3 Portland, TX 78374",956-542-2211,,,,,,
+ocd-person/2639e096-d327-4c4d-823f-759b1ce373e0,Morgan Meyer,Republican,108,lower,Morgan,Meyer,Male,,,,,https://house.texas.gov/members/photos/3075.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=108,https://house.texas.gov/members/member-page/?district=108,,,,"3131 McKinney Avenue #649 Dallas, TX 75204",214-239-1257,,,,,,
+ocd-person/c6308fcd-b1e1-4ce3-9a29-c05e420e8012,Nate Schatzline,Republican,93,lower,Nate,Schatzline,,,,,,https://house.texas.gov/members/photos/4355.jpg?v=88.25,,,,,,,,,,,,,
+ocd-person/dee454b1-6da0-4b1b-a232-033e7de8551f,Nathan Johnson,Democratic,16,upper,Nathan,Johnson,Male,,"""Elected with strong bipartisan support in 2018, Senator Nathan Johnson\
+\ represents the economically and demographically diverse Senate District 16, which\
+\ comprises the northern part of Dallas County.\r \r Johnson graduated   with a\
+\ degree in physics from the University of Arizona, and earned his law degree from\
+\ the University of Texas at Austin. He practices law in the Trial Practice Group\
+\ at the law firm of Thompson & Knight. He has also composed music for the classical\
+\ concert stage and scored the hit television series  .\r \r Johnson passed 22 bills\
+\ into law during his first legislative session, all with bipartisan support. He\
+\ earned a reputation for being a quick study who convenes and considers the views\
+\ of diverse constituencies, and pursues creative public policy solutions. His emphasis\
+\ on improving the health of Texans prompted him to author and support a number\
+\ of healthcare initiatives, ranging from medical coding to Medicaid expansion,\
+\ with much in between. Heading into next session, Johnson and his team are developing\
+\ legislative strategies to foster sustainable, economic growth and broaden opportunity.""",,,https://senate.texas.gov/members/d16/img/SNJ-Headshot-2023-web.jpg,https://senate.texas.gov/member.php?d=16,https://senate.texas.gov/member.php?d=16,,,,,,,,,,,
+ocd-person/ea169f77-0bd8-4ca0-ac59-f894c9a09e71,Nicole Collier,Democratic,95,lower,Nicole,Collier,Female,,,,,https://house.texas.gov/members/photos/2360.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=95,https://house.texas.gov/members/member-page/?district=95,,,,"101 S. Jennings Suite 103A Fort Worth, Texas",817-332-1180,,,,,,
+ocd-person/896e8f9c-7dca-4f7d-8554-c0324cfa7265,Oscar Longoria,Democratic,35,lower,Oscar,Longoria,Male,,,,,https://house.texas.gov/members/photos/2485.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=35,https://house.texas.gov/members/member-page/?district=35,,,,"126 E. Commercial Ave. La Feria, TX 78559",956-797-2101,956-580-2233,,,,,
+ocd-person/a9f861bf-1a13-4d3b-816a-69589e9b25e7,Paul Bettencourt,Republican,7,upper,Paul,Bettencourt,Male,,"""First elected to the Senate in 2014, Senator Paul Bettencourt represents\
+\ Senate District 7, which encompasses most of West Harris County. He previously\
+\ served 10 years, from 1998 - 2008, as the Harris County Tax Assessor-Collector,\
+\ where he introduced \u201CSmart Government\u201D at the Harris County Tax Office\
+\ and developed a customer service-driven organization. His team created the first\
+\ major county online property tax payment system and the first county tax office\
+\ website with online vehicle registration in Texas. (His motto was \u201CGet on-line,\
+\ not in-line.\u201D) He was well-known as the \u201CTax Man\u201D for his outspoken\
+\ efforts to cut property taxes.\r \r In the most recent Legislative Session, Senator\
+\ Bettencourt successfully passed Senate Bill 2, the Texas Property Tax Reform and\
+\ Transparency Act of 2019, by a vote of 21-9 to bring meaningful property tax reform\
+\ and relief to all Texas taxpayers. This was the first major property tax reform\
+\ legislation in almost 40 years, and the culmination of two decades of advocacy.\
+\  He also continued his work on adult stem cell therapies in Texas by sponsoring\
+\ HB 3148, building upon previous legislative sessions to get  government out of\
+\ the way, allowing new therapies to flourish and give terminally and chronically\
+\ ill patients hope for a better quality of life.  His work during the 86th Session\
+\ earned him the distinction of \""Senate MVP\"" by Capitol Inside, \""Bull of the\
+\ Brazos\"" by Texas Monthly, and he was given the \""Citizen's Choice Award\"" by\
+\ Empower Texans.  He has also been called an \""architect of tax relief\"" by Governor\
+\ Greg Abbott. \r \r A champion for conservative solutions to Texas' challenges,\
+\ Senator Bettencourt has built a strong reputation at the Capitol advocating for\
+\ taxpayers.  In his previous legislative sessions he worked tirelessly to pass\
+\ conservative budgets, enact a supermajority requirement within a taxing jurisdiction\
+\ to raise taxes, (which prevented a $100,000,000 tax increase in its first year)\
+\ as well as author SB 7 which sought to stamp out the growing plague of inappropriate\
+\ student-educator relationships.  A compassionate conservative, Senator Bettencourt\
+\ has been a leader on \""Right to Try\"" and adult stem cell legislation, fighting\
+\ for terminally and chronically ill patients across Texas to have better access\
+\ to treatments and new therapies.  Legislation that he sponsored on this important\
+\ issue was adopted by the American Legislative Exchange Council as a national model\
+\ other states could follow.  He has also greatly expanded dual credit opportunities\
+\ (SB 1004) for Texas students and Joint-Authored bipartisan legislation to enhance\
+\ educational opportunities for students through ISD/Charter partnerships (SB 1882).\
+\   \r \r Numerous organizations have acknowledged Senator Bettencourt for his work\
+\ in the Texas Senate.  In his first session, Capitol Inside named him \""Most Valuable\
+\ Freshman\"" and Vision America named him their \""Outstanding Texas Legislator.\""\
+\ He has also been named \u201CTaxpayer Advocate of the Year\u201D by the Americans\
+\ for Prosperity, Previously as an elected official he was named a \u201CHero of\
+\ Faith\u201D by the Houston Area Pastors\u2019 Council, and earned the \u201CPioneer\
+\ Award\u201D from the Harris County Republican Party.\r \r Senator Bettencourt\
+\ is the Chair of the Senate Committee on Property Tax, and serves on the Senate\
+\ Finance, Education, and Higher Education committees. He also served as the Chair\
+\ of the Texas Senate Republican Caucus and has been named to the Redistricting\
+\ Committee by Lt. Governor Patrick.  \r \r A Bachelor of Science graduate of Texas\
+\ A&M University in Industrial Distribution, Senator Bettencourt is the President\
+\ and CEO of a tax consulting company in Houston that has grown to forty employees.\
+\ He is also a radio and television personality.\r \r The Senator and his wife Susan\
+\ are active members of Saint John Vianney Catholic Church, where Paul is a fourth\
+\ degree Knight of Columbus.\r \r Senate District 7 is located in Harris County\
+\ and includes Bunker Hill Village, Hedwig Village, parts of Houston, Hunters Creek\
+\ Village, Jersey Village, Piney Point Village, Spring, and Tomball.""",,,https://senate.texas.gov/members/d07/img/headshot.jpg,https://senate.texas.gov/member.php?d=7,https://senate.texas.gov/member.php?d=7,,,,,,,,,,,
+ocd-person/51a281ff-2983-4b4b-baf4-63ee17812835,Penny Morales Shaw,Democratic,148,lower,,,Female,,,,,https://house.texas.gov/members/photos/4035.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=148,https://house.texas.gov/members/member-page/?district=148,,,,"10900 Northwest Freeway, Suite 210 D Houston, Texas 77092",713-861-6721,,,,,,
+ocd-person/682e8ef8-8fc1-4490-a04d-63a7c6d92185,Pete Flores,Republican,24,upper,Pete,Flores,,,,,,https://senate.texas.gov/members/d24/img/Flores_86-0634D-001-web.jpg,https://senate.texas.gov/member.php?d=24,https://senate.texas.gov/member.php?d=24,,,,,,,,,,,
+ocd-person/98bef50a-73c7-4139-9b8e-628d0e89d659,Phil King,Republican,10,upper,Phil,King,Male,,,,,https://senate.texas.gov/members/d10/img/Phil-King-Headshot-2023.jpg,https://house.texas.gov/members/member-page/?district=61;https://senate.texas.gov/member.php?d=10,https://house.texas.gov/members/member-page/?district=61;https://senate.texas.gov/member.php?d=10,,,,,,,,,,,
+ocd-person/12d67093-ab4c-425d-afa3-e5777db09d1c,Philip Cortez,Democratic,117,lower,Philip,Cortez,Male,,,,,https://house.texas.gov/members/photos/2365.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=117,https://house.texas.gov/members/member-page/?district=117,,,,"2600 SW Military Dr. , Suite 211 San Antonio, Texas 78224",210-923-3638,210-923-3646,,,,,
+ocd-person/f72eb41b-2ff9-434f-96cf-75b9724289ab,Rafael Anchía,Democratic,103,lower,Rafael,Anchia,Male,,,,,https://house.texas.gov/members/photos/2150.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=103,https://house.texas.gov/members/member-page/?district=103,,,,"1111 West Mockingbird Lane Suite 1010 Dallas, TX 75247",214-943-6081,,,,,,
+ocd-person/c0fc4283-3ed5-4165-a066-80de16f492b7,"Ramon Romero, Jr.",Democratic,90,lower,Ramon,Romero,Male,,,,,https://house.texas.gov/members/photos/3060.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=90,https://house.texas.gov/members/member-page/?district=90,,,,"3663 Airport Freeway, Suite 102 Fort Worth, TX 76111",817-924-6788,817-924-1997,,,,,
+ocd-person/19313ba6-75f3-4979-8642-b55b1008bedc,Reggie Smith,Republican,62,lower,Reggie,Smith,Male,,,,,https://house.texas.gov/members/photos/3765.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=62,https://house.texas.gov/members/member-page/?district=62,,,,"300 N. Travis St., Suite 3 Sherman, Texas 75090",903-891-7297,,,,,,
+ocd-person/01ce2f6b-0500-4baa-a47f-386f9c6286b0,Ray López,Democratic,125,lower,Ray,Lopez,Male,,,,,https://house.texas.gov/members/photos/3915.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=125,https://house.texas.gov/members/member-page/?district=125,,,,"5309 Wurzbach Road, #100-7 San Antonio, Texas 78238",210-684-5419,,,,,,
+ocd-person/69ef7d69-9a5e-42be-b463-8873cb52ad10,Rhetta Bowers,Democratic,113,lower,Rhetta,Bowers,Female,,,,,https://house.texas.gov/members/photos/3565.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=113,https://house.texas.gov/members/member-page/?district=113,,,,"3200 Broadway Blvd. Suite 275 Garland, Texas 75043",972-272-6237,,,,,,
+ocd-person/f8e0a89e-889a-4fcf-8a0a-1e0e091d89d0,Richard Hayes,Republican,57,lower,Richard,Hayes,,,,,,https://house.texas.gov/members/photos/4165.jpg?v=88.25,,,,,,,,,,,,,
+ocd-person/d4a94a68-02a7-44c0-901f-9cd57350229a,Richard Peña Raymond,Democratic,42,lower,Richard,Raymond,Male,,,,,https://house.texas.gov/members/photos/4215.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=42,https://house.texas.gov/members/member-page/?district=42,,,,"P.O. Box 6419 Laredo, Texas 78042",956-753-7722,956-753-7729,,,,,
+ocd-person/26b83cfe-10c0-4ac6-ae02-dac30e2856b1,Robert Nichols,Republican,3,upper,Robert,Nichols,Male,,"""First elected to the Texas Senate in 2007, Robert Nichols represents 19\
+\ counties including the greater part of East Texas and Montgomery County.\r \r\
+\ Nichols serves as Chairman of the Senate Transportation Committee and serves on\
+\ the Finance, Administration and Business and Commerce Committees. He is a member\
+\ of the Legislative Audit Committee and serving is second term on the Sunset Advisory\
+\ Commission. \r \r During his six sessions as a state senator, Nichols authored\
+\ and passed legislation to protect landowners' rights, increase educational opportunities\
+\ in East Texas and reform transportation policies. He has also worked to reduce\
+\ Medicaid fraud, and promote free-market principles. He was designated as a Top\
+\ Legislator by Texas Insider, a Champion of Free Enterprise by the Texas Association\
+\ of Business, a Courageous Conservative by the Texas Conservative Coalition, and\
+\ a Top 10 Best Legislator for the 85th Legislative Session by Texas Monthly Magazine.\
+\ \r \r Before running for Senate, Nichols served as transportation commissioner\
+\ for eight years where he established a reputation for increasing efficiency without\
+\ compromising quality.\r \r Nichols is a businessman from Jacksonville, Texas.\
+\ In his hometown he served on city council, was elected mayor, built four successful\
+\ manufacturing facilities, earned 32 U.S. patents, and created more than 900 jobs\
+\ for East Texas families.\r \r Working his way through college by selling fireworks\
+\ and ironing clothes for other students, Nichols earned a bachelor's degree from\
+\ Lamar University in 1968. He married his high school sweetheart, Donna, and they\
+\ are the proud parents of three children: Brittney, Joshua, and Collynn'rae. He\
+\ is a member of the First United Methodist Church in Jacksonville.""",,,https://senate.texas.gov/members/d03/img/headshot.jpg,https://senate.texas.gov/member.php?d=3,https://senate.texas.gov/member.php?d=3,,,,"769 S. Main St., Suite 100 Lumberton, TX 77657",409-755-9893,,,,,,
+ocd-person/68767ec3-151c-413f-aeb8-f35dd6c5f35c,Roland Gutierrez,Democratic,19,upper,Roland,Gutierrez,Male,,"""Senator Gutierrez, his wife Sarah, and their daughters Izabella and Victoria\
+\ live in the Mission San Jose neighborhood. They are members of the Mission San\
+\ Jose Parish and are active in a variety of community projects.\r \r As a state\
+\ representative, Gutierrez served as Chairman of the Defense and Veterans' Affairs\
+\ Committee during the 85th legislative session.  In the 85th legislative session,\
+\ Gutierrez established the National Warrior Resiliency Center in San Antonio focusing\
+\ on PTSD treatment across the state. He also successfully passed measures protecting\
+\ our Texas military bases from closure during the 2017 special session. In 86th\
+\ legislative session, Senator Gutierrez fought for state funding of the San Antonio\
+\ State Hospital; as a result of his tireless work, San Antonio will be building\
+\ a new state hospital.\r \r During his tenure on the San Antonio City Council,\
+\ Senator Gutierrez was instrumental in establishing Texas A&M University at San\
+\ Antonio and securing federal resources to fund the San Antonio River project without\
+\ increasing the tax burden on middle-class families and small businesses. Senator\
+\ Gutierrez\u2019 efforts led to the construction of the first library on the south\
+\ side of San Antonio in more than 30 years, Mission Branch Library.\r \r Born and\
+\ raised in San Antonio, Texas, Senator Gutierrez is a 1989 graduate of Central\
+\ Catholic High School. He earned his BA in Political Science from the University\
+\ of Texas at San Antonio in 1995 and his law degree from St. Mary's University\
+\ School of Law in 1998. He is the Founder and President of the Gutierrez Law Firm,\
+\ specializing in immigration law.""",,,https://senate.texas.gov/members/d19/img/Gutierrez_headshot_2021.jpg,https://house.texas.gov/members/member-page/?district=119;https://senate.texas.gov/member.php?d=19,https://house.texas.gov/members/member-page/?district=119;https://senate.texas.gov/member.php?d=19,,,,"2401 Garner Field Rd Building Q2 Uvalde, TX 78801",830-278-1234,,,,,,
+ocd-person/72bad853-b403-49c2-9a99-32c5fb3222c7,Ron Reynolds,Democratic,27,lower,Ron,Reynolds,Male,,,,,https://house.texas.gov/members/photos/2040.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=27,https://house.texas.gov/members/member-page/?district=27,,,,"2440 Texas Parkway, Suite 102 Missouri City, Texas 77489",281-208-3574,281-208-3696,,,,,
+ocd-person/d6f40682-7b90-4735-980c-7c95ef402a78,Royce West,Democratic,23,upper,Royce,West,Male,,"""was first elected to the Texas Senate in November 1992. Since taking office\
+\ he has represented the 23rd Senatorial District on behalf of the citizens of Dallas\
+\ County in the Texas Legislature. During his tenure,   has been named by   as one\
+\ of the 25 most powerful people in Texas politics, been selected for the magazine's\
+\ biennial \""Ten Best Legislators in Texas\"" list, and has twice been named as an\
+\ \""Honorable Mention.\""   has also received mention on the Associated Press' \""\
+Movers and Shakers\"" list, and   named Senator West to its 2009 \""Best Legislators\""\
+\ list.\r \r On April 17, 2006,   was sworn in by his fellow state senators to serve\
+\ as President Pro Tempore of the Texas Senate until January 2007. As President\
+\ Pro Tempore,   was second in the line of succession to be Governor of Texas, and\
+\ assumed the top leadership position whenever Governor Rick Perry and Texas Lt.\
+\ Gov. David Dewhurst were out of the state.\r \r  is Vice Chair of the Senate Higher\
+\ Education Committee and is a member of Senate committees on Administration, Education\
+\ and Finance.   recently joined the exclusive World Travel & Tourism Council Dallas\
+\ Host Committee for the 2016 Global Summit to be held April 5-7, 2016.   has been\
+\ appointed to serve on the Supreme Court of Texas Permanent Judicial Commission\
+\ for Children, Youth, and Families and also serves on the following national and\
+\ regional organizations:\r \r \r \r 's key initiatives include the creation of\
+\ college admission opportunities for all students, including the establishment\
+\ of the University of North Texas at Dallas and a new law school in downtown Dallas.\
+\ His legislation created the Texas Juvenile Crime Prevention Center at Prairie\
+\ View A&M University; increased funding for at-risk youth programs, awarded greater\
+\ compensation to victims of violent crime, established new standards for child\
+\ care, enhanced enforcement of protective orders and instituted more efficient\
+\ uses of criminal justice resources through legislation that created a system of\
+\ progressive sanctions. During the 2009 Legislative Session,   passed legislation\
+\ that created a kinship care program whereby qualified relatives can receive state\
+\ support to help raise children who could otherwise become part of the foster care\
+\ system.\r \r Since 1993,   has sponsored the Dr. Emmett J. Conrad Leadership Program.\
+\ The program has provided college students from Senatorial District 23 with paid\
+\ employment in their respective fields of study. In 1996,   established a Student\
+\ Advisory Committee (SAC) to obtain the perspectives of junior high and high school\
+\ students on legislative and community issues and to expose them to volunteer opportunities\
+\ in the community.\r \r To promote inclusiveness in the procurement practices of\
+\ state agencies in working with Historically Underutilized Businesses (HUBs), \
+\  created the   and regularly sponsors procurement workshops and seminars.\r \r\
+\ In addition to his senatorial duties,   is a partner in the law firm of West &\
+\ Associates, L.L.P. He is also a caring father to his children and devoted husband\
+\ to Carol R. West, CPA, as well as an active deacon of Good Street Baptist Church.""",,,https://senate.texas.gov/members/d23/img/West_86-0535D-073_web.jpg,https://senate.texas.gov/member.php?d=23,https://senate.texas.gov/member.php?d=23,,,,,,,,,,,
+ocd-person/f0ede995-2253-4f7b-a922-6da34e4de194,Ryan Guillen,Republican,31,lower,Ryan,Guillen,Male,,,,,https://house.texas.gov/members/photos/3045.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=31,https://house.texas.gov/members/member-page/?district=31,,,,"100 N. FM 3167, Suite 212 Rio Grande City, TX 78582",956-716-4838,956-716-8219,,,,,
+ocd-person/4fb2e1fd-fbb3-4a55-8417-761da2f6048e,Salman Bhojani,Democratic,92,lower,Salman,Bhojani,,,,,,https://house.texas.gov/members/photos/4115.jpg?v=88.25,,,,,,,,,,,,,
+ocd-person/2db06a9d-ae17-4881-98b4-5172fdfca19f,Sam Harless,Republican,126,lower,Sam,Harless,Male,,,,,https://house.texas.gov/members/photos/3775.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=126,https://house.texas.gov/members/member-page/?district=126,,,,"6630 Cypresswood Dr., Suite 150 Spring, Texas 77379",281-251-0194,,,,,,
+ocd-person/20cda9bf-a1e6-4427-8115-e5655ddd8eb0,Sarah Eckhardt,Democratic,14,upper,Sarah,Eckhardt,Female,,"""Sarah Eckhardt is honored to have been elected the Senator for Bastrop\
+\ and Travis Counties in July of 2020.\r \r Senator Eckhardt has deep roots in Central\
+\ Texas and deep commitment to improving opportunity for all Texans. After receiving\
+\ an LBJ School Master of Public Affairs and law degree from the University of Texas\
+\ at Austin in 1998, Eckhardt worked for eight years as an Assistant Travis County\
+\ Attorney.  From 2006-2013 she served as Travis County Commissioner representing\
+\ 300,000 people. From 2015-2020 she served as the Travis County Judge presiding\
+\ over the Commissioners Court and representing 1.3 million people.\r \r Senator\
+\ Eckhardt believes that elective office is a temporary trust bestowed by the people\
+\ who elect her. She values policy above politics. And she believes that government\
+\ exists to assure that opportunity is within reach of every Texan. \r \r Eckhardt's\
+\ public service experience includes emergency response, health care, workforce\
+\ and economic development, criminal justice, water policy, budget and finance.\
+\ Some of her previous accomplishments include curtailing the spread of COVID-19\
+\ in Central Texas through early and decisive region-wide orders, preserving more\
+\ than 30,000 acres of green space, building a multi-county collaboration for the\
+\ preservation of groundwater, maintaining a vibrant construction economy while\
+\ raising safety standards for workers, establishing a Travis County Public Defender's\
+\ Office, and instituting jail and arrest diversion programs that support justice\
+\ and public safety. \r \r Senator Eckhardt learned public service from her mother\
+\ and father and is inspired to continue serving by her son and daughter. Her mother\
+\ Nadine Eckhardt and her father Congressman Bob Eckhardt served Texas and especially\
+\ the most vulnerable Texans in the halls of the State Capitol and the US Capitol.\
+\ Her children Nadine (high school senior) and Hank (college sophomore) inspire\
+\ her daily to make Texas a better place for generations to come.""",,,https://senate.texas.gov/members/d14/img/SE_headshot_2020.jpg,https://senate.texas.gov/member.php?d=14,https://senate.texas.gov/member.php?d=14,,,,,,,,,,,
+ocd-person/ace50d18-fc98-4460-9d90-928c0e88c79a,Senfronia Thompson,Democratic,141,lower,Senfronia,Thompson,Female,,,,,https://house.texas.gov/members/photos/4630.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=141,https://house.texas.gov/members/member-page/?district=141,,,,"10527 Homestead Road Houston, TX 77016",713-633-3390,713-633-7830,,,,,
+ocd-person/b7c4e0e7-4949-4dff-bc4c-fdaaada3f37d,"Sergio Muñoz, Jr.",Democratic,36,lower,Sergio,Muñoz,Male,,,,,https://house.texas.gov/members/photos/2060.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=36,https://house.texas.gov/members/member-page/?district=36,,,,"121 E. Tom Landry Mission, TX 78572",956-584-8999,,,,,,
+ocd-person/26b8304b-24ea-411d-8d85-e348ba6951c7,Shawn Thierry,Democratic,146,lower,Shawn,Thierry,Female,,,,,https://house.texas.gov/members/photos/3390.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=146,https://house.texas.gov/members/member-page/?district=146,,,,"4410 Reed Road, Office # 2122 Houston, Texas 77051",713-667-4146,,,,,,
+ocd-person/ddebb940-33f9-4b5c-a8fa-e22c63a594e9,Shelby Slawson,Republican,59,lower,Shelby,Slawson,Female,,,,,https://house.texas.gov/members/photos/4055.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=59,https://house.texas.gov/members/member-page/?district=59,,,,,,,,,,,
+ocd-person/97805dd7-1f42-482c-bac3-049dfccda311,Sheryl Cole,Democratic,46,lower,Sheryl,Cole,Female,,,,,https://house.texas.gov/members/photos/3625.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=46,https://house.texas.gov/members/member-page/?district=46,,,,,,,,,,,
+ocd-person/97fc1e34-35fb-470f-a098-4ba8f0c3c8d4,Stan Gerdes,Republican,17,lower,Stan,Gerdes,,,,,,https://house.texas.gov/members/photos/4195.jpg?v=88.25,,,,,,,,,,,,,
+ocd-person/2662f888-95e0-4de3-be5b-3d023623c447,Stan Kitzman,Republican,85,lower,Stan,Kitzman,,,,,,https://house.texas.gov/members/photos/4280.jpg?v=88.25,,,,,,"202 Bellville, Texas 77418",,,,,,,
+ocd-person/a4e4115b-d488-4e93-8354-80e361c0c260,Stan Lambert,Republican,71,lower,Stan,Lambert,Male,,,,,https://house.texas.gov/members/photos/3225.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=71,https://house.texas.gov/members/member-page/?district=71,,,,,,,,,,,
+ocd-person/0cd2f092-40a7-46d1-a9c2-507d14282954,Stephanie Klick,Republican,91,lower,Stephanie,Klick,Female,,,,,https://house.texas.gov/members/photos/2460.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=91,https://house.texas.gov/members/member-page/?district=91,,,,"6851 NE Loop 820, Suite 230 North Richland Hills, TX 76180",817-281-0079,,,,,,
+ocd-person/a8926c8d-b4bb-4b7a-96ae-5dac9987c117,Steve Allison,Republican,121,lower,Steve,Allison,Male,,,,,https://house.texas.gov/members/photos/3800.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=121,https://house.texas.gov/members/member-page/?district=121,,,,"1635 NE Loop 410 Suite 506 San Antonio, Texas 78209",,,,,,,
+ocd-person/6c80914d-b07b-4d27-95e2-0e5aa2b0c7d9,Steve Toth,Republican,15,lower,Steve,Toth,Male,,,,,https://house.texas.gov/members/photos/2825.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=15,https://house.texas.gov/members/member-page/?district=15,,,,"25700 Interstate Hwy 45, Ste. 100 Spring, TX 77386",346-220-0300,,,,,,
+ocd-person/51927936-c6fc-453b-8afd-5f0b53de7d46,Suleman Lalani,Democratic,76,lower,Suleman,Lalani,,,,,,https://house.texas.gov/members/photos/4285.jpg?v=88.25,,,,,,,,,,,,,
+ocd-person/fa4817bf-6dc6-4deb-9965-cf3f208ec976,Tan Parker,Republican,12,upper,Tan,Parker,Male,,,,,https://senate.texas.gov/members/d12/img/86_20190619_SAM_0008.jpg,https://house.texas.gov/members/member-page/?district=63;https://senate.texas.gov/member.php?d=12,https://house.texas.gov/members/member-page/?district=63;https://senate.texas.gov/member.php?d=12,,,,,,,,,,,
+ocd-person/cee6cb7a-8d88-4c34-be27-dd10d1f31768,Terri Leo-Wilson,Republican,23,lower,Terri,Leo-Wilson,,,,,,https://house.texas.gov/members/photos/4290.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=23,https://house.texas.gov/members/member-page/?district=23,,,,,,,,,,,
+ocd-person/3e4ae7d4-dbb2-4991-8b44-8ada6023d7da,Terry Canales,Democratic,40,lower,Terry,Canales,Male,,,,,https://house.texas.gov/members/photos/2340.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=40,https://house.texas.gov/members/member-page/?district=40,,,,"602 W. University Dr. Suite B Edinburg, Texas 78539",956-383-0860,956-383-4334,,,,,
+ocd-person/ec19bc97-3146-4100-8294-329b88aec0e8,Terry Wilson,Republican,20,lower,Terry,Wilson,Male,,,,,https://house.texas.gov/members/photos/3525.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=20,https://house.texas.gov/members/member-page/?district=20,,,,"710 Main Street Suite 242 Georgetown, Texas 78626",,,,,,,
+ocd-person/bdecc388-4028-48e2-b211-75c59c1c5ec2,Terry Meza,Democratic,105,lower,Thresa,Meza,Female,,,,,https://house.texas.gov/members/photos/3455.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=105,https://house.texas.gov/members/member-page/?district=105,,,,"613 N. O'Connor Rd. Suite # 21B Irving, Texas 75061",,,,,,,
+ocd-person/9447575b-d8a1-45dd-bd68-77b12fe347ab,Todd Hunter,Republican,32,lower,Todd,Hunter,Male,,,,,https://house.texas.gov/members/photos/3365.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=32,https://house.texas.gov/members/member-page/?district=32,,,,"15217 S. Padre Island Dr., Ste 201 Corpus Christi, Texas 78418",361-949-4603,361-949-4634,,,,,
+ocd-person/d4d5c127-1ef6-445d-a89b-d9f02c812365,Tom Craddick,Republican,82,lower,Tom,Craddick,Male,,,,,https://house.texas.gov/members/photos/2610.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=82,https://house.texas.gov/members/member-page/?district=82,,,,"500 West Texas, Suite 880 Midland, TX 79701",432-682-3000,432-684-4864,,,,,
+ocd-person/79ffab1c-4d79-4cfa-89b4-5f7ee95ca1bf,Tom Oliverson,Republican,130,lower,Tom,Oliverson,Male,,,,,https://house.texas.gov/members/photos/3535.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=130,https://house.texas.gov/members/member-page/?district=130,,,,"11803 Grant Road, Suite 201 Cypress, Texas 77429",281-257-4984,,,,,,
+ocd-person/0acfbb85-b501-45ce-9a9b-90537090a455,Toni Rose,Democratic,110,lower,Toni,Rose,Female,,,,,https://house.texas.gov/members/photos/2555.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=110,https://house.texas.gov/members/member-page/?district=110,,,,"3117 Hickory Tree Rd. Balch Springs, Texas",214-371-3300,214-371-3304,,,,,
+ocd-person/1ca78d00-1ede-4486-b14e-16bd81ba73e4,Tony Tinderholt,Republican,94,lower,Tony,Tinderholt,Male,,,,,https://house.texas.gov/members/photos/3065.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=94,https://house.texas.gov/members/member-page/?district=94,,,,"1000 Ballpark Way Suite 310 Arlington, Texas 76011",817-476-2660,,,,,,
+ocd-person/ed59d369-82b9-485f-9007-c5c5b77d9468,Tracy O. King,Democratic,80,lower,Tracy,King,Male,,,,,https://house.texas.gov/members/photos/3465.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=80,https://house.texas.gov/members/member-page/?district=80,,,,"5500 S. Zapata Highway Building F, Room 130 Laredo, Texas 78046",,,,,,,
+ocd-person/9a249b0a-a69f-4ca8-b031-7a991baecb99,Travis Clardy,Republican,11,lower,Travis,Clardy,Male,,,,,https://house.texas.gov/members/photos/2355.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=11,https://house.texas.gov/members/member-page/?district=11,,,,"202 East Pilar, Room 310 Nacogdoches, Texas 75961",936-560-3982,936-564-0051,,,,,
+ocd-person/68f05872-16c8-4d3a-ab5f-ea667ca52b27,Trent Ashby,Republican,9,lower,Trent,Ashby,Male,,,,,https://house.texas.gov/members/photos/2330.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=57,https://house.texas.gov/members/member-page/?district=57,,,,"2915 Atkinson Dr. Lufkin, TX 75901",936-634-2762,,,,,,
+ocd-person/07f5e898-8d5d-435a-bf97-7bfb26fce5ac,Trey Martinez Fischer,Democratic,116,lower,Trey,Martinez Fischer,Male,,,,,https://house.texas.gov/members/photos/2835.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=116,https://house.texas.gov/members/member-page/?district=116,,,,"4243 E Piedras Drive, Suite 256 San Antonio, TX 78228",,,,,,,
+ocd-person/7298c6a9-c6be-41cd-a2ba-0cc79c851373,Valoree Swanson,Republican,150,lower,Valoree,Swanson,Female,,,,,https://house.texas.gov/members/photos/3425.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=150,https://house.texas.gov/members/member-page/?district=150,,,,"23008 Northcrest Dr Spring, TX 77389",281-257-4222,,,,,,
+ocd-person/6b2d7f89-d7e0-44d1-b861-3167915f6925,Venton Jones,Democratic,100,lower,Venton,Jones,,,,,,https://house.texas.gov/members/photos/4275.jpg?v=88.25,,,,,,,,,,,,,
+ocd-person/e6b8a84b-b408-4f26-9f73-eebca76f3fff,Victoria Neave Criado,Democratic,107,lower,Victoria,Neave,Female,,,,,https://house.texas.gov/members/photos/3235.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=107,https://house.texas.gov/members/member-page/?district=107,,,,"317 S. Galloway, Suite B. Mesquite, TX 75149",972-288-9438,,,,,,
+ocd-person/25157308-7474-4600-8b83-173d79e16a21,Vikki Goodwin,Democratic,47,lower,Vikki,Goodwin,Female,,,,,https://house.texas.gov/members/photos/3820.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=47,https://house.texas.gov/members/member-page/?district=47,,,,,,,,,,,
+ocd-person/e7a379ec-9de2-48a2-918b-5ba58e1fd3f3,Will Metcalf,Republican,16,lower,Will,Metcalf,Male,,,,,https://house.texas.gov/members/photos/2900.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=16,https://house.texas.gov/members/member-page/?district=16,,,,"100 Nugent Street, Conroe, TX",936-539-0068,936-539-0066,,,,,
+ocd-person/3f38bf62-86ba-4833-9737-2e084ae6255d,Yvonne Davis,Democratic,111,lower,Yvonne,Davis,Female,,,,,https://house.texas.gov/members/photos/2625.jpg?v=88.25,https://house.texas.gov/members/member-page/?district=111,https://house.texas.gov/members/member-page/?district=111,,,,"5787 S. Hampton Rd., Suite 447 Dallas, TX 75232",214-941-3895,214-941-6859,,,,,
