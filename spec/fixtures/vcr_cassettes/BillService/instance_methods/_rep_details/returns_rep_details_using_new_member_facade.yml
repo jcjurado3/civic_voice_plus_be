@@ -91,7 +91,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 03 Aug 2023 15:35:35 GMT
+      - Thu, 03 Aug 2023 21:28:38 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -179,5 +179,5 @@ http_interactions:
         Local Administration, Federal Affairs & Special Districts Subcommittee Hearing"},{"type_id":1,"event_hash":"07cb0b89","type":"Hearing","date":"2023-03-24","time":"09:00","location":"","description":"House
         Health & Human Services Committee Hearing"},{"type_id":1,"event_hash":"b88de549","type":"Hearing","date":"2023-04-11","time":"14:00","location":"","description":"House
         State Affairs Committee Hearing"}]}}'
-  recorded_at: Thu, 03 Aug 2023 15:35:35 GMT
+  recorded_at: Thu, 03 Aug 2023 21:28:38 GMT
 recorded_with: VCR 6.2.0
