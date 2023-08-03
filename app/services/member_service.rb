@@ -5,40 +5,60 @@ class MemberService
   end
 
 
-  def rep_details(full_state, sponsors)
+  # def rep_details(full_state, sponsors)
 
-    representatives = {}
-    sponsors.each do |rep|
-  
-      representative = Member.find_by(first_name: rep.first_name, last_name: rep.last_name)
+  #   representatives = {}
+  #   sponsors.each do |rep|
 
-      if representative
+  #     representative = Member.where("members.full_name ILIKE ?", "%#{rep.first_name}%#{rep.last_name}%")
 
-        representatives[:sponsor_details] = {first_name: representative.first_name, last_name: representative.last_name, id: representative.id} 
-      else
+  #     if representative
+  #       representatives[:full_name] = representative[0].full_name   
+  #     else
+  #       response = os_conn.get("?") do |request|
+  #         request.params['name'] = rep.last_name
+  #         request.params['include'] = "other_names"
+  #         request.params['jurisdiction'] = full_state
+  #       end
+  #       json = JSON.parse(response.body, symbolize_names: true)
         
-        response = os_conn.get("?") do |request|
-          request.params['name'] = rep.last_name
-          request.params['include'] = "other_names"
-          request.params['jurisdiction'] = full_state
-        end
-        json = JSON.parse(response.body, symbolize_names: true)
-  
-        if json[:results].empty? && rep.last_name.downcase.include?('committee')
-          json = {results: [{id: 0, name: "#{rep.last_name}}"}], pagination: {per_page:10, page: 1, max_page: 1, total_items: 0}}
-        elsif json[:results].empty?
-          response = os_conn.get("?") do |request|
-            request.params['name'] = rep.last_name.split.last.downcase
-            request.params['include'] = "other_names"
-            request.params['jurisdiction'] = full_state
-          end
-          json = JSON.parse(response.body, symbolize_names: true)
-        end
-  
-        representatives[:sponsor_details] = json
-      end
-    end
-    representatives
+  #       representatives[:sponsor_details] = json
+
+  #       if json[:results].empty? && rep.last_name.downcase.include?('committee')
+  #         json = {results: [{id: 0, name: "#{rep.last_name}}"}], pagination: {per_page:10, page: 1, max_page: 1, total_items: 0}}
+  #       elsif json[:results].empty?
+  #         response = os_conn.get("?") do |request|
+  #           request.params['name'] = rep.last_name.split.last.downcase
+  #           request.params['include'] = "other_names"
+  #           request.params['jurisdiction'] = full_state
+  #         end
+  #         json = JSON.parse(response.body, symbolize_names: true)
+  #       end
+  #     end
+  #   end
+  #   representatives
+  # end
+
+  def rep_details
+    response = os_conn.get("?") do |request|
+              request.params['name'] = rep.last_name
+              request.params['include'] = "other_names"
+              request.params['jurisdiction'] = full_state
+            end
+            json = JSON.parse(response.body, symbolize_names: true)
+            
+            representatives[:sponsor_details] = json
+    
+            if json[:results].empty? && rep.last_name.downcase.include?('committee')
+              json = {results: [{id: 0, name: "#{rep.last_name}}"}], pagination: {per_page:10, page: 1, max_page: 1, total_items: 0}}
+            elsif json[:results].empty?
+              response = os_conn.get("?") do |request|
+                request.params['name'] = rep.last_name.split.last.downcase
+                request.params['include'] = "other_names"
+                request.params['jurisdiction'] = full_state
+              end
+              json = JSON.parse(response.body, symbolize_names: true)
+            end
   end
 
   def os_conn

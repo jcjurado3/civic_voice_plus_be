@@ -26,14 +26,14 @@ class BillSearchFacade
 
   def bill_sponsors
     bill_search = BillService.new(@params).bills_by_id
-
     bill_search[:bill][:sponsors].map do |sponsor|
       bill_hash = { first_name: sponsor[:first_name],
-                    last_name: sponsor[:last_name] }
+                    last_name: sponsor[:last_name],
+                    full_name: sponsor[:name], 
+                    id: sponsor[:people_id]
+                  }
                     
       ApiMember.new(bill_hash)
     end
   end
 end
-
-  
