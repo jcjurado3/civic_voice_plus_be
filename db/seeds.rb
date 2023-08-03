@@ -13,5 +13,5 @@ State.destroy_all
 UserBill.destroy_all
 Bill.destroy_all
 
-Rake::Task["csv_load:all"].invoke
 Rake::Task["import:members"].invoke
+Rake::Task["csv_load:all"].invoke
