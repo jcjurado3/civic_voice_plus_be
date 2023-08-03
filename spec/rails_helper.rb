@@ -81,8 +81,9 @@ end
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   config.hook_into :webmock
-  # config.default_cassette_options = { re_record_interval: 2.days }
+  config.default_cassette_options = { re_record_interval: 1.days }
   config.filter_sensitive_data('LEGISCAN_KEY') { ENV['LEGISCAN_KEY'] }
+  config.filter_sensitive_data('STATES_KEY') { ENV['STATES_KEY'] }
   config.default_cassette_options = { :allow_playback_repeats => true }
   config.configure_rspec_metadata!
 end

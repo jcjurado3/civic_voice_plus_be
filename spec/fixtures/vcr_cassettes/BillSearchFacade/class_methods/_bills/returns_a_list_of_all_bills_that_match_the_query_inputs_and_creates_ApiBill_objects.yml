@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 29 Jul 2023 23:46:32 GMT
+      - Thu, 03 Aug 2023 15:35:31 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -119,5 +119,5 @@ http_interactions:
         2023-243), SB 7018 (Ch. 2023-244), SB 7024 (Ch. 2023-193), SB 7030 (Ch. 2023-265)","title":"General
         Appropriations Act"},"49":{"relevance":83,"state":"FL","bill_number":"H0391","bill_id":1676188,"change_hash":"e29e8a3f8bce7f278b904e2489407238","url":"https:\/\/legiscan.com\/FL\/bill\/H0391\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0391\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0391\/2023","last_action_date":"2023-06-02","last_action":"Chapter
         No. 2023-183","title":"Home Health Aides for Medically Fragile Children"}}}'
-  recorded_at: Sat, 29 Jul 2023 23:46:32 GMT
+  recorded_at: Thu, 03 Aug 2023 15:35:31 GMT
 recorded_with: VCR 6.2.0

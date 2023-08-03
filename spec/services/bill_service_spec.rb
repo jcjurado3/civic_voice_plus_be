@@ -58,5 +58,27 @@ describe BillService do
         expect(bill_data[:bill][:status]).to be_a(Integer)
       end
     end
+
+    describe "#rep_details" do
+      it "returns rep details based on bill sponsors", :vcr do
+        params = {
+          id: 1722281
+        }
+        rep_data = BillSearchFacade.new(params).bill_sponsors
+
+        expect(rep_data[0].first_name).to eq("Doug")
+        expect(rep_data[0].last_name).to eq("Bankson")
+
+      end
+
+      it "returns rep details using new member facade", :vcr do
+        params = {
+          id: 1722281,
+          state: "FL"
+        }
+
+        member_details = MemberSearchFacade.new(params).get_member_details
+      end
+    end
   end
 end

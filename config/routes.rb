@@ -9,6 +9,9 @@ Rails.application.routes.draw do
       get "/bills", to: "bills#index"
       get "/bills/:id", to: "bills#show"
 
+      get "/members", to: "members#index"
+      get "/members/:id", to: "members#show"
+
       resources :categories, only: [:index, :show, :new, :create, :update]
       resources :states, only: [:index]
 
