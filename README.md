@@ -399,7 +399,7 @@ To demo CivicVoicePlus on your local machine, follow these steps:
 
 <!-- Technical Solutions -->
 ## Technical Solutions:
-As part of the Consultancy project requirements, the CivicVoicePlus team challenged ourselves to implement three stretch technologies during the 11-day design and development process. We selected these technologies based on the challenges we anticipated facing while building out our MVP, and adjusted our choices to reflect our individual and team learning goals as well as blockers that came up during the course of working on the project.
+As part of the Consultancy project requirements, the CivicVoicePlus team challenged ourselves to stretch technologies during the 11-day design and development process. We selected the following based on the challenges we anticipated facing while building out our MVP, and adjusted our choices to reflect our individual and team learning goals as well as blockers that came up during the course of working on the project.
 
 ### Caching
 * Challenge: Two of the API endpoints that expose data for the front end of our application rely on both database queries and external API calls, which significantly slowed down the processing time and resulted in a less-than-ideal experience for our users. Additionally, we were hitting rate limits on our API endpoints.
