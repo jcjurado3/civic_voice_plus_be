@@ -6,13 +6,14 @@ class BillService
   end
 
   def bills_by_query
-    response = ls_conn.get('?') do |request|
-      request.params['key'] = ENV["LEGISCAN_KEY"]
-      request.params['op'] = "getSearch"
-      request.params['state'] = @state_abbv
-      request.params['query'] = @query_keyword
+    bills_key = ["bills_by_query", @state_abbv, @query_keyword]
+    response = Rails.cache.fetch(bills_key) do
+      fetch_bills_by_query_from_api
     end
     json = JSON.parse(response.body, symbolize_names: true)
+    bill_search_result = json[:searchresult]
+
+    json
   end
 
   def bills_by_id
@@ -25,20 +26,18 @@ class BillService
     json = JSON.parse(response.body, symbolize_names: true)
   end
 
-  def ls_conn
-    Faraday.new("https://api.legiscan.com/")
+  private
+
+  def fetch_bills_by_query_from_api
+    ls_conn.get('?') do |request|
+      request.params['key'] = ENV["LEGISCAN_KEY"]
+      request.params['op'] = "getSearch"
+      request.params['state'] = @state_abbv
+      request.params['query'] = @query_keyword
+    end
   end
 
-  # def rep_details(rep_array)
-  #   all_sponsors =  rep_array.map do |rep_name|
-  #     response = os_conn.get("/people") do |request|
-  #       request.params['jurisdiction'] = @___ #state abbv turned into full state string
-  #       request.params['name'] = @___ #bill sponser's mapped out, search by "name"
-  #       request.params['include'] = "other_names"
-  #     end
-  #   end
-
-  #   json = JSON.parse(response.body, symbolize_names: true)
-  # end
-  
+  def ls_conn
+    Faraday.new("https://api.legiscan.com/")
+  end 
 end
