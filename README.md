@@ -177,7 +177,7 @@ To demo CivicVoicePlus on your local machine, follow these steps:
             "text_url": null,
             "last_action_date": null,
             "last_action": null,
-            "title": "HealthCare District Chapter, Healthcare",
+            "title": "HealthCare District Chapter",
             "status": 4,
             "description": "simple description of bill.",
             "sponsors": [
@@ -214,7 +214,7 @@ To demo CivicVoicePlus on your local machine, follow these steps:
             "text_url": null,
             "last_action_date": null,
             "last_action": null,
-            "title": "HealthCare District Chapter, Healthcare",
+            "title": "HealthCare District Chapter",
             "status": 4,
             "description": "simple description of bill.",
             "sponsors": [
@@ -234,6 +234,33 @@ To demo CivicVoicePlus on your local machine, follow these steps:
       }]
     }
 
+
+</details>
+<br>
+<details>
+<summary>POST<code>/api/v1/user_bills?user_id=''&bill_id=''</code></summary>
+<br>
+
+    {
+      data:{
+        id: "25",
+        type: "user_bill",
+        attributes: {
+          user_id: 1,
+          bill_id: 25
+        }
+      }
+    }
+
+
+</details>
+<br>
+
+<details>
+<summary>DELETE<code>/api/v1/user_bills?user_id=''&bill_id=''</code></summary>
+<br>
+
+    {   }
 
 </details>
 <br>
@@ -263,6 +290,110 @@ To demo CivicVoicePlus on your local machine, follow these steps:
 
 
 </details>
+<br>
+
+<details>
+<summary>POST <code>/api/v1/user_categories?user_id=''&category_id=''</code></summary>
+<br>
+
+    {
+      data: {
+        id: "5",
+        type: "user_category",
+        attributes: {
+          user_id: 1,
+          category_id: 5
+          }
+      }
+    }
+
+
+</details>
+<br>
+
+<details>
+<summary>DELETE <code>/api/v1/user_categories?user_id=''&category_id=''</code></summary>
+<br>
+
+    {   }
+
+</details>
+<br>
+
+<details>
+<summary>GET<code>/api/v1/categories</code></summary>
+<br>
+
+    {
+      data: [{
+        id: "1",
+        type: "category",
+        attributes: {
+          name: "climate"
+        }
+      },
+      ...
+      ]
+    }
+
+</details>
+<br>
+
+<details>
+<summary>GET<code>/api/v1/states</code></summary>
+<br>
+
+    {
+      data: [{
+        id: "1",
+        type: "state",
+        attributes: {
+          state_abbr: "ND",
+          state_name: "North Dakota"
+        }
+      },
+      ...]
+    }
+
+</details>
+<br>
+
+<details>
+<summary>GET<code>/api/v1/user_states?user_id=''</code></summary>
+<br>
+
+    {
+      data: [{
+        id: "39",
+        type: "state",
+        attributes: {
+          state_abbr: "ND",
+          state_name: "North Dakota"
+        }
+      },
+      ...]
+    }
+
+</details>
+<br>
+
+<details>
+<summary>POST<code>/api/v1/user_states?user_id=''state_id=''</code></summary>
+<br>
+
+    {
+      data: {
+        id: "1",
+        type: "user_state",
+        attributes: {
+          user_id: 1,
+          state_id: 39
+        }
+      }
+    }
+
+</details>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
