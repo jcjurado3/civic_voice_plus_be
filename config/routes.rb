@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       get "/bills", to: "bills#index"
       get "/bills/:id", to: "bills#show"
+
       get "/members", to: "members#index"
       get "/members/:id", to: "members#show"
 
