@@ -15,19 +15,11 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">CivicVoice+</h3>
 
   <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    Welcome to the back end repository for CivicVoicePlus!
+    CivicVoicePlus is a web application built for the Turing School of Software and Design's Mod 3 Consultancy project. Read more about project requirements: https://backend.turing.edu/module3/projects/consultancy/
   </p>
 </div>
 
@@ -47,14 +39,17 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Back End Repository">Back End Repository</a></li>
+        <li><a href="#Front End Repository">Front End Repository</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#testing">Testing</a></li>
+    <li><a href="#DB Design">DB Design</a></li>
+    <li><a href="#Endpoints">Endpoints</a></li>
+    <li><a href="#Technical Solutions">Technical Solutions</a></li>
+    <li><a href="#Roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#Project Contributor Contact Info">Project Contributor Contact Info</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -64,12 +59,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+CivicVoicePlus ("CV+") is a civic data tool which aims to educate and inform users with relevant legislative information, empowering them to actively participate in civic matters and hold elected officials accountable for their actions. Users can select bill categories for their dashboard feed, search for and track the progress of specific bills, and easily access simplified bill summaries, status, and congressperson information.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+The back end application is an API built with the Rails framework. It exposes 12 RESTful endpoints and is responsible for receiving JSON requests, querying the internal database, consuming external APIs, and formatting JSON responses to send data to the front end application.
 
+INSERT LINK TO Production Website
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Github repositories:
+* Front End: [![Github][Github]][project-fe-gh-url]
+* Back End:  [![Github][Github]][project-be-gh-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,13 +120,14 @@ To demo CivicVoicePlus on your local machine, follow these steps:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Testing
+<!-- Testing -->
+# Testing
 
 `bundle exec rspec` will run the entire test suite. *All tests passing at time of writing.*
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DB Design -->
-## DB Design
+# DB Design
 ![database design](<CVP db design.png>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -462,8 +461,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [jimmy-li-url]: https://www.linkedin.com/in/jimmy-jurado-093568131/
 [julian-li-url]: https://www.linkedin.com/in/julian-beldotti-1a427824/
 [Github]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
-[project-be-gh-url]: https://github.com/jcjurado3/civic_voice_plus_fe
-[project-fe-gh-url]: https://github.com/jcjurado3/civic_voice_plus_be
+[project-fe-gh-url]: https://github.com/jcjurado3/civic_voice_plus_fe
+[project-be-gh-url]: https://github.com/jcjurado3/civic_voice_plus_be
 [ashley-gh-url]: https://github.com/aplasket
 [jeff-gh-url]: https://github.com/Jredish11
 [jimmy-gh-url]: https://github.com/jcjurado3
