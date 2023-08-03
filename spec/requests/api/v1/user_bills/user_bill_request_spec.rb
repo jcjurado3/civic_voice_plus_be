@@ -109,9 +109,9 @@ RSpec.describe "UserBills Endpoints" do
       user1_id = "1"
       user2_id = "2"
 
-      bill1 = create(:bill)
-      bill2 = create(:bill)
-
+      bill1 = Bill.create(id: 7333, bill_id: 1719625)
+      bill2 = Bill.create(id: 7334, bill_id: 1721105)
+      
       user_bill_1 = UserBill.create!(user_id: user1_id, bill_id: bill1.id)
       user_bill_2 = UserBill.create!(user_id: user1_id, bill_id: bill2.id)
 
@@ -119,7 +119,7 @@ RSpec.describe "UserBills Endpoints" do
 
       user_bills= UserBill.count
 
-      delete "/api/v1/user_bills?user_id=#{user1_id}&bill_id=#{bill1.id}", headers: headers
+      delete "/api/v1/user_bills?user_id=#{user1_id}&bill_id=#{bill1.bill_id}", headers: headers
 
       expect(response).to be_successful
       expect(response.status).to eq(204)
