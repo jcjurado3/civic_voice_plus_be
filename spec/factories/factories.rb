@@ -4,7 +4,8 @@ FactoryBot.define do
   end
 
   factory :state do
-    abbv_name { Faker::Address.state_abbr }
+    state_abbr { Faker::Address.state_abbr.downcase }
+    state_name { Faker::Address.state.downcase }
   end
 
   factory :bill do
