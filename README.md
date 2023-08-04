@@ -1,6 +1,8 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
+<img src="CVP logo.png" alt="Logo" width="200" height="200" margin="0">
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -11,8 +13,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jcjurado3/civic_voice_plus_be">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://civic-voice-plus-fe.onrender.com/">
+    <img src="CVP main.png" alt="main page">
   </a>
 
 <h3 align="center">CivicVoice+</h3>
@@ -63,7 +65,7 @@ CivicVoicePlus ("CV+") is a civic data tool which aims to educate and inform use
 
 The back end application is an API built with the Rails framework. It exposes 12 RESTful endpoints and is responsible for receiving JSON requests, querying the internal database, consuming external APIs, and formatting JSON responses to send data to the front end application.
 
-INSERT LINK TO Production Website
+Our Production Site is available [here](https://civic-voice-plus-fe.onrender.com/)
 
 Github repositories:
 * Front End: [![Github][Github]][project-fe-gh-url]
@@ -483,3 +485,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [Heroku-url]: https://devcenter.heroku.com/articles/getting-started-with-rails7
 [CircleCI]: https://img.shields.io/badge/circleci-343434?style=for-the-badge&logo=circleci&logoColor=white
 [CircleCI-url]: https://circleci.com/
+[CVP_logo]: CVP logo.png
