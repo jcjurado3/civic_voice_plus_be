@@ -128,7 +128,7 @@ To demo CivicVoicePlus on your local machine, follow these steps:
 
 <!-- DB Design -->
 # DB Design
-![database design](<CVP db design.png>)
+![database design](<CVP BE schema.png>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
