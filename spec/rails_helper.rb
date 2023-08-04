@@ -84,6 +84,8 @@ VCR.configure do |config|
   config.default_cassette_options = { re_record_interval: 1.days }
   config.filter_sensitive_data('LEGISCAN_KEY') { ENV['LEGISCAN_KEY'] }
   config.filter_sensitive_data('STATES_KEY') { ENV['STATES_KEY'] }
+  config.filter_sensitive_data('GOOGLE_CLIENT_ID') { ENV['GOOGLE_CLIENT_ID'] }
+  config.filter_sensitive_data('GOOGLE_CLIENT_SECRET') { ENV['GOOGLE_CLIENT_SECRET'] }
   config.default_cassette_options = { :allow_playback_repeats => true }
   config.configure_rspec_metadata!
 end
