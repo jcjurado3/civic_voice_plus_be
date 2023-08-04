@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jcjurado3/civic_voice_plus_fe">
+  <a href="https://github.com/jcjurado3/civic_voice_plus_be">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -80,8 +80,8 @@ Github repositories:
 * [![Tailwind][Tailwind]][Tailwind-url]
 * [![Postgres][Postgres]][Postgres-url]
 * [![Render][Render]][Render-url]
-* [![Heroku][Heroku]][Heroku-url]
-* [![CircleCI][CircleCI]][CircleCI-url]
+<!-- * [![Heroku][Heroku]][Heroku-url]
+* [![CircleCI][CircleCI]][CircleCI-url] -->
 
 CivicVoicePlus uses these integrations:
 * [LegiScan](https://legiscan.com/)
@@ -128,7 +128,7 @@ To demo CivicVoicePlus on your local machine, follow these steps:
 
 <!-- DB Design -->
 # DB Design
-![database design](<CVP db design.png>)
+![database design](<CVP BE schema.png>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
