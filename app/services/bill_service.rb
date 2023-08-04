@@ -10,10 +10,14 @@ class BillService
     response = Rails.cache.fetch(bills_key) do
       fetch_bills_by_query_from_api
     end
-    json = JSON.parse(response.body, symbolize_names: true)
-    bill_search_result = json[:searchresult]
-
-    json
+  
+    if response&.body
+      json = JSON.parse(response.body, symbolize_names: true)
+      bill_search_result = json[:searchresult]
+      json
+    else
+      # Handle the nil response appropriately
+    end
   end
 
   def bills_by_id
