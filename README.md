@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jcjurado3/civic_voice_plus_fe">
+  <a href="https://github.com/jcjurado3/civic_voice_plus_be">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
