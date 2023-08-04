@@ -80,8 +80,8 @@ Github repositories:
 * [![Tailwind][Tailwind]][Tailwind-url]
 * [![Postgres][Postgres]][Postgres-url]
 * [![Render][Render]][Render-url]
-* [![Heroku][Heroku]][Heroku-url]
-* [![CircleCI][CircleCI]][CircleCI-url]
+<!-- * [![Heroku][Heroku]][Heroku-url]
+* [![CircleCI][CircleCI]][CircleCI-url] -->
 
 CivicVoicePlus uses these integrations:
 * [LegiScan](https://legiscan.com/)
