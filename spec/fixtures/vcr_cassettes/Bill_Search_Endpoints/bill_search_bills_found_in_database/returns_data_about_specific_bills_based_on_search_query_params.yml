@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 04 Aug 2023 19:58:19 GMT
+      - Thu, 17 Aug 2023 18:15:15 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -66,7 +66,7 @@ http_interactions:
         Nursing Assistants"},"18":{"relevance":93,"state":"FL","bill_number":"H1145","bill_id":1720386,"change_hash":"f7f71028b9427f13f2e8bc512c579d3e","url":"https:\/\/legiscan.com\/FL\/bill\/H1145\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1145\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1145\/2023","last_action_date":"2023-05-05","last_action":"Died
         on Second Reading Calendar","title":"Foreign-licensed Physicians"},"19":{"relevance":93,"state":"FL","bill_number":"H1487","bill_id":1727328,"change_hash":"c3d63025d57a31ebaeb321070462ddc0","url":"https:\/\/legiscan.com\/FL\/bill\/H1487\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1487\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1487\/2023","last_action_date":"2023-05-05","last_action":"Died
         in State Affairs Committee","title":"Declarations of a Public Health Emergency"},"20":{"relevance":92,"state":"FL","bill_number":"H0897","bill_id":1710663,"change_hash":"9a2a0ef37a90bb72a56d04bd7f29e336","url":"https:\/\/legiscan.com\/FL\/bill\/H0897\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0897\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0897\/2023","last_action_date":"2023-06-12","last_action":"Chapter
-        No. 2023-212","title":"Group Health Plans"},"21":{"relevance":92,"state":"FL","bill_number":"H1421","bill_id":1726295,"change_hash":"b007e384ae6f2c7779904cfd70a85101","url":"https:\/\/legiscan.com\/FL\/bill\/H1421\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1421\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1421\/2023","last_action_date":"2023-04-18","last_action":"Laid
+        No. 2023-212","title":"Group Health Plans"},"21":{"relevance":91,"state":"FL","bill_number":"H1421","bill_id":1726295,"change_hash":"b007e384ae6f2c7779904cfd70a85101","url":"https:\/\/legiscan.com\/FL\/bill\/H1421\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1421\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1421\/2023","last_action_date":"2023-04-18","last_action":"Laid
         on Table; companion bill(s) passed, see CS\/SB 254 (Ch. 2023-90)","title":"Gender
         Clinical Interventions"},"22":{"relevance":91,"state":"FL","bill_number":"H1481","bill_id":1727534,"change_hash":"259eff842f813bc85810fccc01d08de4","url":"https:\/\/legiscan.com\/FL\/bill\/H1481\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H1481\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H1481\/2023","last_action_date":"2023-05-02","last_action":"Laid
         on Table; companion bill(s) passed, see CS\/CS\/SB 1352 (Ch. 2023-258)","title":"Sickle
@@ -119,5 +119,5 @@ http_interactions:
         2023-243), SB 7018 (Ch. 2023-244), SB 7024 (Ch. 2023-193), SB 7030 (Ch. 2023-265)","title":"General
         Appropriations Act"},"49":{"relevance":83,"state":"FL","bill_number":"H0391","bill_id":1676188,"change_hash":"e29e8a3f8bce7f278b904e2489407238","url":"https:\/\/legiscan.com\/FL\/bill\/H0391\/2023","text_url":"https:\/\/legiscan.com\/FL\/text\/H0391\/2023","research_url":"https:\/\/legiscan.com\/FL\/research\/H0391\/2023","last_action_date":"2023-06-02","last_action":"Chapter
         No. 2023-183","title":"Home Health Aides for Medically Fragile Children"}}}'
-  recorded_at: Fri, 04 Aug 2023 19:58:19 GMT
+  recorded_at: Thu, 17 Aug 2023 18:15:15 GMT
 recorded_with: VCR 6.2.0
