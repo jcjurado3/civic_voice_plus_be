@@ -66,6 +66,14 @@ CivicVoicePlus ("CV+") is a civic data tool which aims to educate and inform use
 The back end application is an API built with the Rails framework. It exposes 12 RESTful endpoints and is responsible for receiving JSON requests, querying the internal database, consuming external APIs, and formatting JSON responses to send data to the front end application.
 
 Our Production Site is available [here](https://civic-voice-plus-fe.onrender.com/)
+Or you can watch a Video Walkthrough here:
+
+
+
+
+https://github.com/jcjurado3/civic_voice_plus_fe/assets/125082037/e575075e-f065-4a73-8ef1-171ad6de592b
+
+
 
 Github repositories:
 * Front End: [![Github][Github]][project-fe-gh-url]
@@ -485,4 +493,3 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [Heroku-url]: https://devcenter.heroku.com/articles/getting-started-with-rails7
 [CircleCI]: https://img.shields.io/badge/circleci-343434?style=for-the-badge&logo=circleci&logoColor=white
 [CircleCI-url]: https://circleci.com/
-[CVP_logo]: CVP logo.png
